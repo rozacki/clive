@@ -1,0 +1,813 @@
+sourcesourceDB,sourceCollection,sourceFieldLocation,sourceDataType,destinationTable,destinationField,destinationDataType,function,meta
+accepted-data,address,acceptedDateTime.d_date,string,address,acceptedDateTime_d_date,timestamp,,DateTime(ISO-8601/UTC):org.joda.time.DateTime PII:UNKNOWN
+accepted-data,address,claimElement.contractId,string,address,claimElement_contractId,string,,UUID:uk.gov.dwp.universe.claim.ContractId PII:UNKNOWN
+accepted-data,address,claimElement.declaredDateTime,string,address,claimElement_declaredDateTime,string,, PII:UNKNOWN
+accepted-data,address,claimElement.effectiveDate.hasDate,boolean,address,claimElement_effectiveDate_hasDate,string,, PII:UNKNOWN
+accepted-data,address,claimElement.effectiveDate.knownDate,string,address,claimElement_effectiveDate_knownDate,string,,Date(yyyymmdd):org.joda.time.LocalDate PII:UNKNOWN
+accepted-data,address,claimElement.paymentEffectiveDate.hasDate,boolean,address,claimElement_paymentEffectiveDate_hasDate,string,, PII:UNKNOWN
+accepted-data,address,claimElement.paymentEffectiveDate.knownDate,string,address,claimElement_paymentEffectiveDate_knownDate,string,,Date(yyyymmdd):org.joda.time.LocalDate PII:UNKNOWN
+accepted-data,address,claimElement.declaredDateTime.d_date,string,address,claimElement_declaredDateTime_d_date,timestamp,,DateTime(ISO-8601/UTC):org.joda.time.DateTime PII:UNKNOWN
+accepted-data,address,claimElement.effectiveDate.type,string,address,claimElement_effectiveDate_type,string,,JsonTypeName : SPECIFIC_EFFECTIVE_DATE PII:UNKNOWN
+accepted-data,address,claimElement.effectiveDate.date,string,address,claimElement_effectiveDate_date,string,,Date(yyyymmdd):org.joda.time.LocalDate PII:UNKNOWN
+accepted-data,address,claimElement.paymentEffectiveDate.type,string,address,claimElement_paymentEffectiveDate_type,string,,JsonTypeName : SPECIFIC_EFFECTIVE_DATE PII:UNKNOWN
+accepted-data,address,claimElement.paymentEffectiveDate.date,string,address,claimElement_paymentEffectiveDate_date,string,,Date(yyyymmdd):org.joda.time.LocalDate PII:UNKNOWN
+accepted-data,address,claimElement.postcode,string,address,claimElement_postcode,string,, PII:UNKNOWN
+accepted-data,address,claimElement.region,string,address,claimElement_region,string,, PII:UNKNOWN
+accepted-data,address,claimElement.type,string,address,claimElement_type,string,,JsonTypeName : address PII:UNKNOWN
+accepted-data,address,createdDateTime.d_date,string,address,createdDateTime_d_date,timestamp,,DateTime(ISO-8601/UTC):org.joda.time.DateTime PII:UNKNOWN
+accepted-data,address,declarationId,string,address,declarationId,string,,UUID:uk.gov.dwp.universe.declaration.DeclarationId PII:UNKNOWN
+accepted-data,address,invalidated.dateTime.d_date,string,address,invalidated_dateTime_d_date,timestamp,,DateTime(ISO-8601/UTC):org.joda.time.DateTime PII:UNKNOWN
+accepted-data,address,invalidated.reason,string,address,invalidated_reason,string,, PII:UNKNOWN
+accepted-data,address,_id.d_oid,string,address,id,string,,
+accepted-data,apa,acceptedDateTime.d_date,string,apa,acceptedDateTime_d_date,timestamp,,DateTime(ISO-8601/UTC):org.joda.time.DateTime PII:UNKNOWN
+accepted-data,apa,claimElement.contractId,string,apa,claimElement_contractId,string,,UUID:uk.gov.dwp.universe.claim.ContractId PII:UNKNOWN
+accepted-data,apa,claimElement.declaredDateTime,string,apa,claimElement_declaredDateTime,string,, PII:UNKNOWN
+accepted-data,apa,claimElement.effectiveDate.hasDate,boolean,apa,claimElement_effectiveDate_hasDate,string,, PII:UNKNOWN
+accepted-data,apa,claimElement.effectiveDate.knownDate,string,apa,claimElement_effectiveDate_knownDate,string,,Date(yyyymmdd):org.joda.time.LocalDate PII:UNKNOWN
+accepted-data,apa,claimElement.paymentEffectiveDate.hasDate,boolean,apa,claimElement_paymentEffectiveDate_hasDate,string,, PII:UNKNOWN
+accepted-data,apa,claimElement.paymentEffectiveDate.knownDate,string,apa,claimElement_paymentEffectiveDate_knownDate,string,,Date(yyyymmdd):org.joda.time.LocalDate PII:UNKNOWN
+accepted-data,apa,claimElement.alternativeFrequency,string,apa,claimElement_alternativeFrequency,string,, PII:UNKNOWN
+accepted-data,apa,claimElement.apaAgreed,boolean,apa,claimElement_apaAgreed,string,, PII:UNKNOWN
+accepted-data,apa,claimElement.apaTypes[*],string,apa,claimElement_apaTypes,string,, PII:UNKNOWN
+accepted-data,apa,claimElement.directLandlordPaymentDetails.creditorReferenceNumber,string,apa,claimElement_directLandlordPaymentDetails_creditorReferenceNumber,string,, PII:UNKNOWN
+accepted-data,apa,claimElement.directLandlordPaymentDetails.landlordApaEmailAddress,string,apa,claimElement_directLandlordPaymentDetails_landlordApaEmailAddress,string,, PII:UNKNOWN
+accepted-data,apa,claimElement.directLandlordPaymentDetails.relatedHousingCircumstances,string,apa,claimElement_directLandlordPaymentDetails_relatedHousingCircumstances,string,,UUID:uk.gov.dwp.universe.declaration.DeclarationId PII:UNKNOWN
+accepted-data,apa,claimElement.directLandlordPaymentDetails.tenancyId,string,apa,claimElement_directLandlordPaymentDetails_tenancyId,string,, PII:UNKNOWN
+accepted-data,apa,claimElement.effectiveDate.type,string,apa,claimElement_effectiveDate_type,string,,JsonTypeName : SPECIFIC_EFFECTIVE_DATE PII:UNKNOWN
+accepted-data,apa,claimElement.effectiveDate.date,string,apa,claimElement_effectiveDate_date,string,,Date(yyyymmdd):org.joda.time.LocalDate PII:UNKNOWN
+accepted-data,apa,claimElement.paymentEffectiveDate.type,string,apa,claimElement_paymentEffectiveDate_type,string,,JsonTypeName : SPECIFIC_EFFECTIVE_DATE PII:UNKNOWN
+accepted-data,apa,claimElement.paymentEffectiveDate.date,string,apa,claimElement_paymentEffectiveDate_date,string,,Date(yyyymmdd):org.joda.time.LocalDate PII:UNKNOWN
+accepted-data,apa,claimElement.declaredDateTime.d_date,string,apa,claimElement_declaredDateTime_d_date,timestamp,,DateTime(ISO-8601/UTC):org.joda.time.DateTime PII:UNKNOWN
+accepted-data,apa,claimElement.type,string,apa,claimElement_type,string,,JsonTypeName : apa PII:UNKNOWN
+accepted-data,apa,createdDateTime.d_date,string,apa,createdDateTime_d_date,timestamp,,DateTime(ISO-8601/UTC):org.joda.time.DateTime PII:UNKNOWN
+accepted-data,apa,declarationId,string,apa,declarationId,string,,UUID:uk.gov.dwp.universe.declaration.DeclarationId PII:UNKNOWN
+accepted-data,apa,invalidated.dateTime.d_date,string,apa,invalidated_dateTime_d_date,timestamp,,DateTime(ISO-8601/UTC):org.joda.time.DateTime PII:UNKNOWN
+accepted-data,apa,invalidated.reason,string,apa,invalidated_reason,string,, PII:UNKNOWN
+accepted-data,apa,_id.declarationId,string,apa,id,string,,
+accepted-data,bankDetails,acceptedDateTime.d_date,string,bankDetails,acceptedDateTime_d_date,timestamp,,DateTime(ISO-8601/UTC):org.joda.time.DateTime PII:UNKNOWN
+accepted-data,bankDetails,claimElement.contractId,string,bankDetails,claimElement_contractId,string,,UUID:uk.gov.dwp.universe.claim.ContractId PII:UNKNOWN
+accepted-data,bankDetails,claimElement.declaredDateTime,string,bankDetails,claimElement_declaredDateTime,string,, PII:UNKNOWN
+accepted-data,bankDetails,claimElement.effectiveDate.hasDate,boolean,bankDetails,claimElement_effectiveDate_hasDate,string,, PII:UNKNOWN
+accepted-data,bankDetails,claimElement.effectiveDate.knownDate,string,bankDetails,claimElement_effectiveDate_knownDate,string,,Date(yyyymmdd):org.joda.time.LocalDate PII:UNKNOWN
+accepted-data,bankDetails,claimElement.paymentEffectiveDate.hasDate,boolean,bankDetails,claimElement_paymentEffectiveDate_hasDate,string,, PII:UNKNOWN
+accepted-data,bankDetails,claimElement.paymentEffectiveDate.knownDate,string,bankDetails,claimElement_paymentEffectiveDate_knownDate,string,,Date(yyyymmdd):org.joda.time.LocalDate PII:UNKNOWN
+accepted-data,bankDetails,claimElement.declaredDateTime.d_date,string,bankDetails,claimElement_declaredDateTime_d_date,timestamp,,DateTime(ISO-8601/UTC):org.joda.time.DateTime PII:UNKNOWN
+accepted-data,bankDetails,claimElement.effectiveDate.type,string,bankDetails,claimElement_effectiveDate_type,string,,JsonTypeName : SPECIFIC_EFFECTIVE_DATE PII:UNKNOWN
+accepted-data,bankDetails,claimElement.effectiveDate.date,string,bankDetails,claimElement_effectiveDate_date,string,,Date(yyyymmdd):org.joda.time.LocalDate PII:UNKNOWN
+accepted-data,bankDetails,claimElement.ignoreRollNumber,boolean,bankDetails,claimElement_ignoreRollNumber,string,, PII:UNKNOWN
+accepted-data,bankDetails,claimElement.paymentEffectiveDate.type,string,bankDetails,claimElement_paymentEffectiveDate_type,string,,JsonTypeName : SPECIFIC_EFFECTIVE_DATE PII:UNKNOWN
+accepted-data,bankDetails,claimElement.paymentEffectiveDate.date,string,bankDetails,claimElement_paymentEffectiveDate_date,string,,Date(yyyymmdd):org.joda.time.LocalDate PII:UNKNOWN
+accepted-data,bankDetails,claimElement.type,string,bankDetails,claimElement_type,string,,JsonTypeName : bankDetails PII:UNKNOWN
+accepted-data,bankDetails,createdDateTime.d_date,string,bankDetails,createdDateTime_d_date,timestamp,,DateTime(ISO-8601/UTC):org.joda.time.DateTime PII:UNKNOWN
+accepted-data,bankDetails,declarationId,string,bankDetails,declarationId,string,,UUID:uk.gov.dwp.universe.declaration.DeclarationId PII:UNKNOWN
+accepted-data,bankDetails,invalidated.dateTime.d_date,string,bankDetails,invalidated_dateTime_d_date,timestamp,,DateTime(ISO-8601/UTC):org.joda.time.DateTime PII:UNKNOWN
+accepted-data,bankDetails,invalidated.reason,string,bankDetails,invalidated_reason,string,, PII:UNKNOWN
+accepted-data,bankDetails,_id.declarationId,string,bankDetails,id,string,,
+accepted-data,calculateDeductions,acceptedDateTime.d_date,string,calculateDeductions,acceptedDateTime_d_date,timestamp,,DateTime(ISO-8601/UTC):org.joda.time.DateTime PII:UNKNOWN
+accepted-data,calculateDeductions,claimElement.contractId,string,calculateDeductions,claimElement_contractId,string,, PII:UNKNOWN
+accepted-data,calculateDeductions,claimElement.declaredDateTime,string,calculateDeductions,claimElement_declaredDateTime,string,, PII:UNKNOWN
+accepted-data,calculateDeductions,claimElement.effectiveDate.hasDate,boolean,calculateDeductions,claimElement_effectiveDate_hasDate,string,, PII:UNKNOWN
+accepted-data,calculateDeductions,claimElement.effectiveDate.knownDate,string,calculateDeductions,claimElement_effectiveDate_knownDate,string,, PII:UNKNOWN
+accepted-data,calculateDeductions,claimElement.paymentEffectiveDate.hasDate,boolean,calculateDeductions,claimElement_paymentEffectiveDate_hasDate,string,, PII:UNKNOWN
+accepted-data,calculateDeductions,claimElement.paymentEffectiveDate.knownDate,string,calculateDeductions,claimElement_paymentEffectiveDate_knownDate,string,, PII:UNKNOWN
+accepted-data,calculateDeductions,createdDateTime.d_date,string,calculateDeductions,createdDateTime_d_date,timestamp,,DateTime(ISO-8601/UTC):org.joda.time.DateTime PII:UNKNOWN
+accepted-data,calculateDeductions,declarationId,string,calculateDeductions,declarationId,string,,UUID:uk.gov.dwp.universe.declaration.DeclarationId PII:UNKNOWN
+accepted-data,calculateDeductions,invalidated.dateTime.d_date,string,calculateDeductions,invalidated_dateTime_d_date,timestamp,,DateTime(ISO-8601/UTC):org.joda.time.DateTime PII:UNKNOWN
+accepted-data,calculateDeductions,invalidated.reason,string,calculateDeductions,invalidated_reason,string,, PII:UNKNOWN
+accepted-data,calculateDeductions,_id.assessmentPeriodId,string,calculateDeductions,id,string,,
+accepted-data,capital,acceptedDateTime.d_date,string,capital,acceptedDateTime_d_date,timestamp,,DateTime(ISO-8601/UTC):org.joda.time.DateTime PII:UNKNOWN
+accepted-data,capital,claimElement.contractId,string,capital,claimElement_contractId,string,,UUID:uk.gov.dwp.universe.claim.ContractId PII:UNKNOWN
+accepted-data,capital,claimElement.declaredDateTime,string,capital,claimElement_declaredDateTime,string,, PII:UNKNOWN
+accepted-data,capital,claimElement.effectiveDate.hasDate,boolean,capital,claimElement_effectiveDate_hasDate,string,, PII:UNKNOWN
+accepted-data,capital,claimElement.effectiveDate.knownDate,string,capital,claimElement_effectiveDate_knownDate,string,,Date(yyyymmdd):org.joda.time.LocalDate PII:UNKNOWN
+accepted-data,capital,claimElement.paymentEffectiveDate.hasDate,boolean,capital,claimElement_paymentEffectiveDate_hasDate,string,, PII:UNKNOWN
+accepted-data,capital,claimElement.paymentEffectiveDate.knownDate,string,capital,claimElement_paymentEffectiveDate_knownDate,string,,Date(yyyymmdd):org.joda.time.LocalDate PII:UNKNOWN
+accepted-data,capital,claimElement.capitalAmount,string,capital,claimElement_capitalAmount,string,,Decimal:java.math.BigDecimal PII:UNKNOWN
+accepted-data,capital,claimElement.effectiveDate.type,string,capital,claimElement_effectiveDate_type,string,,JsonTypeName : SPECIFIC_EFFECTIVE_DATE PII:UNKNOWN
+accepted-data,capital,claimElement.effectiveDate.date,string,capital,claimElement_effectiveDate_date,string,,Date(yyyymmdd):org.joda.time.LocalDate PII:UNKNOWN
+accepted-data,capital,claimElement.paymentEffectiveDate.type,string,capital,claimElement_paymentEffectiveDate_type,string,,JsonTypeName : SPECIFIC_EFFECTIVE_DATE PII:UNKNOWN
+accepted-data,capital,claimElement.paymentEffectiveDate.date,string,capital,claimElement_paymentEffectiveDate_date,string,,Date(yyyymmdd):org.joda.time.LocalDate PII:UNKNOWN
+accepted-data,capital,claimElement.declaredDateTime.d_date,string,capital,claimElement_declaredDateTime_d_date,timestamp,,DateTime(ISO-8601/UTC):org.joda.time.DateTime PII:UNKNOWN
+accepted-data,capital,claimElement.type,string,capital,claimElement_type,string,,JsonTypeName : capital PII:UNKNOWN
+accepted-data,capital,createdDateTime.d_date,string,capital,createdDateTime_d_date,timestamp,,DateTime(ISO-8601/UTC):org.joda.time.DateTime PII:UNKNOWN
+accepted-data,capital,declarationId,string,capital,declarationId,string,,UUID:uk.gov.dwp.universe.declaration.DeclarationId PII:UNKNOWN
+accepted-data,capital,invalidated.dateTime.d_date,string,capital,invalidated_dateTime_d_date,timestamp,,DateTime(ISO-8601/UTC):org.joda.time.DateTime PII:UNKNOWN
+accepted-data,capital,invalidated.reason,string,capital,invalidated_reason,string,, PII:UNKNOWN
+accepted-data,capital,_id.declarationId,string,capital,id,string,,
+accepted-data,carerCircumstances,acceptedDateTime.d_date,string,carerCircumstances,acceptedDateTime_d_date,timestamp,,DateTime(ISO-8601/UTC):org.joda.time.DateTime PII:UNKNOWN
+accepted-data,carerCircumstances,claimElement.contractId,string,carerCircumstances,claimElement_contractId,string,,UUID:uk.gov.dwp.universe.claim.ContractId PII:UNKNOWN
+accepted-data,carerCircumstances,claimElement.declaredDateTime,string,carerCircumstances,claimElement_declaredDateTime,string,, PII:UNKNOWN
+accepted-data,carerCircumstances,claimElement.effectiveDate.hasDate,boolean,carerCircumstances,claimElement_effectiveDate_hasDate,string,, PII:UNKNOWN
+accepted-data,carerCircumstances,claimElement.effectiveDate.knownDate,string,carerCircumstances,claimElement_effectiveDate_knownDate,string,,Date(yyyymmdd):org.joda.time.LocalDate PII:UNKNOWN
+accepted-data,carerCircumstances,claimElement.paymentEffectiveDate.hasDate,boolean,carerCircumstances,claimElement_paymentEffectiveDate_hasDate,string,, PII:UNKNOWN
+accepted-data,carerCircumstances,claimElement.paymentEffectiveDate.knownDate,string,carerCircumstances,claimElement_paymentEffectiveDate_knownDate,string,,Date(yyyymmdd):org.joda.time.LocalDate PII:UNKNOWN
+accepted-data,carerCircumstances,claimElement.careeCircumstances.addressNumber,string,carerCircumstances,claimElement_careeCircumstances_addressNumber,string,, PII:UNKNOWN
+accepted-data,carerCircumstances,claimElement.careeCircumstances.dateOfBirth,string,carerCircumstances,claimElement_careeCircumstances_dateOfBirth,string,,Date(yyyymmdd):org.joda.time.LocalDate PII:UNKNOWN
+accepted-data,carerCircumstances,claimElement.careeCircumstances.firstName,string,carerCircumstances,claimElement_careeCircumstances_firstName,string,, PII:UNKNOWN
+accepted-data,carerCircumstances,claimElement.careeCircumstances.lastName,string,carerCircumstances,claimElement_careeCircumstances_lastName,string,, PII:UNKNOWN
+accepted-data,carerCircumstances,claimElement.careeCircumstances.middleName,string,carerCircumstances,claimElement_careeCircumstances_middleName,string,, PII:UNKNOWN
+accepted-data,carerCircumstances,claimElement.careeCircumstances.postcode,string,carerCircumstances,claimElement_careeCircumstances_postcode,string,, PII:UNKNOWN
+accepted-data,carerCircumstances,claimElement.careeCircumstances.relationship,string,carerCircumstances,claimElement_careeCircumstances_relationship,string,, PII:UNKNOWN
+accepted-data,carerCircumstances,claimElement.careeCircumstances.townCity,string,carerCircumstances,claimElement_careeCircumstances_townCity,string,, PII:UNKNOWN
+accepted-data,carerCircumstances,claimElement.caringCircumstances.caringForSomeone,boolean,carerCircumstances,claimElement_caringCircumstances_caringForSomeone,string,, PII:UNKNOWN
+accepted-data,carerCircumstances,claimElement.caringCircumstances.personReceivesBenefit,boolean,carerCircumstances,claimElement_caringCircumstances_personReceivesBenefit,string,, PII:UNKNOWN
+accepted-data,carerCircumstances,claimElement.claimantId,string,carerCircumstances,claimElement_claimantId,string,,UUID:uk.gov.dwp.universe.identification.ids.ClaimantId PII:UNKNOWN
+accepted-data,carerCircumstances,claimElement.declaredDateTime.d_date,string,carerCircumstances,claimElement_declaredDateTime_d_date,timestamp,,DateTime(ISO-8601/UTC):org.joda.time.DateTime PII:UNKNOWN
+accepted-data,carerCircumstances,claimElement.effectiveDate.type,string,carerCircumstances,claimElement_effectiveDate_type,string,,JsonTypeName : SPECIFIC_EFFECTIVE_DATE PII:UNKNOWN
+accepted-data,carerCircumstances,claimElement.effectiveDate.date,string,carerCircumstances,claimElement_effectiveDate_date,string,,Date(yyyymmdd):org.joda.time.LocalDate PII:UNKNOWN
+accepted-data,carerCircumstances,claimElement.moreThan35Hours,boolean,carerCircumstances,claimElement_moreThan35Hours,string,, PII:UNKNOWN
+accepted-data,carerCircumstances,claimElement.otherCaringResponsibilities.caringForSomeoneElse,boolean,carerCircumstances,claimElement_otherCaringResponsibilities_caringForSomeoneElse,string,, PII:UNKNOWN
+accepted-data,carerCircumstances,claimElement.otherCaringResponsibilities.personReceivesBenefit,boolean,carerCircumstances,claimElement_otherCaringResponsibilities_personReceivesBenefit,string,, PII:UNKNOWN
+accepted-data,carerCircumstances,claimElement.paymentEffectiveDate.type,string,carerCircumstances,claimElement_paymentEffectiveDate_type,string,,JsonTypeName : SPECIFIC_EFFECTIVE_DATE PII:UNKNOWN
+accepted-data,carerCircumstances,claimElement.paymentEffectiveDate.date,string,carerCircumstances,claimElement_paymentEffectiveDate_date,string,,Date(yyyymmdd):org.joda.time.LocalDate PII:UNKNOWN
+accepted-data,carerCircumstances,claimElement.stoppedCaringCircumstances.dueToDeath,boolean,carerCircumstances,claimElement_stoppedCaringCircumstances_dueToDeath,string,, PII:UNKNOWN
+accepted-data,carerCircumstances,claimElement.stoppedCaringCircumstances.stoppedDate,string,carerCircumstances,claimElement_stoppedCaringCircumstances_stoppedDate,string,,Date(yyyymmdd):org.joda.time.LocalDate PII:UNKNOWN
+accepted-data,carerCircumstances,claimElement.timeOffCircumstances.endDate,string,carerCircumstances,claimElement_timeOffCircumstances_endDate,string,,Date(yyyymmdd):org.joda.time.LocalDate PII:UNKNOWN
+accepted-data,carerCircumstances,claimElement.timeOffCircumstances.startDate,string,carerCircumstances,claimElement_timeOffCircumstances_startDate,string,,Date(yyyymmdd):org.joda.time.LocalDate PII:UNKNOWN
+accepted-data,carerCircumstances,claimElement.type,string,carerCircumstances,claimElement_type,string,,JsonTypeName : carerCircumstances PII:UNKNOWN
+accepted-data,carerCircumstances,createdDateTime.d_date,string,carerCircumstances,createdDateTime_d_date,timestamp,,DateTime(ISO-8601/UTC):org.joda.time.DateTime PII:UNKNOWN
+accepted-data,carerCircumstances,declarationId,string,carerCircumstances,declarationId,string,,UUID:uk.gov.dwp.universe.declaration.DeclarationId PII:UNKNOWN
+accepted-data,carerCircumstances,invalidated.dateTime.d_date,string,carerCircumstances,invalidated_dateTime_d_date,timestamp,,DateTime(ISO-8601/UTC):org.joda.time.DateTime PII:UNKNOWN
+accepted-data,carerCircumstances,invalidated.reason,string,carerCircumstances,invalidated_reason,string,, PII:UNKNOWN
+accepted-data,carerCircumstances,_id.d_oid,string,carerCircumstances,id,string,,
+accepted-data,carersAllowance,acceptedDateTime.d_date,string,carersAllowance,acceptedDateTime_d_date,timestamp,,DateTime(ISO-8601/UTC):org.joda.time.DateTime PII:UNKNOWN
+accepted-data,carersAllowance,claimElement.contractId,string,carersAllowance,claimElement_contractId,string,, PII:UNKNOWN
+accepted-data,carersAllowance,claimElement.declaredDateTime,string,carersAllowance,claimElement_declaredDateTime,string,, PII:UNKNOWN
+accepted-data,carersAllowance,claimElement.effectiveDate.hasDate,boolean,carersAllowance,claimElement_effectiveDate_hasDate,string,, PII:UNKNOWN
+accepted-data,carersAllowance,claimElement.effectiveDate.knownDate,string,carersAllowance,claimElement_effectiveDate_knownDate,string,, PII:UNKNOWN
+accepted-data,carersAllowance,claimElement.paymentEffectiveDate.hasDate,boolean,carersAllowance,claimElement_paymentEffectiveDate_hasDate,string,, PII:UNKNOWN
+accepted-data,carersAllowance,claimElement.paymentEffectiveDate.knownDate,string,carersAllowance,claimElement_paymentEffectiveDate_knownDate,string,, PII:UNKNOWN
+accepted-data,carersAllowance,createdDateTime.d_date,string,carersAllowance,createdDateTime_d_date,timestamp,,DateTime(ISO-8601/UTC):org.joda.time.DateTime PII:UNKNOWN
+accepted-data,carersAllowance,declarationId,string,carersAllowance,declarationId,string,,UUID:uk.gov.dwp.universe.declaration.DeclarationId PII:UNKNOWN
+accepted-data,carersAllowance,invalidated.dateTime.d_date,string,carersAllowance,invalidated_dateTime_d_date,timestamp,,DateTime(ISO-8601/UTC):org.joda.time.DateTime PII:UNKNOWN
+accepted-data,carersAllowance,invalidated.reason,string,carersAllowance,invalidated_reason,string,, PII:UNKNOWN
+accepted-data,carersAllowance,_id.d_oid,string,carersAllowance,id,string,,
+accepted-data,childElementEligibility,acceptedDateTime.d_date,string,childElementEligibility,acceptedDateTime_d_date,timestamp,,DateTime(ISO-8601/UTC):org.joda.time.DateTime PII:UNKNOWN
+accepted-data,childElementEligibility,claimElement.contractId,string,childElementEligibility,claimElement_contractId,string,,UUID:uk.gov.dwp.universe.claim.ContractId PII:UNKNOWN
+accepted-data,childElementEligibility,claimElement.declaredDateTime,string,childElementEligibility,claimElement_declaredDateTime,string,, PII:UNKNOWN
+accepted-data,childElementEligibility,claimElement.effectiveDate.hasDate,boolean,childElementEligibility,claimElement_effectiveDate_hasDate,string,, PII:UNKNOWN
+accepted-data,childElementEligibility,claimElement.effectiveDate.knownDate,string,childElementEligibility,claimElement_effectiveDate_knownDate,string,,Date(yyyymmdd):org.joda.time.LocalDate PII:UNKNOWN
+accepted-data,childElementEligibility,claimElement.paymentEffectiveDate.hasDate,boolean,childElementEligibility,claimElement_paymentEffectiveDate_hasDate,string,, PII:UNKNOWN
+accepted-data,childElementEligibility,claimElement.paymentEffectiveDate.knownDate,string,childElementEligibility,claimElement_paymentEffectiveDate_knownDate,string,,Date(yyyymmdd):org.joda.time.LocalDate PII:UNKNOWN
+accepted-data,childElementEligibility,claimElement.childElementEligibilityDecisions[*].childId,string,childElementEligibility,claimElement_childElementEligibilityDecisions_childId,string,,UUID:uk.gov.dwp.universe.claim.children.ChildId PII:UNKNOWN
+accepted-data,childElementEligibility,claimElement.childElementEligibilityDecisions[*].exceptionType,string,childElementEligibility,claimElement_childElementEligibilityDecisions_exceptionType,string,, PII:UNKNOWN
+accepted-data,childElementEligibility,claimElement.childElementEligibilityDecisions[*].fullName,string,childElementEligibility,claimElement_childElementEligibilityDecisions_fullName,string,, PII:UNKNOWN
+accepted-data,childElementEligibility,claimElement.childElementEligibilityDecisions[*].placementDate,string,childElementEligibility,claimElement_childElementEligibilityDecisions_placementDate,string,,Date(yyyymmdd):org.joda.time.LocalDate PII:UNKNOWN
+accepted-data,childElementEligibility,claimElement.childElementEligibilityDecisions[*].childDateOfBirth,string,childElementEligibility,claimElement_childElementEligibilityDecisions_childDateOfBirth,string,,Date(yyyymmdd):org.joda.time.LocalDate PII:UNKNOWN
+accepted-data,childElementEligibility,claimElement.effectiveDate.type,string,childElementEligibility,claimElement_effectiveDate_type,string,,JsonTypeName : SPECIFIC_EFFECTIVE_DATE PII:UNKNOWN
+accepted-data,childElementEligibility,claimElement.effectiveDate.date,string,childElementEligibility,claimElement_effectiveDate_date,string,,Date(yyyymmdd):org.joda.time.LocalDate PII:UNKNOWN
+accepted-data,childElementEligibility,claimElement.paymentEffectiveDate.type,string,childElementEligibility,claimElement_paymentEffectiveDate_type,string,,JsonTypeName : SPECIFIC_EFFECTIVE_DATE PII:UNKNOWN
+accepted-data,childElementEligibility,claimElement.paymentEffectiveDate.date,string,childElementEligibility,claimElement_paymentEffectiveDate_date,string,,Date(yyyymmdd):org.joda.time.LocalDate PII:UNKNOWN
+accepted-data,childElementEligibility,claimElement.declaredDateTime.d_date,string,childElementEligibility,claimElement_declaredDateTime_d_date,timestamp,,DateTime(ISO-8601/UTC):org.joda.time.DateTime PII:UNKNOWN
+accepted-data,childElementEligibility,claimElement.type,string,childElementEligibility,claimElement_type,string,,JsonTypeName : childElementEligibility PII:UNKNOWN
+accepted-data,childElementEligibility,createdDateTime.d_date,string,childElementEligibility,createdDateTime_d_date,timestamp,,DateTime(ISO-8601/UTC):org.joda.time.DateTime PII:UNKNOWN
+accepted-data,childElementEligibility,declarationId,string,childElementEligibility,declarationId,string,,UUID:uk.gov.dwp.universe.declaration.DeclarationId PII:UNKNOWN
+accepted-data,childElementEligibility,invalidated.dateTime.d_date,string,childElementEligibility,invalidated_dateTime_d_date,timestamp,,DateTime(ISO-8601/UTC):org.joda.time.DateTime PII:UNKNOWN
+accepted-data,childElementEligibility,invalidated.reason,string,childElementEligibility,invalidated_reason,string,, PII:UNKNOWN
+accepted-data,childElementEligibility,_id.d_oid,string,childElementEligibility,id,string,,
+accepted-data,childcare,acceptedDateTime.d_date,string,childcare,acceptedDateTime_d_date,timestamp,,DateTime(ISO-8601/UTC):org.joda.time.DateTime PII:UNKNOWN
+accepted-data,childcare,claimElement.contractId,string,childcare,claimElement_contractId,string,,UUID:uk.gov.dwp.universe.claim.ContractId PII:UNKNOWN
+accepted-data,childcare,claimElement.declaredDateTime,string,childcare,claimElement_declaredDateTime,string,, PII:UNKNOWN
+accepted-data,childcare,claimElement.effectiveDate.hasDate,boolean,childcare,claimElement_effectiveDate_hasDate,string,, PII:UNKNOWN
+accepted-data,childcare,claimElement.effectiveDate.knownDate,string,childcare,claimElement_effectiveDate_knownDate,string,,Date(yyyymmdd):org.joda.time.LocalDate PII:UNKNOWN
+accepted-data,childcare,claimElement.paymentEffectiveDate.hasDate,boolean,childcare,claimElement_paymentEffectiveDate_hasDate,string,, PII:UNKNOWN
+accepted-data,childcare,claimElement.paymentEffectiveDate.knownDate,string,childcare,claimElement_paymentEffectiveDate_knownDate,string,,Date(yyyymmdd):org.joda.time.LocalDate PII:UNKNOWN
+accepted-data,childcare,claimElement.declaredChildcareProviders[*].childcareCosts[*].amountPaid,string,childcare,claimElement_declaredChildcareProviders_childcareCosts_amountPaid,string,,Decimal:java.math.BigDecimal PII:UNKNOWN
+accepted-data,childcare,claimElement.declaredChildcareProviders[*].childcareCosts[*].children[*].ageInYears,string,childcare,claimElement_declaredChildcareProviders_childcareCosts_children_ageInYears,string,, PII:UNKNOWN
+accepted-data,childcare,claimElement.declaredChildcareProviders[*].childcareCosts[*].children[*].childId,string,childcare,claimElement_declaredChildcareProviders_childcareCosts_children_childId,string,,UUID:uk.gov.dwp.universe.claim.children.ChildId PII:UNKNOWN
+accepted-data,childcare,claimElement.declaredChildcareProviders[*].childcareCosts[*].children[*].firstName,string,childcare,claimElement_declaredChildcareProviders_childcareCosts_children_firstName,string,, PII:UNKNOWN
+accepted-data,childcare,claimElement.declaredChildcareProviders[*].childcareCosts[*].children[*].gender,string,childcare,claimElement_declaredChildcareProviders_childcareCosts_children_gender,string,, PII:UNKNOWN
+accepted-data,childcare,claimElement.declaredChildcareProviders[*].childcareCosts[*].children[*].lastName,string,childcare,claimElement_declaredChildcareProviders_childcareCosts_children_lastName,string,, PII:UNKNOWN
+accepted-data,childcare,claimElement.declaredChildcareProviders[*].childcareCosts[*].dateDeclared,string,childcare,claimElement_declaredChildcareProviders_childcareCosts_dateDeclared,string,,Date(yyyymmdd):org.joda.time.LocalDate PII:UNKNOWN
+accepted-data,childcare,claimElement.declaredChildcareProviders[*].childcareCosts[*].datePaid,string,childcare,claimElement_declaredChildcareProviders_childcareCosts_datePaid,string,,Date(yyyymmdd):org.joda.time.LocalDate PII:UNKNOWN
+accepted-data,childcare,claimElement.declaredChildcareProviders[*].childcareCosts[*].dateVerified,string,childcare,claimElement_declaredChildcareProviders_childcareCosts_dateVerified,string,,Date(yyyymmdd):org.joda.time.LocalDate PII:UNKNOWN
+accepted-data,childcare,claimElement.declaredChildcareProviders[*].childcareCosts[*].id,string,childcare,claimElement_declaredChildcareProviders_childcareCosts_id,string,, PII:UNKNOWN
+accepted-data,childcare,claimElement.declaredChildcareProviders[*].childcareCosts[*].periodEnd,string,childcare,claimElement_declaredChildcareProviders_childcareCosts_periodEnd,string,,Date(yyyymmdd):org.joda.time.LocalDate PII:UNKNOWN
+accepted-data,childcare,claimElement.declaredChildcareProviders[*].childcareCosts[*].periodStart,string,childcare,claimElement_declaredChildcareProviders_childcareCosts_periodStart,string,,Date(yyyymmdd):org.joda.time.LocalDate PII:UNKNOWN
+accepted-data,childcare,claimElement.declaredChildcareProviders[*].childcareCosts[*].providerId,string,childcare,claimElement_declaredChildcareProviders_childcareCosts_providerId,string,, PII:UNKNOWN
+accepted-data,childcare,claimElement.declaredChildcareProviders[*].childcareProvider.address1,string,childcare,claimElement_declaredChildcareProviders_childcareProvider_address1,string,, PII:UNKNOWN
+accepted-data,childcare,claimElement.declaredChildcareProviders[*].childcareProvider.address2,string,childcare,claimElement_declaredChildcareProviders_childcareProvider_address2,string,, PII:UNKNOWN
+accepted-data,childcare,claimElement.declaredChildcareProviders[*].childcareProvider.id,string,childcare,claimElement_declaredChildcareProviders_childcareProvider_id,string,, PII:UNKNOWN
+accepted-data,childcare,claimElement.declaredChildcareProviders[*].childcareProvider.phoneNumber,string,childcare,claimElement_declaredChildcareProviders_childcareProvider_phoneNumber,string,, PII:UNKNOWN
+accepted-data,childcare,claimElement.declaredChildcareProviders[*].childcareProvider.postcode,string,childcare,claimElement_declaredChildcareProviders_childcareProvider_postcode,string,, PII:UNKNOWN
+accepted-data,childcare,claimElement.declaredChildcareProviders[*].childcareProvider.providerName,string,childcare,claimElement_declaredChildcareProviders_childcareProvider_providerName,string,, PII:UNKNOWN
+accepted-data,childcare,claimElement.declaredChildcareProviders[*].childcareProvider.registrationNumber,string,childcare,claimElement_declaredChildcareProviders_childcareProvider_registrationNumber,string,, PII:UNKNOWN
+accepted-data,childcare,claimElement.declaredChildcareProviders[*].childcareProvider.town,string,childcare,claimElement_declaredChildcareProviders_childcareProvider_town,string,, PII:UNKNOWN
+accepted-data,childcare,claimElement.declaredDateTime.d_date,string,childcare,claimElement_declaredDateTime_d_date,timestamp,,DateTime(ISO-8601/UTC):org.joda.time.DateTime PII:UNKNOWN
+accepted-data,childcare,claimElement.effectiveDate.type,string,childcare,claimElement_effectiveDate_type,string,,JsonTypeName : SPECIFIC_EFFECTIVE_DATE PII:UNKNOWN
+accepted-data,childcare,claimElement.effectiveDate.date,string,childcare,claimElement_effectiveDate_date,string,,Date(yyyymmdd):org.joda.time.LocalDate PII:UNKNOWN
+accepted-data,childcare,claimElement.hasChildcareCosts,boolean,childcare,claimElement_hasChildcareCosts,string,, PII:UNKNOWN
+accepted-data,childcare,claimElement.paymentEffectiveDate.type,string,childcare,claimElement_paymentEffectiveDate_type,string,,JsonTypeName : SPECIFIC_EFFECTIVE_DATE PII:UNKNOWN
+accepted-data,childcare,claimElement.paymentEffectiveDate.date,string,childcare,claimElement_paymentEffectiveDate_date,string,,Date(yyyymmdd):org.joda.time.LocalDate PII:UNKNOWN
+accepted-data,childcare,claimElement.type,string,childcare,claimElement_type,string,,JsonTypeName : childcare PII:UNKNOWN
+accepted-data,childcare,createdDateTime.d_date,string,childcare,createdDateTime_d_date,timestamp,,DateTime(ISO-8601/UTC):org.joda.time.DateTime PII:UNKNOWN
+accepted-data,childcare,declarationId,string,childcare,declarationId,string,,UUID:uk.gov.dwp.universe.declaration.DeclarationId PII:UNKNOWN
+accepted-data,childcare,invalidated.dateTime.d_date,string,childcare,invalidated_dateTime_d_date,timestamp,,DateTime(ISO-8601/UTC):org.joda.time.DateTime PII:UNKNOWN
+accepted-data,childcare,invalidated.reason,string,childcare,invalidated_reason,string,, PII:UNKNOWN
+accepted-data,childcare,_id.d_oid,string,childcare,id,string,,
+accepted-data,childrenCircumstances,acceptedDateTime.d_date,string,childrenCircumstances,acceptedDateTime_d_date,timestamp,,DateTime(ISO-8601/UTC):org.joda.time.DateTime PII:UNKNOWN
+accepted-data,childrenCircumstances,claimElement.contractId,string,childrenCircumstances,claimElement_contractId,string,,UUID:uk.gov.dwp.universe.claim.ContractId PII:UNKNOWN
+accepted-data,childrenCircumstances,claimElement.declaredDateTime,string,childrenCircumstances,claimElement_declaredDateTime,string,, PII:UNKNOWN
+accepted-data,childrenCircumstances,claimElement.effectiveDate.hasDate,boolean,childrenCircumstances,claimElement_effectiveDate_hasDate,string,, PII:UNKNOWN
+accepted-data,childrenCircumstances,claimElement.effectiveDate.knownDate,string,childrenCircumstances,claimElement_effectiveDate_knownDate,string,,Date(yyyymmdd):org.joda.time.LocalDate PII:UNKNOWN
+accepted-data,childrenCircumstances,claimElement.paymentEffectiveDate.hasDate,boolean,childrenCircumstances,claimElement_paymentEffectiveDate_hasDate,string,, PII:UNKNOWN
+accepted-data,childrenCircumstances,claimElement.paymentEffectiveDate.knownDate,string,childrenCircumstances,claimElement_paymentEffectiveDate_knownDate,string,,Date(yyyymmdd):org.joda.time.LocalDate PII:UNKNOWN
+accepted-data,childrenCircumstances,claimElement.children[*].adoptedOrUnderGuardianship,boolean,childrenCircumstances,claimElement_children_adoptedOrUnderGuardianship,string,, PII:UNKNOWN
+accepted-data,childrenCircumstances,claimElement.children[*].dateOfBirth,string,childrenCircumstances,claimElement_children_dateOfBirth,string,,Date(yyyymmdd):org.joda.time.LocalDate PII:UNKNOWN
+accepted-data,childrenCircumstances,claimElement.children[*].declarationDate,string,childrenCircumstances,claimElement_children_declarationDate,string,,Date(yyyymmdd):org.joda.time.LocalDate PII:UNKNOWN
+accepted-data,childrenCircumstances,claimElement.children[*].disabilityDetails.dlaCareComponent,string,childrenCircumstances,claimElement_children_disabilityDetails_dlaCareComponent,string,, PII:UNKNOWN
+accepted-data,childrenCircumstances,claimElement.children[*].disabilityDetails.pipDailyLivingComponent,string,childrenCircumstances,claimElement_children_disabilityDetails_pipDailyLivingComponent,string,, PII:UNKNOWN
+accepted-data,childrenCircumstances,claimElement.children[*].disabilityDetails.receivingDisabilityLivingAllowance,boolean,childrenCircumstances,claimElement_children_disabilityDetails_receivingDisabilityLivingAllowance,string,, PII:UNKNOWN
+accepted-data,childrenCircumstances,claimElement.children[*].disabilityDetails.receivingPersonalIndependencePayment,boolean,childrenCircumstances,claimElement_children_disabilityDetails_receivingPersonalIndependencePayment,string,, PII:UNKNOWN
+accepted-data,childrenCircumstances,claimElement.children[*].disabilityDetails.registeredBlind,boolean,childrenCircumstances,claimElement_children_disabilityDetails_registeredBlind,string,, PII:UNKNOWN
+accepted-data,childrenCircumstances,claimElement.children[*].fullName,string,childrenCircumstances,claimElement_children_fullName,string,, PII:UNKNOWN
+accepted-data,childrenCircumstances,claimElement.children[*].gender,string,childrenCircumstances,claimElement_children_gender,string,, PII:UNKNOWN
+accepted-data,childrenCircumstances,claimElement.children[*].id,string,childrenCircumstances,claimElement_children_id,string,,UUID:uk.gov.dwp.universe.claim.children.ChildId PII:UNKNOWN
+accepted-data,childrenCircumstances,claimElement.children[*].inQualifyingFullTimeEducation,boolean,childrenCircumstances,claimElement_children_inQualifyingFullTimeEducation,string,, PII:UNKNOWN
+accepted-data,childrenCircumstances,claimElement.children[*].nonDependantDetails.awayOnArmedForcesOperations,boolean,childrenCircumstances,claimElement_children_nonDependantDetails_awayOnArmedForcesOperations,string,, PII:UNKNOWN
+accepted-data,childrenCircumstances,claimElement.children[*].nonDependantDetails.personIsClaimantsChild,boolean,childrenCircumstances,claimElement_children_nonDependantDetails_personIsClaimantsChild,string,, PII:UNKNOWN
+accepted-data,childrenCircumstances,claimElement.children[*].nonDependantDetails.primaryCarer,string,childrenCircumstances,claimElement_children_nonDependantDetails_primaryCarer,string,,UUID:uk.gov.dwp.universe.claim.children.ChildId PII:UNKNOWN
+accepted-data,childrenCircumstances,claimElement.children[*].nonDependantDetails.receivingArmedForcesIndependencePayment,boolean,childrenCircumstances,claimElement_children_nonDependantDetails_receivingArmedForcesIndependencePayment,string,, PII:UNKNOWN
+accepted-data,childrenCircumstances,claimElement.children[*].nonDependantDetails.receivingAttendanceAllowance,boolean,childrenCircumstances,claimElement_children_nonDependantDetails_receivingAttendanceAllowance,string,, PII:UNKNOWN
+accepted-data,childrenCircumstances,claimElement.children[*].nonDependantDetails.receivingCarersAllowance,boolean,childrenCircumstances,claimElement_children_nonDependantDetails_receivingCarersAllowance,string,, PII:UNKNOWN
+accepted-data,childrenCircumstances,claimElement.children[*].nonDependantDetails.receivingDisabilityLivingAllowance,boolean,childrenCircumstances,claimElement_children_nonDependantDetails_receivingDisabilityLivingAllowance,string,, PII:UNKNOWN
+accepted-data,childrenCircumstances,claimElement.children[*].nonDependantDetails.receivingPersonalIndependencePayment,boolean,childrenCircumstances,claimElement_children_nonDependantDetails_receivingPersonalIndependencePayment,string,, PII:UNKNOWN
+accepted-data,childrenCircumstances,claimElement.children[*].nonDependantDetails.receivingStatePensionCredit,boolean,childrenCircumstances,claimElement_children_nonDependantDetails_receivingStatePensionCredit,string,, PII:UNKNOWN
+accepted-data,childrenCircumstances,claimElement.children[*].removalDate,string,childrenCircumstances,claimElement_children_removalDate,string,,Date(yyyymmdd):org.joda.time.LocalDate PII:UNKNOWN
+accepted-data,childrenCircumstances,claimElement.children[*].temporaryAbsence.abroadForMoreThanOneMonth,boolean,childrenCircumstances,claimElement_children_temporaryAbsence_abroadForMoreThanOneMonth,string,, PII:UNKNOWN
+accepted-data,childrenCircumstances,claimElement.children[*].temporaryAbsence.inPrison,boolean,childrenCircumstances,claimElement_children_temporaryAbsence_inPrison,string,, PII:UNKNOWN
+accepted-data,childrenCircumstances,claimElement.children[*].temporaryAbsence.inTheCareOfLocalAuthority,boolean,childrenCircumstances,claimElement_children_temporaryAbsence_inTheCareOfLocalAuthority,string,, PII:UNKNOWN
+accepted-data,childrenCircumstances,claimElement.declaredDateTime.d_date,string,childrenCircumstances,claimElement_declaredDateTime_d_date,timestamp,,DateTime(ISO-8601/UTC):org.joda.time.DateTime PII:UNKNOWN
+accepted-data,childrenCircumstances,claimElement.effectiveDate.type,string,childrenCircumstances,claimElement_effectiveDate_type,string,,JsonTypeName : SPECIFIC_EFFECTIVE_DATE PII:UNKNOWN
+accepted-data,childrenCircumstances,claimElement.effectiveDate.date,string,childrenCircumstances,claimElement_effectiveDate_date,string,,Date(yyyymmdd):org.joda.time.LocalDate PII:UNKNOWN
+accepted-data,childrenCircumstances,claimElement.hasExceptionToTwoChildPolicy,boolean,childrenCircumstances,claimElement_hasExceptionToTwoChildPolicy,string,, PII:UNKNOWN
+accepted-data,childrenCircumstances,claimElement.paymentEffectiveDate.type,string,childrenCircumstances,claimElement_paymentEffectiveDate_type,string,,JsonTypeName : SPECIFIC_EFFECTIVE_DATE PII:UNKNOWN
+accepted-data,childrenCircumstances,claimElement.paymentEffectiveDate.date,string,childrenCircumstances,claimElement_paymentEffectiveDate_date,string,,Date(yyyymmdd):org.joda.time.LocalDate PII:UNKNOWN
+accepted-data,childrenCircumstances,claimElement.primaryCarerId,string,childrenCircumstances,claimElement_primaryCarerId,string,,UUID:uk.gov.dwp.universe.identification.ids.ClaimantId PII:UNKNOWN
+accepted-data,childrenCircumstances,claimElement.type,string,childrenCircumstances,claimElement_type,string,,JsonTypeName : childrenCircumstances PII:UNKNOWN
+accepted-data,childrenCircumstances,createdDateTime.d_date,string,childrenCircumstances,createdDateTime_d_date,timestamp,,DateTime(ISO-8601/UTC):org.joda.time.DateTime PII:UNKNOWN
+accepted-data,childrenCircumstances,declarationId,string,childrenCircumstances,declarationId,string,,UUID:uk.gov.dwp.universe.declaration.DeclarationId PII:UNKNOWN
+accepted-data,childrenCircumstances,invalidated.dateTime.d_date,string,childrenCircumstances,invalidated_dateTime_d_date,timestamp,,DateTime(ISO-8601/UTC):org.joda.time.DateTime PII:UNKNOWN
+accepted-data,childrenCircumstances,invalidated.reason,string,childrenCircumstances,invalidated_reason,string,, PII:UNKNOWN
+accepted-data,childrenCircumstances,_id.declarationId,string,childrenCircumstances,id,string,,
+accepted-data,educationCircumstances,acceptedDateTime.d_date,string,educationCircumstances,acceptedDateTime_d_date,timestamp,,DateTime(ISO-8601/UTC):org.joda.time.DateTime PII:UNKNOWN
+accepted-data,educationCircumstances,claimElement.contractId,string,educationCircumstances,claimElement_contractId,string,,UUID:uk.gov.dwp.universe.claim.ContractId PII:UNKNOWN
+accepted-data,educationCircumstances,claimElement.declaredDateTime,string,educationCircumstances,claimElement_declaredDateTime,string,, PII:UNKNOWN
+accepted-data,educationCircumstances,claimElement.effectiveDate.hasDate,boolean,educationCircumstances,claimElement_effectiveDate_hasDate,string,, PII:UNKNOWN
+accepted-data,educationCircumstances,claimElement.effectiveDate.knownDate,string,educationCircumstances,claimElement_effectiveDate_knownDate,string,,Date(yyyymmdd):org.joda.time.LocalDate PII:UNKNOWN
+accepted-data,educationCircumstances,claimElement.paymentEffectiveDate.hasDate,boolean,educationCircumstances,claimElement_paymentEffectiveDate_hasDate,string,, PII:UNKNOWN
+accepted-data,educationCircumstances,claimElement.paymentEffectiveDate.knownDate,string,educationCircumstances,claimElement_paymentEffectiveDate_knownDate,string,,Date(yyyymmdd):org.joda.time.LocalDate PII:UNKNOWN
+accepted-data,educationCircumstances,claimElement.claimantId,string,educationCircumstances,claimElement_claimantId,string,,UUID:uk.gov.dwp.universe.identification.ids.ClaimantId PII:UNKNOWN
+accepted-data,educationCircumstances,claimElement.declaredDateTime.d_date,string,educationCircumstances,claimElement_declaredDateTime_d_date,timestamp,,DateTime(ISO-8601/UTC):org.joda.time.DateTime PII:UNKNOWN
+accepted-data,educationCircumstances,claimElement.effectiveDate.type,string,educationCircumstances,claimElement_effectiveDate_type,string,,JsonTypeName : SPECIFIC_EFFECTIVE_DATE PII:UNKNOWN
+accepted-data,educationCircumstances,claimElement.effectiveDate.date,string,educationCircumstances,claimElement_effectiveDate_date,string,,Date(yyyymmdd):org.joda.time.LocalDate PII:UNKNOWN
+accepted-data,educationCircumstances,claimElement.fullTimeEducation,boolean,educationCircumstances,claimElement_fullTimeEducation,string,, PII:UNKNOWN
+accepted-data,educationCircumstances,claimElement.paymentEffectiveDate.type,string,educationCircumstances,claimElement_paymentEffectiveDate_type,string,,JsonTypeName : SPECIFIC_EFFECTIVE_DATE PII:UNKNOWN
+accepted-data,educationCircumstances,claimElement.paymentEffectiveDate.date,string,educationCircumstances,claimElement_paymentEffectiveDate_date,string,,Date(yyyymmdd):org.joda.time.LocalDate PII:UNKNOWN
+accepted-data,educationCircumstances,claimElement.type,string,educationCircumstances,claimElement_type,string,,JsonTypeName : educationCircumstances PII:UNKNOWN
+accepted-data,educationCircumstances,createdDateTime.d_date,string,educationCircumstances,createdDateTime_d_date,timestamp,,DateTime(ISO-8601/UTC):org.joda.time.DateTime PII:UNKNOWN
+accepted-data,educationCircumstances,declarationId,string,educationCircumstances,declarationId,string,,UUID:uk.gov.dwp.universe.declaration.DeclarationId PII:UNKNOWN
+accepted-data,educationCircumstances,invalidated.dateTime.d_date,string,educationCircumstances,invalidated_dateTime_d_date,timestamp,,DateTime(ISO-8601/UTC):org.joda.time.DateTime PII:UNKNOWN
+accepted-data,educationCircumstances,invalidated.reason,string,educationCircumstances,invalidated_reason,string,, PII:UNKNOWN
+accepted-data,educationCircumstances,_id.d_oid,string,educationCircumstances,id,string,,
+accepted-data,employmentCircumstances,acceptedDateTime.d_date,string,employmentCircumstances,acceptedDateTime_d_date,timestamp,,DateTime(ISO-8601/UTC):org.joda.time.DateTime PII:UNKNOWN
+accepted-data,employmentCircumstances,claimElement.contractId,string,employmentCircumstances,claimElement_contractId,string,,UUID:uk.gov.dwp.universe.claim.ContractId PII:UNKNOWN
+accepted-data,employmentCircumstances,claimElement.declaredDateTime,string,employmentCircumstances,claimElement_declaredDateTime,string,, PII:UNKNOWN
+accepted-data,employmentCircumstances,claimElement.effectiveDate.hasDate,boolean,employmentCircumstances,claimElement_effectiveDate_hasDate,string,, PII:UNKNOWN
+accepted-data,employmentCircumstances,claimElement.effectiveDate.knownDate,string,employmentCircumstances,claimElement_effectiveDate_knownDate,string,,Date(yyyymmdd):org.joda.time.LocalDate PII:UNKNOWN
+accepted-data,employmentCircumstances,claimElement.paymentEffectiveDate.hasDate,boolean,employmentCircumstances,claimElement_paymentEffectiveDate_hasDate,string,, PII:UNKNOWN
+accepted-data,employmentCircumstances,claimElement.paymentEffectiveDate.knownDate,string,employmentCircumstances,claimElement_paymentEffectiveDate_knownDate,string,,Date(yyyymmdd):org.joda.time.LocalDate PII:UNKNOWN
+accepted-data,employmentCircumstances,claimElement.claimantId,string,employmentCircumstances,claimElement_claimantId,string,,UUID:uk.gov.dwp.universe.identification.ids.ClaimantId PII:UNKNOWN
+accepted-data,employmentCircumstances,claimElement.effectiveDate.type,string,employmentCircumstances,claimElement_effectiveDate_type,string,,JsonTypeName : SPECIFIC_EFFECTIVE_DATE PII:UNKNOWN
+accepted-data,employmentCircumstances,claimElement.effectiveDate.date,string,employmentCircumstances,claimElement_effectiveDate_date,string,,Date(yyyymmdd):org.joda.time.LocalDate PII:UNKNOWN
+accepted-data,employmentCircumstances,claimElement.gainfullySelfEmployed,boolean,employmentCircumstances,claimElement_gainfullySelfEmployed,string,, PII:UNKNOWN
+accepted-data,employmentCircumstances,claimElement.mifReviewDate,string,employmentCircumstances,claimElement_mifReviewDate,string,,Date(yyyymmdd):org.joda.time.LocalDate PII:UNKNOWN
+accepted-data,employmentCircumstances,claimElement.mifReviewReason,string,employmentCircumstances,claimElement_mifReviewReason,string,, PII:UNKNOWN
+accepted-data,employmentCircumstances,claimElement.minimumIncomeFloor,string,employmentCircumstances,claimElement_minimumIncomeFloor,string,,Decimal:java.math.BigDecimal PII:UNKNOWN
+accepted-data,employmentCircumstances,claimElement.minimumIncomeFloorDate,string,employmentCircumstances,claimElement_minimumIncomeFloorDate,string,,Date(yyyymmdd):org.joda.time.LocalDate PII:UNKNOWN
+accepted-data,employmentCircumstances,claimElement.mustReportSelfEmploymentEarnings,boolean,employmentCircumstances,claimElement_mustReportSelfEmploymentEarnings,string,, PII:UNKNOWN
+accepted-data,employmentCircumstances,claimElement.paymentEffectiveDate.type,string,employmentCircumstances,claimElement_paymentEffectiveDate_type,string,,JsonTypeName : SPECIFIC_EFFECTIVE_DATE PII:UNKNOWN
+accepted-data,employmentCircumstances,claimElement.paymentEffectiveDate.date,string,employmentCircumstances,claimElement_paymentEffectiveDate_date,string,,Date(yyyymmdd):org.joda.time.LocalDate PII:UNKNOWN
+accepted-data,employmentCircumstances,claimElement.declaredDateTime.d_date,string,employmentCircumstances,claimElement_declaredDateTime_d_date,timestamp,,DateTime(ISO-8601/UTC):org.joda.time.DateTime PII:UNKNOWN
+accepted-data,employmentCircumstances,claimElement.type,string,employmentCircumstances,claimElement_type,string,,JsonTypeName : employmentCircumstances PII:UNKNOWN
+accepted-data,employmentCircumstances,createdDateTime.d_date,string,employmentCircumstances,createdDateTime_d_date,timestamp,,DateTime(ISO-8601/UTC):org.joda.time.DateTime PII:UNKNOWN
+accepted-data,employmentCircumstances,declarationId,string,employmentCircumstances,declarationId,string,,UUID:uk.gov.dwp.universe.declaration.DeclarationId PII:UNKNOWN
+accepted-data,employmentCircumstances,invalidated.dateTime.d_date,string,employmentCircumstances,invalidated_dateTime_d_date,timestamp,,DateTime(ISO-8601/UTC):org.joda.time.DateTime PII:UNKNOWN
+accepted-data,employmentCircumstances,invalidated.reason,string,employmentCircumstances,invalidated_reason,string,, PII:UNKNOWN
+accepted-data,employmentCircumstances,_id.d_oid,string,employmentCircumstances,id,string,,
+accepted-data,gracePeriod,acceptedDateTime.d_date,string,gracePeriod,acceptedDateTime_d_date,timestamp,,DateTime(ISO-8601/UTC):org.joda.time.DateTime PII:UNKNOWN
+accepted-data,gracePeriod,claimElement.contractId,string,gracePeriod,claimElement_contractId,string,,UUID:uk.gov.dwp.universe.claim.ContractId PII:UNKNOWN
+accepted-data,gracePeriod,claimElement.declaredDateTime,string,gracePeriod,claimElement_declaredDateTime,string,, PII:UNKNOWN
+accepted-data,gracePeriod,claimElement.effectiveDate.hasDate,boolean,gracePeriod,claimElement_effectiveDate_hasDate,string,, PII:UNKNOWN
+accepted-data,gracePeriod,claimElement.effectiveDate.knownDate,string,gracePeriod,claimElement_effectiveDate_knownDate,string,,Date(yyyymmdd):org.joda.time.LocalDate PII:UNKNOWN
+accepted-data,gracePeriod,claimElement.paymentEffectiveDate.hasDate,boolean,gracePeriod,claimElement_paymentEffectiveDate_hasDate,string,, PII:UNKNOWN
+accepted-data,gracePeriod,claimElement.paymentEffectiveDate.knownDate,string,gracePeriod,claimElement_paymentEffectiveDate_knownDate,string,,Date(yyyymmdd):org.joda.time.LocalDate PII:UNKNOWN
+accepted-data,gracePeriod,claimElement.claimantId,string,gracePeriod,claimElement_claimantId,string,,UUID:uk.gov.dwp.universe.identification.ids.ClaimantId PII:UNKNOWN
+accepted-data,gracePeriod,claimElement.effectiveDate.type,string,gracePeriod,claimElement_effectiveDate_type,string,,JsonTypeName : SPECIFIC_EFFECTIVE_DATE PII:UNKNOWN
+accepted-data,gracePeriod,claimElement.effectiveDate.date,string,gracePeriod,claimElement_effectiveDate_date,string,,Date(yyyymmdd):org.joda.time.LocalDate PII:UNKNOWN
+accepted-data,gracePeriod,claimElement.endDate,string,gracePeriod,claimElement_endDate,string,,Date(yyyymmdd):org.joda.time.LocalDate PII:UNKNOWN
+accepted-data,gracePeriod,claimElement.paymentEffectiveDate.type,string,gracePeriod,claimElement_paymentEffectiveDate_type,string,,JsonTypeName : SPECIFIC_EFFECTIVE_DATE PII:UNKNOWN
+accepted-data,gracePeriod,claimElement.paymentEffectiveDate.date,string,gracePeriod,claimElement_paymentEffectiveDate_date,string,,Date(yyyymmdd):org.joda.time.LocalDate PII:UNKNOWN
+accepted-data,gracePeriod,claimElement.declaredDateTime.d_date,string,gracePeriod,claimElement_declaredDateTime_d_date,timestamp,,DateTime(ISO-8601/UTC):org.joda.time.DateTime PII:UNKNOWN
+accepted-data,gracePeriod,claimElement.type,string,gracePeriod,claimElement_type,string,,JsonTypeName : gracePeriod PII:UNKNOWN
+accepted-data,gracePeriod,createdDateTime.d_date,string,gracePeriod,createdDateTime_d_date,timestamp,,DateTime(ISO-8601/UTC):org.joda.time.DateTime PII:UNKNOWN
+accepted-data,gracePeriod,declarationId,string,gracePeriod,declarationId,string,,UUID:uk.gov.dwp.universe.declaration.DeclarationId PII:UNKNOWN
+accepted-data,gracePeriod,invalidated.dateTime.d_date,string,gracePeriod,invalidated_dateTime_d_date,timestamp,,DateTime(ISO-8601/UTC):org.joda.time.DateTime PII:UNKNOWN
+accepted-data,gracePeriod,invalidated.reason,string,gracePeriod,invalidated_reason,string,, PII:UNKNOWN
+accepted-data,gracePeriod,_id.d_oid,string,gracePeriod,id,string,,
+accepted-data,guardiansAllowance,acceptedDateTime.d_date,string,guardiansAllowance,acceptedDateTime_d_date,timestamp,,DateTime(ISO-8601/UTC):org.joda.time.DateTime PII:UNKNOWN
+accepted-data,guardiansAllowance,claimElement.contractId,string,guardiansAllowance,claimElement_contractId,string,,UUID:uk.gov.dwp.universe.claim.ContractId PII:UNKNOWN
+accepted-data,guardiansAllowance,claimElement.declaredDateTime,string,guardiansAllowance,claimElement_declaredDateTime,string,, PII:UNKNOWN
+accepted-data,guardiansAllowance,claimElement.effectiveDate.hasDate,boolean,guardiansAllowance,claimElement_effectiveDate_hasDate,string,, PII:UNKNOWN
+accepted-data,guardiansAllowance,claimElement.effectiveDate.knownDate,string,guardiansAllowance,claimElement_effectiveDate_knownDate,string,,Date(yyyymmdd):org.joda.time.LocalDate PII:UNKNOWN
+accepted-data,guardiansAllowance,claimElement.paymentEffectiveDate.hasDate,boolean,guardiansAllowance,claimElement_paymentEffectiveDate_hasDate,string,, PII:UNKNOWN
+accepted-data,guardiansAllowance,claimElement.paymentEffectiveDate.knownDate,string,guardiansAllowance,claimElement_paymentEffectiveDate_knownDate,string,,Date(yyyymmdd):org.joda.time.LocalDate PII:UNKNOWN
+accepted-data,guardiansAllowance,claimElement.claimantId,string,guardiansAllowance,claimElement_claimantId,string,,UUID:uk.gov.dwp.universe.identification.ids.ClaimantId PII:UNKNOWN
+accepted-data,guardiansAllowance,claimElement.declaredDateTime.d_date,string,guardiansAllowance,claimElement_declaredDateTime_d_date,timestamp,,DateTime(ISO-8601/UTC):org.joda.time.DateTime PII:UNKNOWN
+accepted-data,guardiansAllowance,claimElement.effectiveDate.type,string,guardiansAllowance,claimElement_effectiveDate_type,string,,JsonTypeName : SPECIFIC_EFFECTIVE_DATE PII:UNKNOWN
+accepted-data,guardiansAllowance,claimElement.effectiveDate.date,string,guardiansAllowance,claimElement_effectiveDate_date,string,,Date(yyyymmdd):org.joda.time.LocalDate PII:UNKNOWN
+accepted-data,guardiansAllowance,claimElement.namesAndDates[*].endDate,string,guardiansAllowance,claimElement_namesAndDates_endDate,string,,Date(yyyymmdd):org.joda.time.LocalDate PII:UNKNOWN
+accepted-data,guardiansAllowance,claimElement.namesAndDates[*].name,string,guardiansAllowance,claimElement_namesAndDates_name,string,, PII:UNKNOWN
+accepted-data,guardiansAllowance,claimElement.namesAndDates[*].startDate,string,guardiansAllowance,claimElement_namesAndDates_startDate,string,,Date(yyyymmdd):org.joda.time.LocalDate PII:UNKNOWN
+accepted-data,guardiansAllowance,claimElement.paymentEffectiveDate.type,string,guardiansAllowance,claimElement_paymentEffectiveDate_type,string,,JsonTypeName : SPECIFIC_EFFECTIVE_DATE PII:UNKNOWN
+accepted-data,guardiansAllowance,claimElement.paymentEffectiveDate.date,string,guardiansAllowance,claimElement_paymentEffectiveDate_date,string,,Date(yyyymmdd):org.joda.time.LocalDate PII:UNKNOWN
+accepted-data,guardiansAllowance,claimElement.receivingGuardiansAllowance,boolean,guardiansAllowance,claimElement_receivingGuardiansAllowance,string,, PII:UNKNOWN
+accepted-data,guardiansAllowance,claimElement.type,string,guardiansAllowance,claimElement_type,string,,JsonTypeName : guardiansAllowance PII:UNKNOWN
+accepted-data,guardiansAllowance,createdDateTime.d_date,string,guardiansAllowance,createdDateTime_d_date,timestamp,,DateTime(ISO-8601/UTC):org.joda.time.DateTime PII:UNKNOWN
+accepted-data,guardiansAllowance,declarationId,string,guardiansAllowance,declarationId,string,,UUID:uk.gov.dwp.universe.declaration.DeclarationId PII:UNKNOWN
+accepted-data,guardiansAllowance,invalidated.dateTime.d_date,string,guardiansAllowance,invalidated_dateTime_d_date,timestamp,,DateTime(ISO-8601/UTC):org.joda.time.DateTime PII:UNKNOWN
+accepted-data,guardiansAllowance,invalidated.reason,string,guardiansAllowance,invalidated_reason,string,, PII:UNKNOWN
+accepted-data,guardiansAllowance,_id.d_oid,string,guardiansAllowance,id,string,,
+accepted-data,healthAndDisabilityCircumstances,acceptedDateTime.d_date,string,healthAndDisabilityCircumstances,acceptedDateTime_d_date,timestamp,,DateTime(ISO-8601/UTC):org.joda.time.DateTime PII:UNKNOWN
+accepted-data,healthAndDisabilityCircumstances,claimElement.contractId,string,healthAndDisabilityCircumstances,claimElement_contractId,string,,UUID:uk.gov.dwp.universe.claim.ContractId PII:UNKNOWN
+accepted-data,healthAndDisabilityCircumstances,claimElement.declaredDateTime,string,healthAndDisabilityCircumstances,claimElement_declaredDateTime,string,, PII:UNKNOWN
+accepted-data,healthAndDisabilityCircumstances,claimElement.effectiveDate.hasDate,boolean,healthAndDisabilityCircumstances,claimElement_effectiveDate_hasDate,string,, PII:UNKNOWN
+accepted-data,healthAndDisabilityCircumstances,claimElement.effectiveDate.knownDate,string,healthAndDisabilityCircumstances,claimElement_effectiveDate_knownDate,string,,Date(yyyymmdd):org.joda.time.LocalDate PII:UNKNOWN
+accepted-data,healthAndDisabilityCircumstances,claimElement.paymentEffectiveDate.hasDate,boolean,healthAndDisabilityCircumstances,claimElement_paymentEffectiveDate_hasDate,string,, PII:UNKNOWN
+accepted-data,healthAndDisabilityCircumstances,claimElement.paymentEffectiveDate.knownDate,string,healthAndDisabilityCircumstances,claimElement_paymentEffectiveDate_knownDate,string,,Date(yyyymmdd):org.joda.time.LocalDate PII:UNKNOWN
+accepted-data,healthAndDisabilityCircumstances,claimElement.abilityToWork.hasAFitNote,boolean,healthAndDisabilityCircumstances,claimElement_abilityToWork_hasAFitNote,string,, PII:UNKNOWN
+accepted-data,healthAndDisabilityCircumstances,claimElement.abilityToWork.restrictedAbilityToWork,boolean,healthAndDisabilityCircumstances,claimElement_abilityToWork_restrictedAbilityToWork,string,, PII:UNKNOWN
+accepted-data,healthAndDisabilityCircumstances,claimElement.agentToCallTerminallyIllClaimant,boolean,healthAndDisabilityCircumstances,claimElement_agentToCallTerminallyIllClaimant,string,, PII:UNKNOWN
+accepted-data,healthAndDisabilityCircumstances,claimElement.claimantId,string,healthAndDisabilityCircumstances,claimElement_claimantId,string,,UUID:uk.gov.dwp.universe.identification.ids.ClaimantId PII:UNKNOWN
+accepted-data,healthAndDisabilityCircumstances,claimElement.copiedFromDeclarationId,string,healthAndDisabilityCircumstances,claimElement_copiedFromDeclarationId,string,,UUID:uk.gov.dwp.universe.declaration.DeclarationId PII:UNKNOWN
+accepted-data,healthAndDisabilityCircumstances,claimElement.createdDateTime.d_date,string,healthAndDisabilityCircumstances,claimElement_createdDateTime_d_date,timestamp,,DateTime(ISO-8601/UTC):org.joda.time.DateTime PII:UNKNOWN
+accepted-data,healthAndDisabilityCircumstances,claimElement.declarationId,string,healthAndDisabilityCircumstances,claimElement_declarationId,string,,UUID:uk.gov.dwp.universe.declaration.DeclarationId PII:UNKNOWN
+accepted-data,healthAndDisabilityCircumstances,claimElement.declaredDateTime.d_date,string,healthAndDisabilityCircumstances,claimElement_declaredDateTime_d_date,timestamp,,DateTime(ISO-8601/UTC):org.joda.time.DateTime PII:UNKNOWN
+accepted-data,healthAndDisabilityCircumstances,claimElement.effectiveDate.type,string,healthAndDisabilityCircumstances,claimElement_effectiveDate_type,string,,JsonTypeName : SPECIFIC_EFFECTIVE_DATE PII:UNKNOWN
+accepted-data,healthAndDisabilityCircumstances,claimElement.effectiveDate.date,string,healthAndDisabilityCircumstances,claimElement_effectiveDate_date,string,,Date(yyyymmdd):org.joda.time.LocalDate PII:UNKNOWN
+accepted-data,healthAndDisabilityCircumstances,claimElement.healthConditions[*],string,healthAndDisabilityCircumstances,claimElement_healthConditions,string,, PII:UNKNOWN
+accepted-data,healthAndDisabilityCircumstances,claimElement.hospitalStays.admissionDate,string,healthAndDisabilityCircumstances,claimElement_hospitalStays_admissionDate,string,,Date(yyyymmdd):org.joda.time.LocalDate PII:UNKNOWN
+accepted-data,healthAndDisabilityCircumstances,claimElement.hospitalStays.dischargeDate,string,healthAndDisabilityCircumstances,claimElement_hospitalStays_dischargeDate,string,,Date(yyyymmdd):org.joda.time.LocalDate PII:UNKNOWN
+accepted-data,healthAndDisabilityCircumstances,claimElement.hospitalStays.hospitalStay,boolean,healthAndDisabilityCircumstances,claimElement_hospitalStays_hospitalStay,string,, PII:UNKNOWN
+accepted-data,healthAndDisabilityCircumstances,claimElement.medicalTreatments[*].startDate,string,healthAndDisabilityCircumstances,claimElement_medicalTreatments_startDate,string,,Date(yyyymmdd):org.joda.time.LocalDate PII:UNKNOWN
+accepted-data,healthAndDisabilityCircumstances,claimElement.medicalTreatments[*].treatment,string,healthAndDisabilityCircumstances,claimElement_medicalTreatments_treatment,string,, PII:UNKNOWN
+accepted-data,healthAndDisabilityCircumstances,claimElement.paymentEffectiveDate.type,string,healthAndDisabilityCircumstances,claimElement_paymentEffectiveDate_type,string,,JsonTypeName : SPECIFIC_EFFECTIVE_DATE PII:UNKNOWN
+accepted-data,healthAndDisabilityCircumstances,claimElement.paymentEffectiveDate.date,string,healthAndDisabilityCircumstances,claimElement_paymentEffectiveDate_date,string,,Date(yyyymmdd):org.joda.time.LocalDate PII:UNKNOWN
+accepted-data,healthAndDisabilityCircumstances,claimElement.periodOfSicknessId,string,healthAndDisabilityCircumstances,claimElement_periodOfSicknessId,string,,UUID:uk.gov.dwp.universe.claim.healthanddisability.PeriodOfSicknessId PII:UNKNOWN
+accepted-data,healthAndDisabilityCircumstances,claimElement.pregnancy.dueDate,string,healthAndDisabilityCircumstances,claimElement_pregnancy_dueDate,string,,Date(yyyymmdd):org.joda.time.LocalDate PII:UNKNOWN
+accepted-data,healthAndDisabilityCircumstances,claimElement.pregnancy.illnessPutsPregnancyAtRisk,string,healthAndDisabilityCircumstances,claimElement_pregnancy_illnessPutsPregnancyAtRisk,string,, PII:UNKNOWN
+accepted-data,healthAndDisabilityCircumstances,claimElement.processId,string,healthAndDisabilityCircumstances,claimElement_processId,string,,UUID:uk.gov.dwp.universe.wizard.ProcessId PII:UNKNOWN
+accepted-data,healthAndDisabilityCircumstances,claimElement.reportingIllness,boolean,healthAndDisabilityCircumstances,claimElement_reportingIllness,string,, PII:UNKNOWN
+accepted-data,healthAndDisabilityCircumstances,claimElement.supportAtWork.hasGuideDog,boolean,healthAndDisabilityCircumstances,claimElement_supportAtWork_hasGuideDog,string,, PII:UNKNOWN
+accepted-data,healthAndDisabilityCircumstances,claimElement.supportAtWork.hasWheelchair,boolean,healthAndDisabilityCircumstances,claimElement_supportAtWork_hasWheelchair,string,, PII:UNKNOWN
+accepted-data,healthAndDisabilityCircumstances,claimElement.supportAtWork.needsHearingLoop,boolean,healthAndDisabilityCircumstances,claimElement_supportAtWork_needsHearingLoop,string,, PII:UNKNOWN
+accepted-data,healthAndDisabilityCircumstances,claimElement.supportAtWork.otherSupport,string,healthAndDisabilityCircumstances,claimElement_supportAtWork_otherSupport,string,, PII:UNKNOWN
+accepted-data,healthAndDisabilityCircumstances,claimElement.terminalIllness.prognosis,string,healthAndDisabilityCircumstances,claimElement_terminalIllness_prognosis,string,, PII:UNKNOWN
+accepted-data,healthAndDisabilityCircumstances,claimElement.terminalIllness.terminallyIll,boolean,healthAndDisabilityCircumstances,claimElement_terminalIllness_terminallyIll,string,, PII:UNKNOWN
+accepted-data,healthAndDisabilityCircumstances,claimElement.type,string,healthAndDisabilityCircumstances,claimElement_type,string,,JsonTypeName : healthAndDisabilityCircumstances PII:UNKNOWN
+accepted-data,healthAndDisabilityCircumstances,createdDateTime.d_date,string,healthAndDisabilityCircumstances,createdDateTime_d_date,timestamp,,DateTime(ISO-8601/UTC):org.joda.time.DateTime PII:UNKNOWN
+accepted-data,healthAndDisabilityCircumstances,declarationId,string,healthAndDisabilityCircumstances,declarationId,string,,UUID:uk.gov.dwp.universe.declaration.DeclarationId PII:UNKNOWN
+accepted-data,healthAndDisabilityCircumstances,invalidated.dateTime.d_date,string,healthAndDisabilityCircumstances,invalidated_dateTime_d_date,timestamp,,DateTime(ISO-8601/UTC):org.joda.time.DateTime PII:UNKNOWN
+accepted-data,healthAndDisabilityCircumstances,invalidated.reason,string,healthAndDisabilityCircumstances,invalidated_reason,string,, PII:UNKNOWN
+accepted-data,healthAndDisabilityCircumstances,_id.d_oid,string,healthAndDisabilityCircumstances,id,string,,
+accepted-data,healthCircumstances,acceptedDateTime.d_date,string,healthCircumstances,acceptedDateTime_d_date,timestamp,,DateTime(ISO-8601/UTC):org.joda.time.DateTime PII:UNKNOWN
+accepted-data,healthCircumstances,claimElement.contractId,string,healthCircumstances,claimElement_contractId,string,,UUID:uk.gov.dwp.universe.claim.ContractId PII:UNKNOWN
+accepted-data,healthCircumstances,claimElement.declaredDateTime,string,healthCircumstances,claimElement_declaredDateTime,string,, PII:UNKNOWN
+accepted-data,healthCircumstances,claimElement.effectiveDate.hasDate,boolean,healthCircumstances,claimElement_effectiveDate_hasDate,string,, PII:UNKNOWN
+accepted-data,healthCircumstances,claimElement.effectiveDate.knownDate,string,healthCircumstances,claimElement_effectiveDate_knownDate,string,,Date(yyyymmdd):org.joda.time.LocalDate PII:UNKNOWN
+accepted-data,healthCircumstances,claimElement.paymentEffectiveDate.hasDate,boolean,healthCircumstances,claimElement_paymentEffectiveDate_hasDate,string,, PII:UNKNOWN
+accepted-data,healthCircumstances,claimElement.paymentEffectiveDate.knownDate,string,healthCircumstances,claimElement_paymentEffectiveDate_knownDate,string,,Date(yyyymmdd):org.joda.time.LocalDate PII:UNKNOWN
+accepted-data,healthCircumstances,claimElement.armedForcesIndependencePayment,boolean,healthCircumstances,claimElement_armedForcesIndependencePayment,string,, PII:UNKNOWN
+accepted-data,healthCircumstances,claimElement.attendanceAllowance,boolean,healthCircumstances,claimElement_attendanceAllowance,string,, PII:UNKNOWN
+accepted-data,healthCircumstances,claimElement.claimantId,string,healthCircumstances,claimElement_claimantId,string,,UUID:uk.gov.dwp.universe.identification.ids.ClaimantId PII:UNKNOWN
+accepted-data,healthCircumstances,claimElement.constantAttendanceAllowance,boolean,healthCircumstances,claimElement_constantAttendanceAllowance,string,, PII:UNKNOWN
+accepted-data,healthCircumstances,claimElement.declaredDateTime.d_date,string,healthCircumstances,claimElement_declaredDateTime_d_date,timestamp,,DateTime(ISO-8601/UTC):org.joda.time.DateTime PII:UNKNOWN
+accepted-data,healthCircumstances,claimElement.dlaAllowance,boolean,healthCircumstances,claimElement_dlaAllowance,string,, PII:UNKNOWN
+accepted-data,healthCircumstances,claimElement.effectiveDate.type,string,healthCircumstances,claimElement_effectiveDate_type,string,,JsonTypeName : SPECIFIC_EFFECTIVE_DATE PII:UNKNOWN
+accepted-data,healthCircumstances,claimElement.effectiveDate.date,string,healthCircumstances,claimElement_effectiveDate_date,string,,Date(yyyymmdd):org.joda.time.LocalDate PII:UNKNOWN
+accepted-data,healthCircumstances,claimElement.healthCondition,boolean,healthCircumstances,claimElement_healthCondition,string,, PII:UNKNOWN
+accepted-data,healthCircumstances,claimElement.paymentEffectiveDate.type,string,healthCircumstances,claimElement_paymentEffectiveDate_type,string,,JsonTypeName : SPECIFIC_EFFECTIVE_DATE PII:UNKNOWN
+accepted-data,healthCircumstances,claimElement.paymentEffectiveDate.date,string,healthCircumstances,claimElement_paymentEffectiveDate_date,string,,Date(yyyymmdd):org.joda.time.LocalDate PII:UNKNOWN
+accepted-data,healthCircumstances,claimElement.piPayment,boolean,healthCircumstances,claimElement_piPayment,string,, PII:UNKNOWN
+accepted-data,healthCircumstances,claimElement.type,string,healthCircumstances,claimElement_type,string,,JsonTypeName : healthCircumstances PII:UNKNOWN
+accepted-data,healthCircumstances,createdDateTime.d_date,string,healthCircumstances,createdDateTime_d_date,timestamp,,DateTime(ISO-8601/UTC):org.joda.time.DateTime PII:UNKNOWN
+accepted-data,healthCircumstances,declarationId,string,healthCircumstances,declarationId,string,,UUID:uk.gov.dwp.universe.declaration.DeclarationId PII:UNKNOWN
+accepted-data,healthCircumstances,invalidated.dateTime.d_date,string,healthCircumstances,invalidated_dateTime_d_date,timestamp,,DateTime(ISO-8601/UTC):org.joda.time.DateTime PII:UNKNOWN
+accepted-data,healthCircumstances,invalidated.reason,string,healthCircumstances,invalidated_reason,string,, PII:UNKNOWN
+accepted-data,healthCircumstances,_id.d_oid,string,healthCircumstances,id,string,,
+accepted-data,housingCircumstances,acceptedDateTime.d_date,string,housingCircumstances,acceptedDateTime_d_date,timestamp,,DateTime(ISO-8601/UTC):org.joda.time.DateTime PII:UNKNOWN
+accepted-data,housingCircumstances,claimElement.contractId,string,housingCircumstances,claimElement_contractId,string,,UUID:uk.gov.dwp.universe.claim.ContractId PII:UNKNOWN
+accepted-data,housingCircumstances,claimElement.declaredDateTime,string,housingCircumstances,claimElement_declaredDateTime,string,, PII:UNKNOWN
+accepted-data,housingCircumstances,claimElement.effectiveDate.hasDate,boolean,housingCircumstances,claimElement_effectiveDate_hasDate,string,, PII:UNKNOWN
+accepted-data,housingCircumstances,claimElement.effectiveDate.knownDate,string,housingCircumstances,claimElement_effectiveDate_knownDate,string,,Date(yyyymmdd):org.joda.time.LocalDate PII:UNKNOWN
+accepted-data,housingCircumstances,claimElement.paymentEffectiveDate.hasDate,boolean,housingCircumstances,claimElement_paymentEffectiveDate_hasDate,string,, PII:UNKNOWN
+accepted-data,housingCircumstances,claimElement.paymentEffectiveDate.knownDate,string,housingCircumstances,claimElement_paymentEffectiveDate_knownDate,string,,Date(yyyymmdd):org.joda.time.LocalDate PII:UNKNOWN
+accepted-data,housingCircumstances,claimElement.councilTax.appliedToCouncilTaxReduction,string,housingCircumstances,claimElement_councilTax_appliedToCouncilTaxReduction,string,, PII:UNKNOWN
+accepted-data,housingCircumstances,claimElement.councilTax.councilTaxInClaimantName,boolean,housingCircumstances,claimElement_councilTax_councilTaxInClaimantName,string,, PII:UNKNOWN
+accepted-data,housingCircumstances,claimElement.declaredDateTime.d_date,string,housingCircumstances,claimElement_declaredDateTime_d_date,timestamp,,DateTime(ISO-8601/UTC):org.joda.time.DateTime PII:UNKNOWN
+accepted-data,housingCircumstances,claimElement.effectiveDate.type,string,housingCircumstances,claimElement_effectiveDate_type,string,,JsonTypeName : SPECIFIC_EFFECTIVE_DATE PII:UNKNOWN
+accepted-data,housingCircumstances,claimElement.effectiveDate.date,string,housingCircumstances,claimElement_effectiveDate_date,string,,Date(yyyymmdd):org.joda.time.LocalDate PII:UNKNOWN
+accepted-data,housingCircumstances,claimElement.livingDetails,string,housingCircumstances,claimElement_livingDetails,string,, PII:UNKNOWN
+accepted-data,housingCircumstances,claimElement.noApplicableHousingCostsDeclarationDetails.noApplicableHousingCostsType,string,housingCircumstances,claimElement_noApplicableHousingCostsDeclarationDetails_noApplicableHousingCostsType,string,, PII:UNKNOWN
+accepted-data,housingCircumstances,claimElement.otherHousingDeclarationDetails.furtherDetails,string,housingCircumstances,claimElement_otherHousingDeclarationDetails_furtherDetails,string,, PII:UNKNOWN
+accepted-data,housingCircumstances,claimElement.otherHousingDeclarationDetails.otherAccommodationType,string,housingCircumstances,claimElement_otherHousingDeclarationDetails_otherAccommodationType,string,, PII:UNKNOWN
+accepted-data,housingCircumstances,claimElement.ownPropertyDeclarationDetails.haveMortgage,boolean,housingCircumstances,claimElement_ownPropertyDeclarationDetails_haveMortgage,string,, PII:UNKNOWN
+accepted-data,housingCircumstances,claimElement.ownPropertyDeclarationDetails.payServiceCharges,boolean,housingCircumstances,claimElement_ownPropertyDeclarationDetails_payServiceCharges,string,, PII:UNKNOWN
+accepted-data,housingCircumstances,claimElement.ownPropertyDeclarationDetails.mortgageDetailsList[*].amount,string,housingCircumstances,claimElement_ownPropertyDeclarationDetails_mortgageDetailsList_amount,string,,Decimal:java.math.BigDecimal PII:UNKNOWN
+accepted-data,housingCircumstances,claimElement.ownPropertyDeclarationDetails.mortgageDetailsList[*].forDisabilityAdaptation,boolean,housingCircumstances,claimElement_ownPropertyDeclarationDetails_mortgageDetailsList_forDisabilityAdaptation,string,, PII:UNKNOWN
+accepted-data,housingCircumstances,claimElement.ownPropertyDeclarationDetails.mortgageDetailsList[*].lender,string,housingCircumstances,claimElement_ownPropertyDeclarationDetails_mortgageDetailsList_lender,string,, PII:UNKNOWN
+accepted-data,housingCircumstances,claimElement.ownPropertyDeclarationDetails.mortgageDetailsList[*].lenderCode,string,housingCircumstances,claimElement_ownPropertyDeclarationDetails_mortgageDetailsList_lenderCode,string,, PII:UNKNOWN
+accepted-data,housingCircumstances,claimElement.ownPropertyDeclarationDetails.mortgageDetailsList[*].loanReferenceNumber,string,housingCircumstances,claimElement_ownPropertyDeclarationDetails_mortgageDetailsList_loanReferenceNumber,string,, PII:UNKNOWN
+accepted-data,housingCircumstances,claimElement.ownPropertyDeclarationDetails.mortgageDetailsList[*].mortgageDetailsId,string,housingCircumstances,claimElement_ownPropertyDeclarationDetails_mortgageDetailsList_mortgageDetailsId,string,,UUID:uk.gov.dwp.universe.identification.ids.MortgageDetailsId PII:UNKNOWN
+accepted-data,housingCircumstances,claimElement.ownPropertyDeclarationDetails.serviceChargeDetails.amount,string,housingCircumstances,claimElement_ownPropertyDeclarationDetails_serviceChargeDetails_amount,string,,Decimal:java.math.BigDecimal PII:UNKNOWN
+accepted-data,housingCircumstances,claimElement.ownPropertyDeclarationDetails.serviceChargeDetails.frequency,string,housingCircumstances,claimElement_ownPropertyDeclarationDetails_serviceChargeDetails_frequency,string,, PII:UNKNOWN
+accepted-data,housingCircumstances,claimElement.paymentEffectiveDate.type,string,housingCircumstances,claimElement_paymentEffectiveDate_type,string,,JsonTypeName : SPECIFIC_EFFECTIVE_DATE PII:UNKNOWN
+accepted-data,housingCircumstances,claimElement.paymentEffectiveDate.date,string,housingCircumstances,claimElement_paymentEffectiveDate_date,string,,Date(yyyymmdd):org.joda.time.LocalDate PII:UNKNOWN
+accepted-data,housingCircumstances,claimElement.privateRentedPropertyDeclarationDetails.additionalRentedHousingInformation.exemptFromTheSharedRoomRate,boolean,housingCircumstances,claimElement_privateRentedPropertyDeclarationDetails_additionalRentedHousingInformation_exemptFromTheSharedRoomRate,string,, PII:UNKNOWN
+accepted-data,housingCircumstances,claimElement.privateRentedPropertyDeclarationDetails.additionalRentedHousingInformation.nonCommercialRelationshipWithLandlord,boolean,housingCircumstances,claimElement_privateRentedPropertyDeclarationDetails_additionalRentedHousingInformation_nonCommercialRelationshipWithLandlord,string,, PII:UNKNOWN
+accepted-data,housingCircumstances,claimElement.privateRentedPropertyDeclarationDetails.additionalRentedHousingInformation.supportedExemptAccommodation,boolean,housingCircumstances,claimElement_privateRentedPropertyDeclarationDetails_additionalRentedHousingInformation_supportedExemptAccommodation,string,, PII:UNKNOWN
+accepted-data,housingCircumstances,claimElement.privateRentedPropertyDeclarationDetails.bedroomAndTenancy.bothYouAndPartnerNamedOnTenancyOrRentalAgreement,boolean,housingCircumstances,claimElement_privateRentedPropertyDeclarationDetails_bedroomAndTenancy_bothYouAndPartnerNamedOnTenancyOrRentalAgreement,string,, PII:UNKNOWN
+accepted-data,housingCircumstances,claimElement.privateRentedPropertyDeclarationDetails.bedroomAndTenancy.jointTenancyWithSomeoneOtherThanPartner,boolean,housingCircumstances,claimElement_privateRentedPropertyDeclarationDetails_bedroomAndTenancy_jointTenancyWithSomeoneOtherThanPartner,string,, PII:UNKNOWN
+accepted-data,housingCircumstances,claimElement.privateRentedPropertyDeclarationDetails.bedroomAndTenancy.numberOfBedrooms,string,housingCircumstances,claimElement_privateRentedPropertyDeclarationDetails_bedroomAndTenancy_numberOfBedrooms,string,, PII:UNKNOWN
+accepted-data,housingCircumstances,claimElement.privateRentedPropertyDeclarationDetails.jointTenancy.numberOfTenants,string,housingCircumstances,claimElement_privateRentedPropertyDeclarationDetails_jointTenancy_numberOfTenants,string,, PII:UNKNOWN
+accepted-data,housingCircumstances,claimElement.privateRentedPropertyDeclarationDetails.jointTenancy.rent.amount,string,housingCircumstances,claimElement_privateRentedPropertyDeclarationDetails_jointTenancy_rent_amount,string,,Decimal:java.math.BigDecimal PII:UNKNOWN
+accepted-data,housingCircumstances,claimElement.privateRentedPropertyDeclarationDetails.jointTenancy.rent.paymentFrequency,string,housingCircumstances,claimElement_privateRentedPropertyDeclarationDetails_jointTenancy_rent_paymentFrequency,string,, PII:UNKNOWN
+accepted-data,housingCircumstances,claimElement.privateRentedPropertyDeclarationDetails.jointTenancy.rent.type,string,housingCircumstances,claimElement_privateRentedPropertyDeclarationDetails_jointTenancy_rent_type,string,,JsonTypeName : withAmount PII:UNKNOWN
+accepted-data,housingCircumstances,claimElement.privateRentedPropertyDeclarationDetails.jointTenancy.serviceCharges.amount,string,housingCircumstances,claimElement_privateRentedPropertyDeclarationDetails_jointTenancy_serviceCharges_amount,string,,Decimal:java.math.BigDecimal PII:UNKNOWN
+accepted-data,housingCircumstances,claimElement.privateRentedPropertyDeclarationDetails.jointTenancy.serviceCharges.paymentFrequency,string,housingCircumstances,claimElement_privateRentedPropertyDeclarationDetails_jointTenancy_serviceCharges_paymentFrequency,string,, PII:UNKNOWN
+accepted-data,housingCircumstances,claimElement.privateRentedPropertyDeclarationDetails.jointTenancy.serviceCharges.type,string,housingCircumstances,claimElement_privateRentedPropertyDeclarationDetails_jointTenancy_serviceCharges_type,string,,JsonTypeName : withAmount PII:UNKNOWN
+accepted-data,housingCircumstances,claimElement.privateRentedPropertyDeclarationDetails.landlordDetails.addressNumber,string,housingCircumstances,claimElement_privateRentedPropertyDeclarationDetails_landlordDetails_addressNumber,string,, PII:UNKNOWN
+accepted-data,housingCircumstances,claimElement.privateRentedPropertyDeclarationDetails.landlordDetails.email,string,housingCircumstances,claimElement_privateRentedPropertyDeclarationDetails_landlordDetails_email,string,, PII:UNKNOWN
+accepted-data,housingCircumstances,claimElement.privateRentedPropertyDeclarationDetails.landlordDetails.name,string,housingCircumstances,claimElement_privateRentedPropertyDeclarationDetails_landlordDetails_name,string,, PII:UNKNOWN
+accepted-data,housingCircumstances,claimElement.privateRentedPropertyDeclarationDetails.landlordDetails.payRentTo,string,housingCircumstances,claimElement_privateRentedPropertyDeclarationDetails_landlordDetails_payRentTo,string,, PII:UNKNOWN
+accepted-data,housingCircumstances,claimElement.privateRentedPropertyDeclarationDetails.landlordDetails.phoneNumber,string,housingCircumstances,claimElement_privateRentedPropertyDeclarationDetails_landlordDetails_phoneNumber,string,, PII:UNKNOWN
+accepted-data,housingCircumstances,claimElement.privateRentedPropertyDeclarationDetails.landlordDetails.postcode,string,housingCircumstances,claimElement_privateRentedPropertyDeclarationDetails_landlordDetails_postcode,string,, PII:UNKNOWN
+accepted-data,housingCircumstances,claimElement.privateRentedPropertyDeclarationDetails.landlordDetails.townCity,string,housingCircumstances,claimElement_privateRentedPropertyDeclarationDetails_landlordDetails_townCity,string,, PII:UNKNOWN
+accepted-data,housingCircumstances,claimElement.privateRentedPropertyDeclarationDetails.landlordRelationshipDetails.anyoneCloseRelative,boolean,housingCircumstances,claimElement_privateRentedPropertyDeclarationDetails_landlordRelationshipDetails_anyoneCloseRelative,string,, PII:UNKNOWN
+accepted-data,housingCircumstances,claimElement.privateRentedPropertyDeclarationDetails.landlordRelationshipDetails.anyoneFinancialInterest,boolean,housingCircumstances,claimElement_privateRentedPropertyDeclarationDetails_landlordRelationshipDetails_anyoneFinancialInterest,string,, PII:UNKNOWN
+accepted-data,housingCircumstances,claimElement.privateRentedPropertyDeclarationDetails.landlordRelationshipDetails.liveAtSameProperty,boolean,housingCircumstances,claimElement_privateRentedPropertyDeclarationDetails_landlordRelationshipDetails_liveAtSameProperty,string,, PII:UNKNOWN
+accepted-data,housingCircumstances,claimElement.privateRentedPropertyDeclarationDetails.rentDetails.regularPayment.amount,string,housingCircumstances,claimElement_privateRentedPropertyDeclarationDetails_rentDetails_regularPayment_amount,string,,Decimal:java.math.BigDecimal PII:UNKNOWN
+accepted-data,housingCircumstances,claimElement.privateRentedPropertyDeclarationDetails.rentDetails.regularPayment.paymentFrequency,string,housingCircumstances,claimElement_privateRentedPropertyDeclarationDetails_rentDetails_regularPayment_paymentFrequency,string,, PII:UNKNOWN
+accepted-data,housingCircumstances,claimElement.privateRentedPropertyDeclarationDetails.rentDetails.regularPayment.type,string,housingCircumstances,claimElement_privateRentedPropertyDeclarationDetails_rentDetails_regularPayment_type,string,,JsonTypeName : withAmount PII:UNKNOWN
+accepted-data,housingCircumstances,claimElement.privateRentedPropertyDeclarationDetails.rentDetails.startDate,string,housingCircumstances,claimElement_privateRentedPropertyDeclarationDetails_rentDetails_startDate,string,,Date(yyyymmdd):org.joda.time.LocalDate PII:UNKNOWN
+accepted-data,housingCircumstances,claimElement.socialAccommodationDeclarationDetails.additionalRentedHousingInformation.exemptFromTheSharedRoomRate,boolean,housingCircumstances,claimElement_socialAccommodationDeclarationDetails_additionalRentedHousingInformation_exemptFromTheSharedRoomRate,string,, PII:UNKNOWN
+accepted-data,housingCircumstances,claimElement.socialAccommodationDeclarationDetails.additionalRentedHousingInformation.nonCommercialRelationshipWithLandlord,boolean,housingCircumstances,claimElement_socialAccommodationDeclarationDetails_additionalRentedHousingInformation_nonCommercialRelationshipWithLandlord,string,, PII:UNKNOWN
+accepted-data,housingCircumstances,claimElement.socialAccommodationDeclarationDetails.additionalRentedHousingInformation.supportedExemptAccommodation,boolean,housingCircumstances,claimElement_socialAccommodationDeclarationDetails_additionalRentedHousingInformation_supportedExemptAccommodation,string,, PII:UNKNOWN
+accepted-data,housingCircumstances,claimElement.socialAccommodationDeclarationDetails.bedroomAndTenancy.bothYouAndPartnerNamedOnTenancyOrRentalAgreement,boolean,housingCircumstances,claimElement_socialAccommodationDeclarationDetails_bedroomAndTenancy_bothYouAndPartnerNamedOnTenancyOrRentalAgreement,string,, PII:UNKNOWN
+accepted-data,housingCircumstances,claimElement.socialAccommodationDeclarationDetails.bedroomAndTenancy.jointTenancyWithSomeoneOtherThanPartner,boolean,housingCircumstances,claimElement_socialAccommodationDeclarationDetails_bedroomAndTenancy_jointTenancyWithSomeoneOtherThanPartner,string,, PII:UNKNOWN
+accepted-data,housingCircumstances,claimElement.socialAccommodationDeclarationDetails.bedroomAndTenancy.numberOfBedrooms,string,housingCircumstances,claimElement_socialAccommodationDeclarationDetails_bedroomAndTenancy_numberOfBedrooms,string,, PII:UNKNOWN
+accepted-data,housingCircumstances,claimElement.socialAccommodationDeclarationDetails.jointTenancy.numberOfTenants,string,housingCircumstances,claimElement_socialAccommodationDeclarationDetails_jointTenancy_numberOfTenants,string,, PII:UNKNOWN
+accepted-data,housingCircumstances,claimElement.socialAccommodationDeclarationDetails.jointTenancy.rent.amount,string,housingCircumstances,claimElement_socialAccommodationDeclarationDetails_jointTenancy_rent_amount,string,,Decimal:java.math.BigDecimal PII:UNKNOWN
+accepted-data,housingCircumstances,claimElement.socialAccommodationDeclarationDetails.jointTenancy.rent.paymentFrequency,string,housingCircumstances,claimElement_socialAccommodationDeclarationDetails_jointTenancy_rent_paymentFrequency,string,, PII:UNKNOWN
+accepted-data,housingCircumstances,claimElement.socialAccommodationDeclarationDetails.jointTenancy.rent.type,string,housingCircumstances,claimElement_socialAccommodationDeclarationDetails_jointTenancy_rent_type,string,,JsonTypeName : withAmount PII:UNKNOWN
+accepted-data,housingCircumstances,claimElement.socialAccommodationDeclarationDetails.jointTenancy.serviceCharges.amount,string,housingCircumstances,claimElement_socialAccommodationDeclarationDetails_jointTenancy_serviceCharges_amount,string,,Decimal:java.math.BigDecimal PII:UNKNOWN
+accepted-data,housingCircumstances,claimElement.socialAccommodationDeclarationDetails.jointTenancy.serviceCharges.paymentFrequency,string,housingCircumstances,claimElement_socialAccommodationDeclarationDetails_jointTenancy_serviceCharges_paymentFrequency,string,, PII:UNKNOWN
+accepted-data,housingCircumstances,claimElement.socialAccommodationDeclarationDetails.jointTenancy.serviceCharges.type,string,housingCircumstances,claimElement_socialAccommodationDeclarationDetails_jointTenancy_serviceCharges_type,string,,JsonTypeName : withAmount PII:UNKNOWN
+accepted-data,housingCircumstances,claimElement.socialAccommodationDeclarationDetails.landlordDetails.addressNumber,string,housingCircumstances,claimElement_socialAccommodationDeclarationDetails_landlordDetails_addressNumber,string,, PII:UNKNOWN
+accepted-data,housingCircumstances,claimElement.socialAccommodationDeclarationDetails.landlordDetails.email,string,housingCircumstances,claimElement_socialAccommodationDeclarationDetails_landlordDetails_email,string,, PII:UNKNOWN
+accepted-data,housingCircumstances,claimElement.socialAccommodationDeclarationDetails.landlordDetails.name,string,housingCircumstances,claimElement_socialAccommodationDeclarationDetails_landlordDetails_name,string,, PII:UNKNOWN
+accepted-data,housingCircumstances,claimElement.socialAccommodationDeclarationDetails.landlordDetails.payRentTo,string,housingCircumstances,claimElement_socialAccommodationDeclarationDetails_landlordDetails_payRentTo,string,, PII:UNKNOWN
+accepted-data,housingCircumstances,claimElement.socialAccommodationDeclarationDetails.landlordDetails.phoneNumber,string,housingCircumstances,claimElement_socialAccommodationDeclarationDetails_landlordDetails_phoneNumber,string,, PII:UNKNOWN
+accepted-data,housingCircumstances,claimElement.socialAccommodationDeclarationDetails.landlordDetails.postcode,string,housingCircumstances,claimElement_socialAccommodationDeclarationDetails_landlordDetails_postcode,string,, PII:UNKNOWN
+accepted-data,housingCircumstances,claimElement.socialAccommodationDeclarationDetails.landlordDetails.townCity,string,housingCircumstances,claimElement_socialAccommodationDeclarationDetails_landlordDetails_townCity,string,, PII:UNKNOWN
+accepted-data,housingCircumstances,claimElement.socialAccommodationDeclarationDetails.rentDetails.regularPayment.amount,string,housingCircumstances,claimElement_socialAccommodationDeclarationDetails_rentDetails_regularPayment_amount,string,,Decimal:java.math.BigDecimal PII:UNKNOWN
+accepted-data,housingCircumstances,claimElement.socialAccommodationDeclarationDetails.rentDetails.regularPayment.paymentFrequency,string,housingCircumstances,claimElement_socialAccommodationDeclarationDetails_rentDetails_regularPayment_paymentFrequency,string,, PII:UNKNOWN
+accepted-data,housingCircumstances,claimElement.socialAccommodationDeclarationDetails.rentDetails.regularPayment.type,string,housingCircumstances,claimElement_socialAccommodationDeclarationDetails_rentDetails_regularPayment_type,string,,JsonTypeName : withAmount PII:UNKNOWN
+accepted-data,housingCircumstances,claimElement.socialAccommodationDeclarationDetails.rentDetails.startDate,string,housingCircumstances,claimElement_socialAccommodationDeclarationDetails_rentDetails_startDate,string,,Date(yyyymmdd):org.joda.time.LocalDate PII:UNKNOWN
+accepted-data,housingCircumstances,claimElement.socialAccommodationDeclarationDetails.socialHousing.rentFreeWeeks,string,housingCircumstances,claimElement_socialAccommodationDeclarationDetails_socialHousing_rentFreeWeeks,string,, PII:UNKNOWN
+accepted-data,housingCircumstances,claimElement.socialAccommodationDeclarationDetails.socialHousing.serviceCharges.amount,string,housingCircumstances,claimElement_socialAccommodationDeclarationDetails_socialHousing_serviceCharges_amount,string,,Decimal:java.math.BigDecimal PII:UNKNOWN
+accepted-data,housingCircumstances,claimElement.socialAccommodationDeclarationDetails.socialHousing.serviceCharges.paymentFrequency,string,housingCircumstances,claimElement_socialAccommodationDeclarationDetails_socialHousing_serviceCharges_paymentFrequency,string,, PII:UNKNOWN
+accepted-data,housingCircumstances,claimElement.socialAccommodationDeclarationDetails.socialHousing.serviceCharges.type,string,housingCircumstances,claimElement_socialAccommodationDeclarationDetails_socialHousing_serviceCharges_type,string,,JsonTypeName : withAmount PII:UNKNOWN
+accepted-data,housingCircumstances,claimElement.elementAwardAffectedByNonDependents,boolean,housingCircumstances,claimElement_elementAwardAffectedByNonDependents,string,, PII:UNKNOWN
+accepted-data,housingCircumstances,claimElement.numberOfBedroomsSignificant,boolean,housingCircumstances,claimElement_numberOfBedroomsSignificant,string,, PII:UNKNOWN
+accepted-data,housingCircumstances,claimElement.type,string,housingCircumstances,claimElement_type,string,,JsonTypeName : housingCircumstances PII:UNKNOWN
+accepted-data,housingCircumstances,createdDateTime.d_date,string,housingCircumstances,createdDateTime_d_date,timestamp,,DateTime(ISO-8601/UTC):org.joda.time.DateTime PII:UNKNOWN
+accepted-data,housingCircumstances,declarationId,string,housingCircumstances,declarationId,string,,UUID:uk.gov.dwp.universe.declaration.DeclarationId PII:UNKNOWN
+accepted-data,housingCircumstances,invalidated.dateTime.d_date,string,housingCircumstances,invalidated_dateTime_d_date,timestamp,,DateTime(ISO-8601/UTC):org.joda.time.DateTime PII:UNKNOWN
+accepted-data,housingCircumstances,invalidated.reason,string,housingCircumstances,invalidated_reason,string,, PII:UNKNOWN
+accepted-data,housingCircumstances,_id.d_oid,string,housingCircumstances,id,string,,
+accepted-data,housingEntitlement,acceptedDateTime.d_date,string,housingEntitlement,acceptedDateTime_d_date,timestamp,,DateTime(ISO-8601/UTC):org.joda.time.DateTime PII:UNKNOWN
+accepted-data,housingEntitlement,claimElement.contractId,string,housingEntitlement,claimElement_contractId,string,,UUID:uk.gov.dwp.universe.claim.ContractId PII:UNKNOWN
+accepted-data,housingEntitlement,claimElement.declaredDateTime,string,housingEntitlement,claimElement_declaredDateTime,string,, PII:UNKNOWN
+accepted-data,housingEntitlement,claimElement.effectiveDate.hasDate,boolean,housingEntitlement,claimElement_effectiveDate_hasDate,string,, PII:UNKNOWN
+accepted-data,housingEntitlement,claimElement.effectiveDate.knownDate,string,housingEntitlement,claimElement_effectiveDate_knownDate,string,,Date(yyyymmdd):org.joda.time.LocalDate PII:UNKNOWN
+accepted-data,housingEntitlement,claimElement.paymentEffectiveDate.hasDate,boolean,housingEntitlement,claimElement_paymentEffectiveDate_hasDate,string,, PII:UNKNOWN
+accepted-data,housingEntitlement,claimElement.paymentEffectiveDate.knownDate,string,housingEntitlement,claimElement_paymentEffectiveDate_knownDate,string,,Date(yyyymmdd):org.joda.time.LocalDate PII:UNKNOWN
+accepted-data,housingEntitlement,claimElement.declaredDateTime.d_date,string,housingEntitlement,claimElement_declaredDateTime_d_date,timestamp,,DateTime(ISO-8601/UTC):org.joda.time.DateTime PII:UNKNOWN
+accepted-data,housingEntitlement,claimElement.effectiveDate.type,string,housingEntitlement,claimElement_effectiveDate_type,string,,JsonTypeName : SPECIFIC_EFFECTIVE_DATE PII:UNKNOWN
+accepted-data,housingEntitlement,claimElement.effectiveDate.date,string,housingEntitlement,claimElement_effectiveDate_date,string,,Date(yyyymmdd):org.joda.time.LocalDate PII:UNKNOWN
+accepted-data,housingEntitlement,claimElement.entitled,boolean,housingEntitlement,claimElement_entitled,string,, PII:UNKNOWN
+accepted-data,housingEntitlement,claimElement.paymentEffectiveDate.type,string,housingEntitlement,claimElement_paymentEffectiveDate_type,string,,JsonTypeName : SPECIFIC_EFFECTIVE_DATE PII:UNKNOWN
+accepted-data,housingEntitlement,claimElement.paymentEffectiveDate.date,string,housingEntitlement,claimElement_paymentEffectiveDate_date,string,,Date(yyyymmdd):org.joda.time.LocalDate PII:UNKNOWN
+accepted-data,housingEntitlement,claimElement.type,string,housingEntitlement,claimElement_type,string,,JsonTypeName : housingEntitlement PII:UNKNOWN
+accepted-data,housingEntitlement,createdDateTime.d_date,string,housingEntitlement,createdDateTime_d_date,timestamp,,DateTime(ISO-8601/UTC):org.joda.time.DateTime PII:UNKNOWN
+accepted-data,housingEntitlement,declarationId,string,housingEntitlement,declarationId,string,,UUID:uk.gov.dwp.universe.declaration.DeclarationId PII:UNKNOWN
+accepted-data,housingEntitlement,invalidated.dateTime.d_date,string,housingEntitlement,invalidated_dateTime_d_date,timestamp,,DateTime(ISO-8601/UTC):org.joda.time.DateTime PII:UNKNOWN
+accepted-data,housingEntitlement,invalidated.reason,string,housingEntitlement,invalidated_reason,string,, PII:UNKNOWN
+accepted-data,housingEntitlement,_id.d_oid,string,housingEntitlement,id,string,,
+accepted-data,ineligiblePartner,acceptedDateTime.d_date,string,ineligiblePartner,acceptedDateTime_d_date,timestamp,,DateTime(ISO-8601/UTC):org.joda.time.DateTime PII:UNKNOWN
+accepted-data,ineligiblePartner,claimElement.contractId,string,ineligiblePartner,claimElement_contractId,string,,UUID:uk.gov.dwp.universe.claim.ContractId PII:UNKNOWN
+accepted-data,ineligiblePartner,claimElement.declaredDateTime,string,ineligiblePartner,claimElement_declaredDateTime,string,, PII:UNKNOWN
+accepted-data,ineligiblePartner,claimElement.effectiveDate.hasDate,boolean,ineligiblePartner,claimElement_effectiveDate_hasDate,string,, PII:UNKNOWN
+accepted-data,ineligiblePartner,claimElement.effectiveDate.knownDate,string,ineligiblePartner,claimElement_effectiveDate_knownDate,string,,Date(yyyymmdd):org.joda.time.LocalDate PII:UNKNOWN
+accepted-data,ineligiblePartner,claimElement.paymentEffectiveDate.hasDate,boolean,ineligiblePartner,claimElement_paymentEffectiveDate_hasDate,string,, PII:UNKNOWN
+accepted-data,ineligiblePartner,claimElement.paymentEffectiveDate.knownDate,string,ineligiblePartner,claimElement_paymentEffectiveDate_knownDate,string,,Date(yyyymmdd):org.joda.time.LocalDate PII:UNKNOWN
+accepted-data,ineligiblePartner,claimElement.effectiveDate.type,string,ineligiblePartner,claimElement_effectiveDate_type,string,,JsonTypeName : SPECIFIC_EFFECTIVE_DATE PII:UNKNOWN
+accepted-data,ineligiblePartner,claimElement.effectiveDate.date,string,ineligiblePartner,claimElement_effectiveDate_date,string,,Date(yyyymmdd):org.joda.time.LocalDate PII:UNKNOWN
+accepted-data,ineligiblePartner,claimElement.ineligiblePartner,string,ineligiblePartner,claimElement_ineligiblePartner,string,,UUID:uk.gov.dwp.universe.identification.ids.ClaimantId PII:UNKNOWN
+accepted-data,ineligiblePartner,claimElement.ineligiblePartnerHasNino,boolean,ineligiblePartner,claimElement_ineligiblePartnerHasNino,string,, PII:UNKNOWN
+accepted-data,ineligiblePartner,claimElement.paymentEffectiveDate.type,string,ineligiblePartner,claimElement_paymentEffectiveDate_type,string,,JsonTypeName : SPECIFIC_EFFECTIVE_DATE PII:UNKNOWN
+accepted-data,ineligiblePartner,claimElement.paymentEffectiveDate.date,string,ineligiblePartner,claimElement_paymentEffectiveDate_date,string,,Date(yyyymmdd):org.joda.time.LocalDate PII:UNKNOWN
+accepted-data,ineligiblePartner,claimElement.declaredDateTime.d_date,string,ineligiblePartner,claimElement_declaredDateTime_d_date,timestamp,,DateTime(ISO-8601/UTC):org.joda.time.DateTime PII:UNKNOWN
+accepted-data,ineligiblePartner,claimElement.type,string,ineligiblePartner,claimElement_type,string,,JsonTypeName : ineligiblePartner PII:UNKNOWN
+accepted-data,ineligiblePartner,createdDateTime.d_date,string,ineligiblePartner,createdDateTime_d_date,timestamp,,DateTime(ISO-8601/UTC):org.joda.time.DateTime PII:UNKNOWN
+accepted-data,ineligiblePartner,declarationId,string,ineligiblePartner,declarationId,string,,UUID:uk.gov.dwp.universe.declaration.DeclarationId PII:UNKNOWN
+accepted-data,ineligiblePartner,invalidated.dateTime.d_date,string,ineligiblePartner,invalidated_dateTime_d_date,timestamp,,DateTime(ISO-8601/UTC):org.joda.time.DateTime PII:UNKNOWN
+accepted-data,ineligiblePartner,invalidated.reason,string,ineligiblePartner,invalidated_reason,string,, PII:UNKNOWN
+accepted-data,ineligiblePartner,_id.d_oid,string,ineligiblePartner,id,string,,
+accepted-data,nationality,acceptedDateTime.d_date,string,nationality,acceptedDateTime_d_date,timestamp,,DateTime(ISO-8601/UTC):org.joda.time.DateTime PII:UNKNOWN
+accepted-data,nationality,claimElement.contractId,string,nationality,claimElement_contractId,string,,UUID:uk.gov.dwp.universe.claim.ContractId PII:UNKNOWN
+accepted-data,nationality,claimElement.declaredDateTime,string,nationality,claimElement_declaredDateTime,string,, PII:UNKNOWN
+accepted-data,nationality,claimElement.effectiveDate.hasDate,boolean,nationality,claimElement_effectiveDate_hasDate,string,, PII:UNKNOWN
+accepted-data,nationality,claimElement.effectiveDate.knownDate,string,nationality,claimElement_effectiveDate_knownDate,string,,Date(yyyymmdd):org.joda.time.LocalDate PII:UNKNOWN
+accepted-data,nationality,claimElement.paymentEffectiveDate.hasDate,boolean,nationality,claimElement_paymentEffectiveDate_hasDate,string,, PII:UNKNOWN
+accepted-data,nationality,claimElement.paymentEffectiveDate.knownDate,string,nationality,claimElement_paymentEffectiveDate_knownDate,string,,Date(yyyymmdd):org.joda.time.LocalDate PII:UNKNOWN
+accepted-data,nationality,claimElement.citizenId,string,nationality,claimElement_citizenId,string,,UUID:uk.gov.dwp.universe.identification.ids.ClaimantId PII:UNKNOWN
+accepted-data,nationality,claimElement.declaredDateTime.d_date,string,nationality,claimElement_declaredDateTime_d_date,timestamp,,DateTime(ISO-8601/UTC):org.joda.time.DateTime PII:UNKNOWN
+accepted-data,nationality,claimElement.effectiveDate.type,string,nationality,claimElement_effectiveDate_type,string,,JsonTypeName : SPECIFIC_EFFECTIVE_DATE PII:UNKNOWN
+accepted-data,nationality,claimElement.effectiveDate.date,string,nationality,claimElement_effectiveDate_date,string,,Date(yyyymmdd):org.joda.time.LocalDate PII:UNKNOWN
+accepted-data,nationality,claimElement.paymentEffectiveDate.type,string,nationality,claimElement_paymentEffectiveDate_type,string,,JsonTypeName : SPECIFIC_EFFECTIVE_DATE PII:UNKNOWN
+accepted-data,nationality,claimElement.paymentEffectiveDate.date,string,nationality,claimElement_paymentEffectiveDate_date,string,,Date(yyyymmdd):org.joda.time.LocalDate PII:UNKNOWN
+accepted-data,nationality,claimElement.returnAfterAbsence,boolean,nationality,claimElement_returnAfterAbsence,string,, PII:UNKNOWN
+accepted-data,nationality,claimElement.ukNational,boolean,nationality,claimElement_ukNational,string,, PII:UNKNOWN
+accepted-data,nationality,claimElement.claimantId,string,nationality,claimElement_claimantId,string,,UUID:uk.gov.dwp.universe.identification.ids.ClaimantId PII:UNKNOWN
+accepted-data,nationality,claimElement.type,string,nationality,claimElement_type,string,,JsonTypeName : nationality PII:UNKNOWN
+accepted-data,nationality,createdDateTime.d_date,string,nationality,createdDateTime_d_date,timestamp,,DateTime(ISO-8601/UTC):org.joda.time.DateTime PII:UNKNOWN
+accepted-data,nationality,declarationId,string,nationality,declarationId,string,,UUID:uk.gov.dwp.universe.declaration.DeclarationId PII:UNKNOWN
+accepted-data,nationality,invalidated.dateTime.d_date,string,nationality,invalidated_dateTime_d_date,timestamp,,DateTime(ISO-8601/UTC):org.joda.time.DateTime PII:UNKNOWN
+accepted-data,nationality,invalidated.reason,string,nationality,invalidated_reason,string,, PII:UNKNOWN
+accepted-data,nationality,_id.d_oid,string,nationality,id,string,,
+accepted-data,otherBenefit,acceptedDateTime.d_date,string,otherBenefit,acceptedDateTime_d_date,timestamp,,DateTime(ISO-8601/UTC):org.joda.time.DateTime PII:UNKNOWN
+accepted-data,otherBenefit,claimElement.contractId,string,otherBenefit,claimElement_contractId,string,,UUID:uk.gov.dwp.universe.claim.ContractId PII:UNKNOWN
+accepted-data,otherBenefit,claimElement.declaredDateTime,string,otherBenefit,claimElement_declaredDateTime,string,, PII:UNKNOWN
+accepted-data,otherBenefit,claimElement.effectiveDate.hasDate,boolean,otherBenefit,claimElement_effectiveDate_hasDate,string,, PII:UNKNOWN
+accepted-data,otherBenefit,claimElement.effectiveDate.knownDate,string,otherBenefit,claimElement_effectiveDate_knownDate,string,,Date(yyyymmdd):org.joda.time.LocalDate PII:UNKNOWN
+accepted-data,otherBenefit,claimElement.paymentEffectiveDate.hasDate,boolean,otherBenefit,claimElement_paymentEffectiveDate_hasDate,string,, PII:UNKNOWN
+accepted-data,otherBenefit,claimElement.paymentEffectiveDate.knownDate,string,otherBenefit,claimElement_paymentEffectiveDate_knownDate,string,,Date(yyyymmdd):org.joda.time.LocalDate PII:UNKNOWN
+accepted-data,otherBenefit,claimElement.amount,string,otherBenefit,claimElement_amount,string,,Decimal:java.math.BigDecimal PII:UNKNOWN
+accepted-data,otherBenefit,claimElement.children[*].id,string,otherBenefit,claimElement_children_id,string,,UUID:uk.gov.dwp.universe.claim.children.ChildId PII:UNKNOWN
+accepted-data,otherBenefit,claimElement.children[*].name,string,otherBenefit,claimElement_children_name,string,, PII:UNKNOWN
+accepted-data,otherBenefit,claimElement.claimantId,string,otherBenefit,claimElement_claimantId,string,,UUID:uk.gov.dwp.universe.identification.ids.ClaimantId PII:UNKNOWN
+accepted-data,otherBenefit,claimElement.createdDateTime.d_date,string,otherBenefit,claimElement_createdDateTime_d_date,timestamp,,DateTime(ISO-8601/UTC):org.joda.time.DateTime PII:UNKNOWN
+accepted-data,otherBenefit,claimElement.effectiveDate.type,string,otherBenefit,claimElement_effectiveDate_type,string,,JsonTypeName : SPECIFIC_EFFECTIVE_DATE PII:UNKNOWN
+accepted-data,otherBenefit,claimElement.effectiveDate.date,string,otherBenefit,claimElement_effectiveDate_date,string,,Date(yyyymmdd):org.joda.time.LocalDate PII:UNKNOWN
+accepted-data,otherBenefit,claimElement.endDate,string,otherBenefit,claimElement_endDate,string,,Date(yyyymmdd):org.joda.time.LocalDate PII:UNKNOWN
+accepted-data,otherBenefit,claimElement.frequency,string,otherBenefit,claimElement_frequency,string,, PII:UNKNOWN
+accepted-data,otherBenefit,claimElement.originalEndDate,string,otherBenefit,claimElement_originalEndDate,string,,Date(yyyymmdd):org.joda.time.LocalDate PII:UNKNOWN
+accepted-data,otherBenefit,claimElement.otherBenefitAwardType,string,otherBenefit,claimElement_otherBenefitAwardType,string,, PII:UNKNOWN
+accepted-data,otherBenefit,claimElement.otherBenefitClaimId,string,otherBenefit,claimElement_otherBenefitClaimId,string,,UUID:uk.gov.dwp.universe.claim.otherbenefits.OtherBenefitClaimId PII:UNKNOWN
+accepted-data,otherBenefit,claimElement.otherBenefitClaimVersion,string,otherBenefit,claimElement_otherBenefitClaimVersion,string,, PII:UNKNOWN
+accepted-data,otherBenefit,claimElement.otherBenefitSourceType,string,otherBenefit,claimElement_otherBenefitSourceType,string,, PII:UNKNOWN
+accepted-data,otherBenefit,claimElement.paymentEffectiveDate.type,string,otherBenefit,claimElement_paymentEffectiveDate_type,string,,JsonTypeName : SPECIFIC_EFFECTIVE_DATE PII:UNKNOWN
+accepted-data,otherBenefit,claimElement.paymentEffectiveDate.date,string,otherBenefit,claimElement_paymentEffectiveDate_date,string,,Date(yyyymmdd):org.joda.time.LocalDate PII:UNKNOWN
+accepted-data,otherBenefit,claimElement.removedDateTime.d_date,string,otherBenefit,claimElement_removedDateTime_d_date,timestamp,,DateTime(ISO-8601/UTC):org.joda.time.DateTime PII:UNKNOWN
+accepted-data,otherBenefit,claimElement.startDate,string,otherBenefit,claimElement_startDate,string,,Date(yyyymmdd):org.joda.time.LocalDate PII:UNKNOWN
+accepted-data,otherBenefit,claimElement.supersededDateTime.d_date,string,otherBenefit,claimElement_supersededDateTime_d_date,timestamp,,DateTime(ISO-8601/UTC):org.joda.time.DateTime PII:UNKNOWN
+accepted-data,otherBenefit,claimElement.childName,string,otherBenefit,claimElement_childName,string,, PII:UNKNOWN
+accepted-data,otherBenefit,claimElement.declaredDateTime.d_date,string,otherBenefit,claimElement_declaredDateTime_d_date,timestamp,,DateTime(ISO-8601/UTC):org.joda.time.DateTime PII:UNKNOWN
+accepted-data,otherBenefit,claimElement.type,string,otherBenefit,claimElement_type,string,,JsonTypeName : otherBenefit PII:UNKNOWN
+accepted-data,otherBenefit,createdDateTime.d_date,string,otherBenefit,createdDateTime_d_date,timestamp,,DateTime(ISO-8601/UTC):org.joda.time.DateTime PII:UNKNOWN
+accepted-data,otherBenefit,declarationId,string,otherBenefit,declarationId,string,,UUID:uk.gov.dwp.universe.declaration.DeclarationId PII:UNKNOWN
+accepted-data,otherBenefit,invalidated.dateTime.d_date,string,otherBenefit,invalidated_dateTime_d_date,timestamp,,DateTime(ISO-8601/UTC):org.joda.time.DateTime PII:UNKNOWN
+accepted-data,otherBenefit,invalidated.reason,string,otherBenefit,invalidated_reason,string,, PII:UNKNOWN
+accepted-data,otherBenefit,_id.d_oid,string,otherBenefit,id,string,,
+accepted-data,otherIncome,acceptedDateTime.d_date,string,otherIncome,acceptedDateTime_d_date,timestamp,,DateTime(ISO-8601/UTC):org.joda.time.DateTime PII:UNKNOWN
+accepted-data,otherIncome,claimElement.contractId,string,otherIncome,claimElement_contractId,string,, PII:UNKNOWN
+accepted-data,otherIncome,claimElement.declaredDateTime,string,otherIncome,claimElement_declaredDateTime,string,, PII:UNKNOWN
+accepted-data,otherIncome,claimElement.effectiveDate.hasDate,boolean,otherIncome,claimElement_effectiveDate_hasDate,string,, PII:UNKNOWN
+accepted-data,otherIncome,claimElement.effectiveDate.knownDate,string,otherIncome,claimElement_effectiveDate_knownDate,string,, PII:UNKNOWN
+accepted-data,otherIncome,claimElement.paymentEffectiveDate.hasDate,boolean,otherIncome,claimElement_paymentEffectiveDate_hasDate,string,, PII:UNKNOWN
+accepted-data,otherIncome,claimElement.paymentEffectiveDate.knownDate,string,otherIncome,claimElement_paymentEffectiveDate_knownDate,string,, PII:UNKNOWN
+accepted-data,otherIncome,createdDateTime.d_date,string,otherIncome,createdDateTime_d_date,timestamp,,DateTime(ISO-8601/UTC):org.joda.time.DateTime PII:UNKNOWN
+accepted-data,otherIncome,declarationId,string,otherIncome,declarationId,string,,UUID:uk.gov.dwp.universe.declaration.DeclarationId PII:UNKNOWN
+accepted-data,otherIncome,invalidated.dateTime.d_date,string,otherIncome,invalidated_dateTime_d_date,timestamp,,DateTime(ISO-8601/UTC):org.joda.time.DateTime PII:UNKNOWN
+accepted-data,otherIncome,invalidated.reason,string,otherIncome,invalidated_reason,string,, PII:UNKNOWN
+accepted-data,otherIncome,_id.d_oid,string,otherIncome,id,string,,
+accepted-data,overlappingBenefit,acceptedDateTime.d_date,string,overlappingBenefit,acceptedDateTime_d_date,timestamp,,DateTime(ISO-8601/UTC):org.joda.time.DateTime PII:UNKNOWN
+accepted-data,overlappingBenefit,claimElement.contractId,string,overlappingBenefit,claimElement_contractId,string,,UUID:uk.gov.dwp.universe.claim.ContractId PII:UNKNOWN
+accepted-data,overlappingBenefit,claimElement.declaredDateTime,string,overlappingBenefit,claimElement_declaredDateTime,string,, PII:UNKNOWN
+accepted-data,overlappingBenefit,claimElement.effectiveDate.hasDate,boolean,overlappingBenefit,claimElement_effectiveDate_hasDate,string,, PII:UNKNOWN
+accepted-data,overlappingBenefit,claimElement.effectiveDate.knownDate,string,overlappingBenefit,claimElement_effectiveDate_knownDate,string,,Date(yyyymmdd):org.joda.time.LocalDate PII:UNKNOWN
+accepted-data,overlappingBenefit,claimElement.paymentEffectiveDate.hasDate,boolean,overlappingBenefit,claimElement_paymentEffectiveDate_hasDate,string,, PII:UNKNOWN
+accepted-data,overlappingBenefit,claimElement.paymentEffectiveDate.knownDate,string,overlappingBenefit,claimElement_paymentEffectiveDate_knownDate,string,,Date(yyyymmdd):org.joda.time.LocalDate PII:UNKNOWN
+accepted-data,overlappingBenefit,claimElement.benefitName,string,overlappingBenefit,claimElement_benefitName,string,, PII:UNKNOWN
+accepted-data,overlappingBenefit,claimElement.claimantId,string,overlappingBenefit,claimElement_claimantId,string,,UUID:uk.gov.dwp.universe.identification.ids.ClaimantId PII:UNKNOWN
+accepted-data,overlappingBenefit,claimElement.effectiveDate.type,string,overlappingBenefit,claimElement_effectiveDate_type,string,,JsonTypeName : SPECIFIC_EFFECTIVE_DATE PII:UNKNOWN
+accepted-data,overlappingBenefit,claimElement.effectiveDate.date,string,overlappingBenefit,claimElement_effectiveDate_date,string,,Date(yyyymmdd):org.joda.time.LocalDate PII:UNKNOWN
+accepted-data,overlappingBenefit,claimElement.endDate,string,overlappingBenefit,claimElement_endDate,string,,Date(yyyymmdd):org.joda.time.LocalDate PII:UNKNOWN
+accepted-data,overlappingBenefit,claimElement.overlappingBenefitAmount,string,overlappingBenefit,claimElement_overlappingBenefitAmount,string,,Decimal:java.math.BigDecimal PII:UNKNOWN
+accepted-data,overlappingBenefit,claimElement.paymentEffectiveDate.type,string,overlappingBenefit,claimElement_paymentEffectiveDate_type,string,,JsonTypeName : SPECIFIC_EFFECTIVE_DATE PII:UNKNOWN
+accepted-data,overlappingBenefit,claimElement.paymentEffectiveDate.date,string,overlappingBenefit,claimElement_paymentEffectiveDate_date,string,,Date(yyyymmdd):org.joda.time.LocalDate PII:UNKNOWN
+accepted-data,overlappingBenefit,claimElement.startDate,string,overlappingBenefit,claimElement_startDate,string,,Date(yyyymmdd):org.joda.time.LocalDate PII:UNKNOWN
+accepted-data,overlappingBenefit,claimElement.declaredDateTime.d_date,string,overlappingBenefit,claimElement_declaredDateTime_d_date,timestamp,,DateTime(ISO-8601/UTC):org.joda.time.DateTime PII:UNKNOWN
+accepted-data,overlappingBenefit,claimElement.type,string,overlappingBenefit,claimElement_type,string,,JsonTypeName : overlappingBenefit PII:UNKNOWN
+accepted-data,overlappingBenefit,createdDateTime.d_date,string,overlappingBenefit,createdDateTime_d_date,timestamp,,DateTime(ISO-8601/UTC):org.joda.time.DateTime PII:UNKNOWN
+accepted-data,overlappingBenefit,declarationId,string,overlappingBenefit,declarationId,string,,UUID:uk.gov.dwp.universe.declaration.DeclarationId PII:UNKNOWN
+accepted-data,overlappingBenefit,invalidated.dateTime.d_date,string,overlappingBenefit,invalidated_dateTime_d_date,timestamp,,DateTime(ISO-8601/UTC):org.joda.time.DateTime PII:UNKNOWN
+accepted-data,overlappingBenefit,invalidated.reason,string,overlappingBenefit,invalidated_reason,string,, PII:UNKNOWN
+accepted-data,overlappingBenefit,_id.d_oid,string,overlappingBenefit,id,string,,
+accepted-data,partnerQuestion,acceptedDateTime.d_date,string,partnerQuestion,acceptedDateTime_d_date,timestamp,,DateTime(ISO-8601/UTC):org.joda.time.DateTime PII:UNKNOWN
+accepted-data,partnerQuestion,claimElement.contractId,string,partnerQuestion,claimElement_contractId,string,,UUID:uk.gov.dwp.universe.claim.ContractId PII:UNKNOWN
+accepted-data,partnerQuestion,claimElement.declaredDateTime,string,partnerQuestion,claimElement_declaredDateTime,string,, PII:UNKNOWN
+accepted-data,partnerQuestion,claimElement.effectiveDate.hasDate,boolean,partnerQuestion,claimElement_effectiveDate_hasDate,string,, PII:UNKNOWN
+accepted-data,partnerQuestion,claimElement.effectiveDate.knownDate,string,partnerQuestion,claimElement_effectiveDate_knownDate,string,,Date(yyyymmdd):org.joda.time.LocalDate PII:UNKNOWN
+accepted-data,partnerQuestion,claimElement.paymentEffectiveDate.hasDate,boolean,partnerQuestion,claimElement_paymentEffectiveDate_hasDate,string,, PII:UNKNOWN
+accepted-data,partnerQuestion,claimElement.paymentEffectiveDate.knownDate,string,partnerQuestion,claimElement_paymentEffectiveDate_knownDate,string,,Date(yyyymmdd):org.joda.time.LocalDate PII:UNKNOWN
+accepted-data,partnerQuestion,claimElement.claimType,string,partnerQuestion,claimElement_claimType,string,, PII:UNKNOWN
+accepted-data,partnerQuestion,claimElement.claimantId,string,partnerQuestion,claimElement_claimantId,string,,UUID:uk.gov.dwp.universe.identification.ids.ClaimantId PII:UNKNOWN
+accepted-data,partnerQuestion,claimElement.declaredDateTime.d_date,string,partnerQuestion,claimElement_declaredDateTime_d_date,timestamp,,DateTime(ISO-8601/UTC):org.joda.time.DateTime PII:UNKNOWN
+accepted-data,partnerQuestion,claimElement.effectiveDate.type,string,partnerQuestion,claimElement_effectiveDate_type,string,,JsonTypeName : SPECIFIC_EFFECTIVE_DATE PII:UNKNOWN
+accepted-data,partnerQuestion,claimElement.effectiveDate.date,string,partnerQuestion,claimElement_effectiveDate_date,string,,Date(yyyymmdd):org.joda.time.LocalDate PII:UNKNOWN
+accepted-data,partnerQuestion,claimElement.paymentEffectiveDate.type,string,partnerQuestion,claimElement_paymentEffectiveDate_type,string,,JsonTypeName : SPECIFIC_EFFECTIVE_DATE PII:UNKNOWN
+accepted-data,partnerQuestion,claimElement.paymentEffectiveDate.date,string,partnerQuestion,claimElement_paymentEffectiveDate_date,string,,Date(yyyymmdd):org.joda.time.LocalDate PII:UNKNOWN
+accepted-data,partnerQuestion,claimElement.type,string,partnerQuestion,claimElement_type,string,,JsonTypeName : partnerQuestion PII:UNKNOWN
+accepted-data,partnerQuestion,createdDateTime.d_date,string,partnerQuestion,createdDateTime_d_date,timestamp,,DateTime(ISO-8601/UTC):org.joda.time.DateTime PII:UNKNOWN
+accepted-data,partnerQuestion,declarationId,string,partnerQuestion,declarationId,string,,UUID:uk.gov.dwp.universe.declaration.DeclarationId PII:UNKNOWN
+accepted-data,partnerQuestion,invalidated.dateTime.d_date,string,partnerQuestion,invalidated_dateTime_d_date,timestamp,,DateTime(ISO-8601/UTC):org.joda.time.DateTime PII:UNKNOWN
+accepted-data,partnerQuestion,invalidated.reason,string,partnerQuestion,invalidated_reason,string,, PII:UNKNOWN
+accepted-data,partnerQuestion,_id.d_oid,string,partnerQuestion,id,string,,
+accepted-data,personDetails,acceptedDateTime.d_date,string,personDetails,acceptedDateTime_d_date,timestamp,,DateTime(ISO-8601/UTC):org.joda.time.DateTime PII:UNKNOWN
+accepted-data,personDetails,claimElement.contractId,string,personDetails,claimElement_contractId,string,, PII:UNKNOWN
+accepted-data,personDetails,claimElement.declaredDateTime,string,personDetails,claimElement_declaredDateTime,string,, PII:UNKNOWN
+accepted-data,personDetails,claimElement.effectiveDate.hasDate,boolean,personDetails,claimElement_effectiveDate_hasDate,string,, PII:UNKNOWN
+accepted-data,personDetails,claimElement.effectiveDate.knownDate,string,personDetails,claimElement_effectiveDate_knownDate,string,, PII:UNKNOWN
+accepted-data,personDetails,claimElement.paymentEffectiveDate.hasDate,boolean,personDetails,claimElement_paymentEffectiveDate_hasDate,string,, PII:UNKNOWN
+accepted-data,personDetails,claimElement.paymentEffectiveDate.knownDate,string,personDetails,claimElement_paymentEffectiveDate_knownDate,string,, PII:UNKNOWN
+accepted-data,personDetails,createdDateTime.d_date,string,personDetails,createdDateTime_d_date,timestamp,,DateTime(ISO-8601/UTC):org.joda.time.DateTime PII:UNKNOWN
+accepted-data,personDetails,declarationId,string,personDetails,declarationId,string,,UUID:uk.gov.dwp.universe.declaration.DeclarationId PII:UNKNOWN
+accepted-data,personDetails,invalidated.dateTime.d_date,string,personDetails,invalidated_dateTime_d_date,timestamp,,DateTime(ISO-8601/UTC):org.joda.time.DateTime PII:UNKNOWN
+accepted-data,personDetails,invalidated.reason,string,personDetails,invalidated_reason,string,, PII:UNKNOWN
+accepted-data,personDetails,_id.d_oid,string,personDetails,id,string,,
+accepted-data,pregnancy,acceptedDateTime.d_date,string,pregnancy,acceptedDateTime_d_date,timestamp,,DateTime(ISO-8601/UTC):org.joda.time.DateTime PII:UNKNOWN
+accepted-data,pregnancy,claimElement.contractId,string,pregnancy,claimElement_contractId,string,,UUID:uk.gov.dwp.universe.claim.ContractId PII:UNKNOWN
+accepted-data,pregnancy,claimElement.declaredDateTime,string,pregnancy,claimElement_declaredDateTime,string,, PII:UNKNOWN
+accepted-data,pregnancy,claimElement.effectiveDate.hasDate,boolean,pregnancy,claimElement_effectiveDate_hasDate,string,, PII:UNKNOWN
+accepted-data,pregnancy,claimElement.effectiveDate.knownDate,string,pregnancy,claimElement_effectiveDate_knownDate,string,,Date(yyyymmdd):org.joda.time.LocalDate PII:UNKNOWN
+accepted-data,pregnancy,claimElement.paymentEffectiveDate.hasDate,boolean,pregnancy,claimElement_paymentEffectiveDate_hasDate,string,, PII:UNKNOWN
+accepted-data,pregnancy,claimElement.paymentEffectiveDate.knownDate,string,pregnancy,claimElement_paymentEffectiveDate_knownDate,string,,Date(yyyymmdd):org.joda.time.LocalDate PII:UNKNOWN
+accepted-data,pregnancy,claimElement.claimantId,string,pregnancy,claimElement_claimantId,string,,UUID:uk.gov.dwp.universe.identification.ids.ClaimantId PII:UNKNOWN
+accepted-data,pregnancy,claimElement.declaredDateTime.d_date,string,pregnancy,claimElement_declaredDateTime_d_date,timestamp,,DateTime(ISO-8601/UTC):org.joda.time.DateTime PII:UNKNOWN
+accepted-data,pregnancy,claimElement.dueDate,string,pregnancy,claimElement_dueDate,string,,Date(yyyymmdd):org.joda.time.LocalDate PII:UNKNOWN
+accepted-data,pregnancy,claimElement.effectiveDate.type,string,pregnancy,claimElement_effectiveDate_type,string,,JsonTypeName : SPECIFIC_EFFECTIVE_DATE PII:UNKNOWN
+accepted-data,pregnancy,claimElement.effectiveDate.date,string,pregnancy,claimElement_effectiveDate_date,string,,Date(yyyymmdd):org.joda.time.LocalDate PII:UNKNOWN
+accepted-data,pregnancy,claimElement.paymentEffectiveDate.type,string,pregnancy,claimElement_paymentEffectiveDate_type,string,,JsonTypeName : SPECIFIC_EFFECTIVE_DATE PII:UNKNOWN
+accepted-data,pregnancy,claimElement.paymentEffectiveDate.date,string,pregnancy,claimElement_paymentEffectiveDate_date,string,,Date(yyyymmdd):org.joda.time.LocalDate PII:UNKNOWN
+accepted-data,pregnancy,claimElement.type,string,pregnancy,claimElement_type,string,,JsonTypeName : pregnancy PII:UNKNOWN
+accepted-data,pregnancy,createdDateTime.d_date,string,pregnancy,createdDateTime_d_date,timestamp,,DateTime(ISO-8601/UTC):org.joda.time.DateTime PII:UNKNOWN
+accepted-data,pregnancy,declarationId,string,pregnancy,declarationId,string,,UUID:uk.gov.dwp.universe.declaration.DeclarationId PII:UNKNOWN
+accepted-data,pregnancy,invalidated.dateTime.d_date,string,pregnancy,invalidated_dateTime_d_date,timestamp,,DateTime(ISO-8601/UTC):org.joda.time.DateTime PII:UNKNOWN
+accepted-data,pregnancy,invalidated.reason,string,pregnancy,invalidated_reason,string,, PII:UNKNOWN
+accepted-data,pregnancy,_id.d_oid,string,pregnancy,id,string,,
+accepted-data,previousEarnings,acceptedDateTime.d_date,string,previousEarnings,acceptedDateTime_d_date,timestamp,,DateTime(ISO-8601/UTC):org.joda.time.DateTime PII:UNKNOWN
+accepted-data,previousEarnings,claimElement.contractId,string,previousEarnings,claimElement_contractId,string,,UUID:uk.gov.dwp.universe.claim.ContractId PII:UNKNOWN
+accepted-data,previousEarnings,claimElement.declaredDateTime,string,previousEarnings,claimElement_declaredDateTime,string,, PII:UNKNOWN
+accepted-data,previousEarnings,claimElement.effectiveDate.hasDate,boolean,previousEarnings,claimElement_effectiveDate_hasDate,string,, PII:UNKNOWN
+accepted-data,previousEarnings,claimElement.effectiveDate.knownDate,string,previousEarnings,claimElement_effectiveDate_knownDate,string,,Date(yyyymmdd):org.joda.time.LocalDate PII:UNKNOWN
+accepted-data,previousEarnings,claimElement.paymentEffectiveDate.hasDate,boolean,previousEarnings,claimElement_paymentEffectiveDate_hasDate,string,, PII:UNKNOWN
+accepted-data,previousEarnings,claimElement.paymentEffectiveDate.knownDate,string,previousEarnings,claimElement_paymentEffectiveDate_knownDate,string,,Date(yyyymmdd):org.joda.time.LocalDate PII:UNKNOWN
+accepted-data,previousEarnings,claimElement.autoDeclaredDueToExpiry,boolean,previousEarnings,claimElement_autoDeclaredDueToExpiry,string,, PII:UNKNOWN
+accepted-data,previousEarnings,claimElement.claimantId,string,previousEarnings,claimElement_claimantId,string,,UUID:uk.gov.dwp.universe.identification.ids.ClaimantId PII:UNKNOWN
+accepted-data,previousEarnings,claimElement.dateStoppedWorking,string,previousEarnings,claimElement_dateStoppedWorking,string,,Date(yyyymmdd):org.joda.time.LocalDate PII:UNKNOWN
+accepted-data,previousEarnings,claimElement.declaredDateTime.d_date,string,previousEarnings,claimElement_declaredDateTime_d_date,timestamp,,DateTime(ISO-8601/UTC):org.joda.time.DateTime PII:UNKNOWN
+accepted-data,previousEarnings,claimElement.dropInEarningsApId,string,previousEarnings,claimElement_dropInEarningsApId,string,,UUID:uk.gov.dwp.universe.contract.assessment.period.AssessmentPeriodId PII:UNKNOWN
+accepted-data,previousEarnings,claimElement.effectiveDate.type,string,previousEarnings,claimElement_effectiveDate_type,string,,JsonTypeName : SPECIFIC_EFFECTIVE_DATE PII:UNKNOWN
+accepted-data,previousEarnings,claimElement.effectiveDate.date,string,previousEarnings,claimElement_effectiveDate_date,string,,Date(yyyymmdd):org.joda.time.LocalDate PII:UNKNOWN
+accepted-data,previousEarnings,claimElement.paymentEffectiveDate.type,string,previousEarnings,claimElement_paymentEffectiveDate_type,string,,JsonTypeName : SPECIFIC_EFFECTIVE_DATE PII:UNKNOWN
+accepted-data,previousEarnings,claimElement.paymentEffectiveDate.date,string,previousEarnings,claimElement_paymentEffectiveDate_date,string,,Date(yyyymmdd):org.joda.time.LocalDate PII:UNKNOWN
+accepted-data,previousEarnings,claimElement.type,string,previousEarnings,claimElement_type,string,,JsonTypeName : previousEarnings PII:UNKNOWN
+accepted-data,previousEarnings,createdDateTime.d_date,string,previousEarnings,createdDateTime_d_date,timestamp,,DateTime(ISO-8601/UTC):org.joda.time.DateTime PII:UNKNOWN
+accepted-data,previousEarnings,declarationId,string,previousEarnings,declarationId,string,,UUID:uk.gov.dwp.universe.declaration.DeclarationId PII:UNKNOWN
+accepted-data,previousEarnings,invalidated.dateTime.d_date,string,previousEarnings,invalidated_dateTime_d_date,timestamp,,DateTime(ISO-8601/UTC):org.joda.time.DateTime PII:UNKNOWN
+accepted-data,previousEarnings,invalidated.reason,string,previousEarnings,invalidated_reason,string,, PII:UNKNOWN
+accepted-data,previousEarnings,_id.d_oid,string,previousEarnings,id,string,,
+accepted-data,supportForMortgageInterest,acceptedDateTime.d_date,string,supportForMortgageInterest,acceptedDateTime_d_date,timestamp,,DateTime(ISO-8601/UTC):org.joda.time.DateTime PII:UNKNOWN
+accepted-data,supportForMortgageInterest,claimElement.contractId,string,supportForMortgageInterest,claimElement_contractId,string,,UUID:uk.gov.dwp.universe.claim.ContractId PII:UNKNOWN
+accepted-data,supportForMortgageInterest,claimElement.declaredDateTime,string,supportForMortgageInterest,claimElement_declaredDateTime,string,, PII:UNKNOWN
+accepted-data,supportForMortgageInterest,claimElement.effectiveDate.hasDate,boolean,supportForMortgageInterest,claimElement_effectiveDate_hasDate,string,, PII:UNKNOWN
+accepted-data,supportForMortgageInterest,claimElement.effectiveDate.knownDate,string,supportForMortgageInterest,claimElement_effectiveDate_knownDate,string,,Date(yyyymmdd):org.joda.time.LocalDate PII:UNKNOWN
+accepted-data,supportForMortgageInterest,claimElement.paymentEffectiveDate.hasDate,boolean,supportForMortgageInterest,claimElement_paymentEffectiveDate_hasDate,string,, PII:UNKNOWN
+accepted-data,supportForMortgageInterest,claimElement.paymentEffectiveDate.knownDate,string,supportForMortgageInterest,claimElement_paymentEffectiveDate_knownDate,string,,Date(yyyymmdd):org.joda.time.LocalDate PII:UNKNOWN
+accepted-data,supportForMortgageInterest,claimElement.effectiveDate.type,string,supportForMortgageInterest,claimElement_effectiveDate_type,string,,JsonTypeName : SPECIFIC_EFFECTIVE_DATE PII:UNKNOWN
+accepted-data,supportForMortgageInterest,claimElement.effectiveDate.date,string,supportForMortgageInterest,claimElement_effectiveDate_date,string,,Date(yyyymmdd):org.joda.time.LocalDate PII:UNKNOWN
+accepted-data,supportForMortgageInterest,claimElement.numberOfMortgagesAndEligibleLoans,string,supportForMortgageInterest,claimElement_numberOfMortgagesAndEligibleLoans,string,, PII:UNKNOWN
+accepted-data,supportForMortgageInterest,claimElement.paymentEffectiveDate.type,string,supportForMortgageInterest,claimElement_paymentEffectiveDate_type,string,,JsonTypeName : SPECIFIC_EFFECTIVE_DATE PII:UNKNOWN
+accepted-data,supportForMortgageInterest,claimElement.paymentEffectiveDate.date,string,supportForMortgageInterest,claimElement_paymentEffectiveDate_date,string,,Date(yyyymmdd):org.joda.time.LocalDate PII:UNKNOWN
+accepted-data,supportForMortgageInterest,claimElement.supportAmount,string,supportForMortgageInterest,claimElement_supportAmount,string,,Decimal:java.math.BigDecimal PII:UNKNOWN
+accepted-data,supportForMortgageInterest,claimElement.declaredDateTime.d_date,string,supportForMortgageInterest,claimElement_declaredDateTime_d_date,timestamp,,DateTime(ISO-8601/UTC):org.joda.time.DateTime PII:UNKNOWN
+accepted-data,supportForMortgageInterest,claimElement.type,string,supportForMortgageInterest,claimElement_type,string,,JsonTypeName : supportForMortgageInterest PII:UNKNOWN
+accepted-data,supportForMortgageInterest,createdDateTime.d_date,string,supportForMortgageInterest,createdDateTime_d_date,timestamp,,DateTime(ISO-8601/UTC):org.joda.time.DateTime PII:UNKNOWN
+accepted-data,supportForMortgageInterest,declarationId,string,supportForMortgageInterest,declarationId,string,,UUID:uk.gov.dwp.universe.declaration.DeclarationId PII:UNKNOWN
+accepted-data,supportForMortgageInterest,invalidated.dateTime.d_date,string,supportForMortgageInterest,invalidated_dateTime_d_date,timestamp,,DateTime(ISO-8601/UTC):org.joda.time.DateTime PII:UNKNOWN
+accepted-data,supportForMortgageInterest,invalidated.reason,string,supportForMortgageInterest,invalidated_reason,string,, PII:UNKNOWN
+accepted-data,supportForMortgageInterest,_id.d_oid,string,supportForMortgageInterest,id,string,,
+accepted-data,terminalIllness,acceptedDateTime.d_date,string,terminalIllness,acceptedDateTime_d_date,timestamp,,DateTime(ISO-8601/UTC):org.joda.time.DateTime PII:UNKNOWN
+accepted-data,terminalIllness,claimElement.contractId,string,terminalIllness,claimElement_contractId,string,,UUID:uk.gov.dwp.universe.claim.ContractId PII:UNKNOWN
+accepted-data,terminalIllness,claimElement.declaredDateTime,string,terminalIllness,claimElement_declaredDateTime,string,, PII:UNKNOWN
+accepted-data,terminalIllness,claimElement.effectiveDate.hasDate,boolean,terminalIllness,claimElement_effectiveDate_hasDate,string,, PII:UNKNOWN
+accepted-data,terminalIllness,claimElement.effectiveDate.knownDate,string,terminalIllness,claimElement_effectiveDate_knownDate,string,,Date(yyyymmdd):org.joda.time.LocalDate PII:UNKNOWN
+accepted-data,terminalIllness,claimElement.paymentEffectiveDate.hasDate,boolean,terminalIllness,claimElement_paymentEffectiveDate_hasDate,string,, PII:UNKNOWN
+accepted-data,terminalIllness,claimElement.paymentEffectiveDate.knownDate,string,terminalIllness,claimElement_paymentEffectiveDate_knownDate,string,,Date(yyyymmdd):org.joda.time.LocalDate PII:UNKNOWN
+accepted-data,terminalIllness,claimElement.agentPrognosis,string,terminalIllness,claimElement_agentPrognosis,string,, PII:UNKNOWN
+accepted-data,terminalIllness,claimElement.claimantId,string,terminalIllness,claimElement_claimantId,string,,UUID:uk.gov.dwp.universe.identification.ids.ClaimantId PII:UNKNOWN
+accepted-data,terminalIllness,claimElement.effectiveDate.type,string,terminalIllness,claimElement_effectiveDate_type,string,,JsonTypeName : SPECIFIC_EFFECTIVE_DATE PII:UNKNOWN
+accepted-data,terminalIllness,claimElement.effectiveDate.date,string,terminalIllness,claimElement_effectiveDate_date,string,,Date(yyyymmdd):org.joda.time.LocalDate PII:UNKNOWN
+accepted-data,terminalIllness,claimElement.evidenceAccepted,boolean,terminalIllness,claimElement_evidenceAccepted,string,, PII:UNKNOWN
+accepted-data,terminalIllness,claimElement.paymentEffectiveDate.type,string,terminalIllness,claimElement_paymentEffectiveDate_type,string,,JsonTypeName : SPECIFIC_EFFECTIVE_DATE PII:UNKNOWN
+accepted-data,terminalIllness,claimElement.paymentEffectiveDate.date,string,terminalIllness,claimElement_paymentEffectiveDate_date,string,,Date(yyyymmdd):org.joda.time.LocalDate PII:UNKNOWN
+accepted-data,terminalIllness,claimElement.declaredDateTime.d_date,string,terminalIllness,claimElement_declaredDateTime_d_date,timestamp,,DateTime(ISO-8601/UTC):org.joda.time.DateTime PII:UNKNOWN
+accepted-data,terminalIllness,claimElement.type,string,terminalIllness,claimElement_type,string,,JsonTypeName : terminalIllness PII:UNKNOWN
+accepted-data,terminalIllness,createdDateTime.d_date,string,terminalIllness,createdDateTime_d_date,timestamp,,DateTime(ISO-8601/UTC):org.joda.time.DateTime PII:UNKNOWN
+accepted-data,terminalIllness,declarationId,string,terminalIllness,declarationId,string,,UUID:uk.gov.dwp.universe.declaration.DeclarationId PII:UNKNOWN
+accepted-data,terminalIllness,invalidated.dateTime.d_date,string,terminalIllness,invalidated_dateTime_d_date,timestamp,,DateTime(ISO-8601/UTC):org.joda.time.DateTime PII:UNKNOWN
+accepted-data,terminalIllness,invalidated.reason,string,terminalIllness,invalidated_reason,string,, PII:UNKNOWN
+accepted-data,terminalIllness,_id.d_oid,string,terminalIllness,id,string,,
+accepted-data,workAndEarningsCircumstances,acceptedDateTime.d_date,string,workAndEarningsCircumstances,acceptedDateTime_d_date,timestamp,,DateTime(ISO-8601/UTC):org.joda.time.DateTime PII:UNKNOWN
+accepted-data,workAndEarningsCircumstances,claimElement.contractId,string,workAndEarningsCircumstances,claimElement_contractId,string,,UUID:uk.gov.dwp.universe.claim.ContractId PII:UNKNOWN
+accepted-data,workAndEarningsCircumstances,claimElement.declaredDateTime,string,workAndEarningsCircumstances,claimElement_declaredDateTime,string,, PII:UNKNOWN
+accepted-data,workAndEarningsCircumstances,claimElement.effectiveDate.hasDate,boolean,workAndEarningsCircumstances,claimElement_effectiveDate_hasDate,string,, PII:UNKNOWN
+accepted-data,workAndEarningsCircumstances,claimElement.effectiveDate.knownDate,string,workAndEarningsCircumstances,claimElement_effectiveDate_knownDate,string,,Date(yyyymmdd):org.joda.time.LocalDate PII:UNKNOWN
+accepted-data,workAndEarningsCircumstances,claimElement.paymentEffectiveDate.hasDate,boolean,workAndEarningsCircumstances,claimElement_paymentEffectiveDate_hasDate,string,, PII:UNKNOWN
+accepted-data,workAndEarningsCircumstances,claimElement.paymentEffectiveDate.knownDate,string,workAndEarningsCircumstances,claimElement_paymentEffectiveDate_knownDate,string,,Date(yyyymmdd):org.joda.time.LocalDate PII:UNKNOWN
+accepted-data,workAndEarningsCircumstances,claimElement.childTaxCredit.dateStopped,string,workAndEarningsCircumstances,claimElement_childTaxCredit_dateStopped,string,,Date(yyyymmdd):org.joda.time.LocalDate PII:UNKNOWN
+accepted-data,workAndEarningsCircumstances,claimElement.childTaxCredit.receivedInLast5Weeks,boolean,workAndEarningsCircumstances,claimElement_childTaxCredit_receivedInLast5Weeks,string,, PII:UNKNOWN
+accepted-data,workAndEarningsCircumstances,claimElement.citizenId,string,workAndEarningsCircumstances,claimElement_citizenId,string,,UUID:uk.gov.dwp.universe.identification.ids.ClaimantId PII:UNKNOWN
+accepted-data,workAndEarningsCircumstances,claimElement.declaredDateTime.d_date,string,workAndEarningsCircumstances,claimElement_declaredDateTime_d_date,timestamp,,DateTime(ISO-8601/UTC):org.joda.time.DateTime PII:UNKNOWN
+accepted-data,workAndEarningsCircumstances,claimElement.earnings.amount,string,workAndEarningsCircumstances,claimElement_earnings_amount,string,,Decimal:java.math.BigDecimal PII:UNKNOWN
+accepted-data,workAndEarningsCircumstances,claimElement.earnings.hoursPerWeek,string,workAndEarningsCircumstances,claimElement_earnings_hoursPerWeek,string,,Decimal:java.math.BigDecimal PII:UNKNOWN
+accepted-data,workAndEarningsCircumstances,claimElement.earnings.paymentFrequency,string,workAndEarningsCircumstances,claimElement_earnings_paymentFrequency,string,, PII:UNKNOWN
+accepted-data,workAndEarningsCircumstances,claimElement.effectiveDate.type,string,workAndEarningsCircumstances,claimElement_effectiveDate_type,string,,JsonTypeName : SPECIFIC_EFFECTIVE_DATE PII:UNKNOWN
+accepted-data,workAndEarningsCircumstances,claimElement.effectiveDate.date,string,workAndEarningsCircumstances,claimElement_effectiveDate_date,string,,Date(yyyymmdd):org.joda.time.LocalDate PII:UNKNOWN
+accepted-data,workAndEarningsCircumstances,claimElement.employerAndMaternityAllowance.maternityAllowance,boolean,workAndEarningsCircumstances,claimElement_employerAndMaternityAllowance_maternityAllowance,string,, PII:UNKNOWN
+accepted-data,workAndEarningsCircumstances,claimElement.employerAndMaternityAllowance.maternityAllowanceAmount,string,workAndEarningsCircumstances,claimElement_employerAndMaternityAllowance_maternityAllowanceAmount,string,,Decimal:java.math.BigDecimal PII:UNKNOWN
+accepted-data,workAndEarningsCircumstances,claimElement.employerAndMaternityAllowance.maternityAllowancePaymentFrequency,string,workAndEarningsCircumstances,claimElement_employerAndMaternityAllowance_maternityAllowancePaymentFrequency,string,, PII:UNKNOWN
+accepted-data,workAndEarningsCircumstances,claimElement.employerAndMaternityAllowance.otherEmployerPaymentFrequency,string,workAndEarningsCircumstances,claimElement_employerAndMaternityAllowance_otherEmployerPaymentFrequency,string,, PII:UNKNOWN
+accepted-data,workAndEarningsCircumstances,claimElement.employerAndMaternityAllowance.otherPayFromEmployer,boolean,workAndEarningsCircumstances,claimElement_employerAndMaternityAllowance_otherPayFromEmployer,string,, PII:UNKNOWN
+accepted-data,workAndEarningsCircumstances,claimElement.employerAndMaternityAllowance.otherPayFromEmployerAmount,string,workAndEarningsCircumstances,claimElement_employerAndMaternityAllowance_otherPayFromEmployerAmount,string,,Decimal:java.math.BigDecimal PII:UNKNOWN
+accepted-data,workAndEarningsCircumstances,claimElement.employmentStatus,string,workAndEarningsCircumstances,claimElement_employmentStatus,string,, PII:UNKNOWN
+accepted-data,workAndEarningsCircumstances,claimElement.expectedPreviousEarnings,string,workAndEarningsCircumstances,claimElement_expectedPreviousEarnings,string,,Decimal:java.math.BigDecimal PII:UNKNOWN
+accepted-data,workAndEarningsCircumstances,claimElement.futureEmployment.expectedEarnings,string,workAndEarningsCircumstances,claimElement_futureEmployment_expectedEarnings,string,,Decimal:java.math.BigDecimal PII:UNKNOWN
+accepted-data,workAndEarningsCircumstances,claimElement.futureEmployment.hoursPerWeek,string,workAndEarningsCircumstances,claimElement_futureEmployment_hoursPerWeek,string,,Decimal:java.math.BigDecimal PII:UNKNOWN
+accepted-data,workAndEarningsCircumstances,claimElement.futureEmployment.paymentFrequency,string,workAndEarningsCircumstances,claimElement_futureEmployment_paymentFrequency,string,, PII:UNKNOWN
+accepted-data,workAndEarningsCircumstances,claimElement.futureEmployment.startDate,string,workAndEarningsCircumstances,claimElement_futureEmployment_startDate,string,,Date(yyyymmdd):org.joda.time.LocalDate PII:UNKNOWN
+accepted-data,workAndEarningsCircumstances,claimElement.futureEmployment.startingEmployment,boolean,workAndEarningsCircumstances,claimElement_futureEmployment_startingEmployment,string,, PII:UNKNOWN
+accepted-data,workAndEarningsCircumstances,claimElement.paymentEffectiveDate.type,string,workAndEarningsCircumstances,claimElement_paymentEffectiveDate_type,string,,JsonTypeName : SPECIFIC_EFFECTIVE_DATE PII:UNKNOWN
+accepted-data,workAndEarningsCircumstances,claimElement.paymentEffectiveDate.date,string,workAndEarningsCircumstances,claimElement_paymentEffectiveDate_date,string,,Date(yyyymmdd):org.joda.time.LocalDate PII:UNKNOWN
+accepted-data,workAndEarningsCircumstances,claimElement.startingSelfEmployment,boolean,workAndEarningsCircumstances,claimElement_startingSelfEmployment,string,, PII:UNKNOWN
+accepted-data,workAndEarningsCircumstances,claimElement.workHistory.dateStoppedWorking,string,workAndEarningsCircumstances,claimElement_workHistory_dateStoppedWorking,string,,Date(yyyymmdd):org.joda.time.LocalDate PII:UNKNOWN
+accepted-data,workAndEarningsCircumstances,claimElement.workHistory.stoppedWorkingInLast9Months,boolean,workAndEarningsCircumstances,claimElement_workHistory_stoppedWorkingInLast9Months,string,, PII:UNKNOWN
+accepted-data,workAndEarningsCircumstances,claimElement.working,boolean,workAndEarningsCircumstances,claimElement_working,string,, PII:UNKNOWN
+accepted-data,workAndEarningsCircumstances,claimElement.workingTaxCredit.dateStopped,string,workAndEarningsCircumstances,claimElement_workingTaxCredit_dateStopped,string,,Date(yyyymmdd):org.joda.time.LocalDate PII:UNKNOWN
+accepted-data,workAndEarningsCircumstances,claimElement.workingTaxCredit.receivedInLast5Weeks,boolean,workAndEarningsCircumstances,claimElement_workingTaxCredit_receivedInLast5Weeks,string,, PII:UNKNOWN
+accepted-data,workAndEarningsCircumstances,claimElement.type,string,workAndEarningsCircumstances,claimElement_type,string,,JsonTypeName : workAndEarningsCircumstances PII:UNKNOWN
+accepted-data,workAndEarningsCircumstances,createdDateTime.d_date,string,workAndEarningsCircumstances,createdDateTime_d_date,timestamp,,DateTime(ISO-8601/UTC):org.joda.time.DateTime PII:UNKNOWN
+accepted-data,workAndEarningsCircumstances,declarationId,string,workAndEarningsCircumstances,declarationId,string,,UUID:uk.gov.dwp.universe.declaration.DeclarationId PII:UNKNOWN
+accepted-data,workAndEarningsCircumstances,invalidated.dateTime.d_date,string,workAndEarningsCircumstances,invalidated_dateTime_d_date,timestamp,,DateTime(ISO-8601/UTC):org.joda.time.DateTime PII:UNKNOWN
+accepted-data,workAndEarningsCircumstances,invalidated.reason,string,workAndEarningsCircumstances,invalidated_reason,string,, PII:UNKNOWN
+accepted-data,workAndEarningsCircumstances,_id.d_oid,string,workAndEarningsCircumstances,id,string,,
+accepted-data,workCapabilityAssessmentDecision,acceptedDateTime.d_date,string,workCapabilityAssessmentDecision,acceptedDateTime_d_date,timestamp,,DateTime(ISO-8601/UTC):org.joda.time.DateTime PII:UNKNOWN
+accepted-data,workCapabilityAssessmentDecision,claimElement.contractId,string,workCapabilityAssessmentDecision,claimElement_contractId,string,,UUID:uk.gov.dwp.universe.claim.ContractId PII:UNKNOWN
+accepted-data,workCapabilityAssessmentDecision,claimElement.declaredDateTime,string,workCapabilityAssessmentDecision,claimElement_declaredDateTime,string,, PII:UNKNOWN
+accepted-data,workCapabilityAssessmentDecision,claimElement.effectiveDate.hasDate,boolean,workCapabilityAssessmentDecision,claimElement_effectiveDate_hasDate,string,, PII:UNKNOWN
+accepted-data,workCapabilityAssessmentDecision,claimElement.effectiveDate.knownDate,string,workCapabilityAssessmentDecision,claimElement_effectiveDate_knownDate,string,,Date(yyyymmdd):org.joda.time.LocalDate PII:UNKNOWN
+accepted-data,workCapabilityAssessmentDecision,claimElement.paymentEffectiveDate.hasDate,boolean,workCapabilityAssessmentDecision,claimElement_paymentEffectiveDate_hasDate,string,, PII:UNKNOWN
+accepted-data,workCapabilityAssessmentDecision,claimElement.paymentEffectiveDate.knownDate,string,workCapabilityAssessmentDecision,claimElement_paymentEffectiveDate_knownDate,string,,Date(yyyymmdd):org.joda.time.LocalDate PII:UNKNOWN
+accepted-data,workCapabilityAssessmentDecision,claimElement.claimantId,string,workCapabilityAssessmentDecision,claimElement_claimantId,string,,UUID:uk.gov.dwp.universe.identification.ids.ClaimantId PII:UNKNOWN
+accepted-data,workCapabilityAssessmentDecision,claimElement.decision,string,workCapabilityAssessmentDecision,claimElement_decision,string,, PII:UNKNOWN
+accepted-data,workCapabilityAssessmentDecision,claimElement.endDate,string,workCapabilityAssessmentDecision,claimElement_endDate,string,,Date(yyyymmdd):org.joda.time.LocalDate PII:UNKNOWN
+accepted-data,workCapabilityAssessmentDecision,claimElement.isSevereCondition,boolean,workCapabilityAssessmentDecision,claimElement_isSevereCondition,string,, PII:UNKNOWN
+accepted-data,workCapabilityAssessmentDecision,claimElement.prognosisInMonths,string,workCapabilityAssessmentDecision,claimElement_prognosisInMonths,string,, PII:UNKNOWN
+accepted-data,workCapabilityAssessmentDecision,claimElement.removedDateTime.d_date,string,workCapabilityAssessmentDecision,claimElement_removedDateTime_d_date,timestamp,,DateTime(ISO-8601/UTC):org.joda.time.DateTime PII:UNKNOWN
+accepted-data,workCapabilityAssessmentDecision,claimElement.startDate,string,workCapabilityAssessmentDecision,claimElement_startDate,string,,Date(yyyymmdd):org.joda.time.LocalDate PII:UNKNOWN
+accepted-data,workCapabilityAssessmentDecision,claimElement.workCapabilityAssessmentDecisionId,string,workCapabilityAssessmentDecision,claimElement_workCapabilityAssessmentDecisionId,string,,UUID:uk.gov.dwp.universe.claim.wca.WorkCapabilityAssessmentDecisionId PII:UNKNOWN
+accepted-data,workCapabilityAssessmentDecision,claimElement.declaredDateTime.d_date,string,workCapabilityAssessmentDecision,claimElement_declaredDateTime_d_date,timestamp,,DateTime(ISO-8601/UTC):org.joda.time.DateTime PII:UNKNOWN
+accepted-data,workCapabilityAssessmentDecision,claimElement.effectiveDate.type,string,workCapabilityAssessmentDecision,claimElement_effectiveDate_type,string,,JsonTypeName : SPECIFIC_EFFECTIVE_DATE PII:UNKNOWN
+accepted-data,workCapabilityAssessmentDecision,claimElement.effectiveDate.date,string,workCapabilityAssessmentDecision,claimElement_effectiveDate_date,string,,Date(yyyymmdd):org.joda.time.LocalDate PII:UNKNOWN
+accepted-data,workCapabilityAssessmentDecision,claimElement.paymentEffectiveDate.type,string,workCapabilityAssessmentDecision,claimElement_paymentEffectiveDate_type,string,,JsonTypeName : SPECIFIC_EFFECTIVE_DATE PII:UNKNOWN
+accepted-data,workCapabilityAssessmentDecision,claimElement.paymentEffectiveDate.date,string,workCapabilityAssessmentDecision,claimElement_paymentEffectiveDate_date,string,,Date(yyyymmdd):org.joda.time.LocalDate PII:UNKNOWN
+accepted-data,workCapabilityAssessmentDecision,claimElement.requiredPeriodDoesNotApply,string,workCapabilityAssessmentDecision,claimElement_requiredPeriodDoesNotApply,string,, PII:UNKNOWN
+accepted-data,workCapabilityAssessmentDecision,claimElement.type,string,workCapabilityAssessmentDecision,claimElement_type,string,,JsonTypeName : workCapabilityAssessmentDecision PII:UNKNOWN
+accepted-data,workCapabilityAssessmentDecision,createdDateTime.d_date,string,workCapabilityAssessmentDecision,createdDateTime_d_date,timestamp,,DateTime(ISO-8601/UTC):org.joda.time.DateTime PII:UNKNOWN
+accepted-data,workCapabilityAssessmentDecision,declarationId,string,workCapabilityAssessmentDecision,declarationId,string,,UUID:uk.gov.dwp.universe.declaration.DeclarationId PII:UNKNOWN
+accepted-data,workCapabilityAssessmentDecision,invalidated.dateTime.d_date,string,workCapabilityAssessmentDecision,invalidated_dateTime_d_date,timestamp,,DateTime(ISO-8601/UTC):org.joda.time.DateTime PII:UNKNOWN
+accepted-data,workCapabilityAssessmentDecision,invalidated.reason,string,workCapabilityAssessmentDecision,invalidated_reason,string,, PII:UNKNOWN
+accepted-data,workCapabilityAssessmentDecision,_id.d_oid,string,workCapabilityAssessmentDecision,id,string,,

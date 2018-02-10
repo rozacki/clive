@@ -1,0 +1,59 @@
+{"databases": [
+  {"database_name" : "appointments", "collections" : [
+    {"collection":"appointment","schema":"uk.gov.dwp.universe.appointments.model.Appointment"}]
+  }
+,{"database_name" : "deductions", "collections" : [
+    {"collection":"debtPosition","schema":"urn:jsonschema:uk:gov:dwp:uc:debt:deduction:response:DebtPosition"}
+  ,{"collection":"debtInterest","schema":"urn:jsonschema:uk:gov:dwp:universe:deductions:debt:debt:interest:DebtInterest"}]
+  }
+,{"database_name" : "organisation", "collections" : [
+    {"collection":"deliveryUnitAddress","schema":"uk.gov.dwp.universe.organisation.DeliveryUnitAddress"}]
+  }
+,{"database_name":"advances",  "collections": [
+    { "collection":"advanceDebtPosition", "schema": "uk.gov.dwp.universe.advances.advances.AdvanceDebtPosition"}
+  ,{ "collection":"advanceGroup", "schema": "uk.gov.dwp.universe.advances.advances.AdvanceGroup"}
+  ,{ "collection":"recoverableHardshipPayment", "schema": "uk.gov.dwp.universe.advances.rhp.RecoverableHardshipPayment"}]}
+
+,{"database_name": "accepted-data", "collections" : [
+    {"collection" : "claimantIdentityVerification", "schema" : "uk.gov.dwp.universe.claimant.identity.ClaimantIdentityVerification.json"}]}
+,{"database_name": "agent-core", "collections" : [
+    {"collection" : "agent", "schema" : "uk.gov.dwp.universe.organisation.Agent"}
+  ,{"collection" : "agentWorkGroupAllocation", "schema" : "uk.gov.dwp.universe.agent.core.workgroup.AgentWorkGroupAllocation"}
+  ,{"collection" : "claimantProfile", "schema" : "uk.gov.dwp.universe.agent.core.claimant.profile.ClaimantProfile"}
+  ,{"collection" : "manualOverride", "schema" : "uk.gov.dwp.universe.agent.core.manualoverride.AwardModification"}
+  ,{"collection" : "systemWorkGroupAllocation", "schema" : "uk.gov.dwp.universe.workgroup.SystemWorkGroupAllocation"}
+  ,{"collection" : "team", "schema" : "uk.gov.dwp.universe.agent.core.team.Team"}
+  ,{"collection" : "youthObligationDetails", "schema" : "uk.gov.dwp.universe.agent.core.todo.youthobligation.YouthObligationDetails"}]}
+
+,{"database_name": "core",  "collections" : [
+    {"collection":"contract","schema":"urn:jsonschema:uk:gov:dwp:universe:contract:Contract"},
+    {"collection":"proveYourIdentityTrial","schema":"urn:jsonschema:uk:gov:dwp:universe:identity:ProveYourIdentityTrial"},
+    {"collection":"carerDeclaration","schema":"uk.gov.dwp.universe.declaration.carer.CarerDeclaration"},
+    {"collection":"childcareDeclaration","schema":"uk.gov.dwp.universe.declaration.childcare.ChildcareDeclaration"},
+    {"collection":"childDeclaration","schema":"uk.gov.dwp.universe.declaration.childrennondependents.ChildrenDeclaration"},
+    {"collection":"claimant","schema":"uk.gov.dwp.universe.person.Claimant"},
+    {"collection":"claimantCommitment","schema":"uk.gov.dwp.universe.commitment.ClaimantCommitment"},
+    {"collection":"educationDeclaration","schema":"uk.gov.dwp.universe.declaration.education.EducationDeclaration"},
+    {"collection":"healthAndDisabilityDeclaration","schema":"uk.gov.dwp.universe.declaration.healthanddisability.HealthAndDisabilityDeclaration"},
+    {"collection":"healthDeclaration","schema":"uk.gov.dwp.universe.declaration.health.HealthDeclaration"},
+    {"collection":"housingDeclaration","schema":"uk.gov.dwp.universe.declaration.housing.HousingDeclaration"},
+    {"collection":"periodOfSickness","schema":"uk.gov.dwp.universe.declaration.healthanddisability.PeriodOfSickness"},
+    {"collection":"personalDetails","schema":"uk.gov.dwp.universe.declaration.person.PersonDetails"},
+    {"collection":"statement","schema":"uk.gov.dwp.universe.statement.Statement"},
+    {"collection":"survey","schema":"uk.gov.dwp.universe.survey.Survey"},
+    {"collection":"workAndEarningsDeclaration","schema":"uk.gov.dwp.universe.declaration.workandearnings.WorkAndEarningsDeclaration"},
+    {"collection":"workGroupAllocation","schema":"uk.gov.dwp.universe.workgroup.WorkGroupAllocation"}
+  ]}
+,{"database_name": "matchingService",   "collections" : [
+    {"collection" : "localUserMatchingData", "schema" : "uk.gov.dwp.universe.ida.domain.LocalUserMatchingData"}
+  ,{"collection" : "managementInformation", "schema" : "uk.gov.dwp.universe.ida.mi.domain.ManagementInformation"}
+  ]}
+,{"database_name": "penalties-and-deductions",  "collections" : [
+    {"collection" : "fraudPenalty", "schema" : "uk.gov.dwp.universe.penalties.and.deductions.fraud.penalties.FraudPenalty"}
+  ,{"collection" : "outOfClaimDays", "schema" : "uk.gov.dwp.universe.penalties.and.deductions.outofclaim.OutOfClaimDays"}
+  ,{"collection" : "sanction", "schema" : "uk.gov.dwp.universe.penalties.and.deductions.sanctions.Sanction"}
+  ,{"collection" : "sanctionEscalation", "schema" : "uk.gov.dwp.universe.penalties.and.deductions.sanctions.escalation.SanctionEscalation"}
+  ,{"collection" : "sanctionProgress", "schema" : "uk.gov.dwp.universe.penalties.and.deductions.sanctions.SanctionProgress"}
+  ,{"collection" : "sanctionTerminationDecision", "schema" : "uk.gov.dwp.universe.penalties.and.deductions.sanctions.termination.SanctionTerminationDecision"}
+  ]}
+]}

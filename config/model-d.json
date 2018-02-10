@@ -1,0 +1,62 @@
+// This configuration des not work as references to functions are not resolved
+// To solve this issue, embed body of functions as strings and run eval?
+{'databases':[
+  {'database_name': 'agent-core', 'collections': [
+    { 'source_collection_name' : 'agentToDo'
+    , 'break_on_one_of' : 'urn:jsonschema:uk:gov:dwp:universe:agent:todo:AgentToDoProperties'
+    , 'stop_on_one_of' : ["urn:jsonschema:uk:gov:dwp:universe:declaration:BaseDeclaration"]
+    , 'schema' : "uk.gov.dwp.universe.agent.todo.AgentToDo.json"
+    , 'target_table_name' : 'agent_todo'
+    , 'id' : 'urn:jsonschema:uk:gov:dwp:universe:agent:todo:AgentToDo'
+    , 'get_one_of_function': get_oneOf_agenttodo
+    , 'generate_sql_where_function': generate_sql_where_agenttodo
+    , 'select_on_one_of': ''
+    }
+  ,
+    { 'source_collection_name' : 'agentToDoArchive'
+    , 'break_on_one_of' : 'urn:jsonschema:uk:gov:dwp:universe:agent:todo:AgentToDoProperties'
+    , 'stop_on_one_of' : ["urn:jsonschema:uk:gov:dwp:universe:declaration:BaseDeclaration"]
+    , 'schema' : "uk.gov.dwp.universe.agent.todo.AgentToDo.json"
+    , 'target_table_name' : 'agent_todo_archive'
+    , 'id' : 'urn:jsonschema:uk:gov:dwp:universe:agent:todo:AgentToDo'
+    , 'get_one_of_function': get_oneOf_agenttodo
+    , 'generate_sql_where_function': generate_sql_where_agenttodo
+    , 'select_on_one_of': ''
+    }
+  ]},
+  {'database_name': 'core'
+  , 'collections': [
+    { 'source_collection_name' : 'journal'
+    , 'break_on_one_of' : 'urn:jsonschema:uk:gov:dwp:universe:journal:JournalEntryData'
+    , 'stop_on_one_of' : ["urn:jsonschema:uk:gov:dwp:universe:declaration:Summary"]
+    , 'schema' : "uk.gov.dwp.universe.journal.JournalEntry.json"
+    , 'target_table_name' : 'journal'
+    , 'id' : 'urn:jsonschema:uk:gov:dwp:universe:journal:JournalEntry'
+    , 'get_one_of_function': get_oneOf_journal
+    , 'generate_sql_where_function': generate_sql_where_journal
+    , 'select_on_one_of': ''
+    }
+  ,
+    { 'source_collection_name' : 'toDo'
+    , 'break_on_one_of' : ["urn:jsonschema:uk:gov:dwp:universe:todo:ClaimantToDoProperties"]
+    , 'stop_on_one_of' : ''
+    , 'schema' : "uk.gov.dwp.universe.todo.ClaimantToDo.json"
+    , 'target_table_name' : 'todo'
+    , 'id' : 'urn:jsonschema:uk:gov:dwp:universe:todo:ClaimantToDo'
+    , 'get_one_of_function': get_oneOf_core_todo
+    , 'generate_sql_where_function': generate_sql_where_core_todo
+    , 'select_on_one_of': ''
+    }
+  ,
+    { 'source_collection_name' : 'claimantCommitment'
+    , 'break_on_one_of' : ["urn:jsonschema:uk:gov:dwp:universe:commitment:ClaimantCommitmentProperties"]
+    , 'stop_on_one_of' : ''
+    , 'schema' : "uk.gov.dwp.universe.commitment.ClaimantCommitment"
+    , 'target_table_name' : 'claimant_commitment'
+    , 'id' : 'urn:jsonschema:uk:gov:dwp:universe:commitment:ClaimantCommitment'
+    , 'get_one_of_function': get_oneOf_core_claimant_commitment
+    , 'generate_sql_where_function': generate_sql_where_core_claimant_commitment
+    , 'select_on_one_of': ''
+    }
+  ]}
+]}

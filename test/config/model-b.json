@@ -1,0 +1,9 @@
+{"databases" : [
+{ "database_name" : "accepted-data", "source_collection_name" : "earningsData", "target_tables" : [
+  {"table":"earningsData_CALCULATED_EARNINGS", "schema":"uk.gov.dwp.universe.claim.earnings.CalculatedEarningsData.json"},
+  {"table":"earningsData_RTE_FEED_TO_DO", "schema":"uk.gov.dwp.universe.claim.earnings.RteToDoEarningsData.json"},
+  {"table":"earningsData_SELF_EMPLOYED", "schema":"uk.gov.dwp.universe.claim.earnings.SelfEmployedEarningsData.json"},
+  {"table":"earningsData_SELF_EMPLOYED_EARNINGS_WITH_LATEST_MIF_DATA", "schema":"uk.gov.dwp.universe.claim.earnings.SelfEmployedEarningsWithLatestMifData.json"},
+  {"table":"earningsData_SELF_REPORTED", "schema":"uk.gov.dwp.universe.claim.earnings.SelfReportedEarningsData.json"}
+]}
+]}

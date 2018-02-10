@@ -1,0 +1,18 @@
+---
+run:
+  # postgress instance is used to convert json to csv, it should not be private database though
+  pg_hostname: 10.88.253.170
+  # that database is used to run function to generate mapping
+  pg_dbname: uc_etl
+  # be aware this user is used in production too!
+  pg_username: etl
+  # postgress db password todo: move to a password file
+  pg_password: sq00pyw00py
+
+  # hive connection details
+  hive: 10.88.253.128
+  hive_port: 10000
+  hive_timeout: 5
+  hive_auth_mechanism: GSSAPI
+  hive_kerberos_service_name: hive
+  hive_database: uc_clive

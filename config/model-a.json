@@ -1,0 +1,38 @@
+{"databases": [{
+  "database_name":"accepted-data",
+  "schema": "urn:jsonschema:uk:gov:dwp:universe:accepted:data:AcceptedData"
+,"break_on_one_of": "urn:jsonschema:uk:gov:dwp:universe:claim:ClaimElement"
+,"collections":[
+    {"collection":"address", "select_schema_one_of":"uk.gov.dwp.universe.claim.address.Address.json"}
+  ,{"collection":"apa","select_schema_one_of":"uk.gov.dwp.universe.claim.apa.AlternativePaymentArrangement.json"},
+    {"collection":"bankDetails","select_schema_one_of":"uk.gov.dwp.universe.claim.bank.Bank.json"},
+    {"collection":"calculateDeductions","select_schema_one_of":"uk.gov.dwp.universe.agent.core.todo.properties.CalculateDeductionsProperties.json"},
+    {"collection":"capital","select_schema_one_of":"uk.gov.dwp.universe.claim.capital.VerifiedCapital.json"},
+    {"collection":"carerCircumstances","select_schema_one_of":"uk.gov.dwp.universe.claim.carer.CarerCircumstances.json"},
+    {"collection":"carersAllowance","select_schema_one_of":"uk.gov.dwp.universe.agent.core.todo.properties.CheckCisForCarersAllowanceToDoProperties.json"},
+    {"collection":"childElementEligibility","select_schema_one_of":"uk.gov.dwp.universe.claim.childelement.ChildElementEligibility.json"},
+    {"collection":"childcare","select_schema_one_of":"uk.gov.dwp.universe.claim.childcare.Childcare.json"},
+    {"collection":"childrenCircumstances","select_schema_one_of":"uk.gov.dwp.universe.claim.children.ChildrenCircumstances.json"},
+    {"collection":"educationCircumstances","select_schema_one_of":"uk.gov.dwp.universe.claim.education.EducationCircumstances.json"},
+    {"collection":"employmentCircumstances","select_schema_one_of":"uk.gov.dwp.universe.claim.workandearnings.EmploymentCircumstances.json"},
+    {"collection":"gracePeriod","select_schema_one_of":"uk.gov.dwp.universe.calculator.benefitcap.GracePeriod.json"},
+    {"collection":"guardiansAllowance","select_schema_one_of":"uk.gov.dwp.universe.claim.guardiansallowance.GuardiansAllowance.json"},
+    {"collection":"healthAndDisabilityCircumstances","select_schema_one_of":"uk.gov.dwp.universe.claim.healthanddisability.HealthAndDisabilityCircumstances.json"},
+    {"collection":"healthCircumstances","select_schema_one_of":"uk.gov.dwp.universe.claim.health.HealthCircumstances.json"},
+    {"collection":"housingCircumstances","select_schema_one_of":"uk.gov.dwp.universe.claim.housing.HousingCircumstances.json"},
+    {"collection":"housingEntitlement","select_schema_one_of":"uk.gov.dwp.universe.claim.housing.HousingEntitlement.json"},
+    {"collection":"ineligiblePartner","select_schema_one_of":"uk.gov.dwp.universe.claim.person.IneligiblePartnerAgentCircumstances.json"},
+    {"collection":"nationality","select_schema_one_of":"uk.gov.dwp.universe.claim.nationality.Nationality.json"},
+    {"collection":"otherBenefit","select_schema_one_of":"uk.gov.dwp.universe.claim.otherbenefits.OtherBenefitClaim.json"},
+    {"collection":"otherIncome","select_schema_one_of":"uk.gov.dwp.universe.claim.otherincome.OtherIncomeAgentCircumstances"},
+    {"collection":"overlappingBenefit","select_schema_one_of":"uk.gov.dwp.universe.claim.overlappingbenefit.OverlappingBenefitsCircumstances.json"},
+    {"collection":"partnerQuestion","select_schema_one_of":"uk.gov.dwp.universe.claim.partnerquestion.PartnerQuestion.json"},
+    {"collection":"personDetails","select_schema_one_of":"uk.gov.dwp.universe.declaration.person"},
+    {"collection":"pregnancy","select_schema_one_of":"uk.gov.dwp.universe.claim.healthanddisability.PregnancyClaim.json"},
+    {"collection":"previousEarnings","select_schema_one_of":"uk.gov.dwp.universe.claim.previousearnings.PreviousEarnings.json"},
+    {"collection":"supportForMortgageInterest","select_schema_one_of":"uk.gov.dwp.universe.claim.mortgageinterest.SupportForMortgageInterestCircumstances.json"},
+    {"collection":"terminalIllness","select_schema_one_of":"uk.gov.dwp.universe.claim.healthanddisability.TerminalIllnessClaim.json"},
+    {"collection":"workAndEarningsCircumstances","select_schema_one_of":"uk.gov.dwp.universe.claim.workandearnings.WorkAndEarningsCircumstances.json"},
+    {"collection":"workCapabilityAssessmentDecision","select_schema_one_of":"uk.gov.dwp.universe.claim.wca.WorkCapabilityAssessmentDecisionClaim.json"}
+  ]}
+]}
