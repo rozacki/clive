@@ -82,4 +82,9 @@ var collection_ids = {
     ,'proveYourIdentityTrial'           :{'path':'_id.contractId'}
     ,'debtPosition'                      :{'path':'_id.debtPositionId'}
     ,'debtInterest'                      :{'path':'_id.claimantId'}
+
+    // Villani project
+    ,"interactions"                     :{"path": "_id"}
+    ,"contacts"                         :{"path": "_id"}
+    ,"devices"                          :{"path": "_id"}
 }

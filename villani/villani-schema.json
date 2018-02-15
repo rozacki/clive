@@ -1,0 +1,892 @@
+{
+  "id": "http://interactions.json",
+  "type": "object",
+  "definitions": {},
+  "schema": "http://json-schema.org/draft-06/schema#",
+  "properties": {
+    "_id": {
+      "id": "/properties/_id",
+      "type": "object",
+      "properties": {
+        "binary": {
+          "id": "/properties/_id/properties/binary",
+          "type": "string",
+          "title": "The binary Schema",
+          "description": "An explanation about the purpose of this instance.",
+          "default": "",
+          "examples": [
+            "AEVm8rCG00OPx8gKlutc2A=="
+          ]
+        },
+        "type": {
+          "id": "/properties/_id/properties/type",
+          "type": "string",
+          "title": "The type Schema",
+          "description": "An explanation about the purpose of this instance.",
+          "default": "",
+          "examples": [
+            "03"
+          ]
+        }
+      }
+    },
+    "_t": {
+      "id": "/properties/_t",
+      "type": "string",
+      "title": "The _t Schema",
+      "description": "An explanation about the purpose of this instance.",
+      "default": "",
+      "examples": [
+        "VisitData"
+      ]
+    },
+    "ContactId": {
+      "id": "/properties/ContactId",
+      "type": "object",
+      "properties": {
+        "binary": {
+          "id": "/properties/ContactId/properties/binary",
+          "type": "string",
+          "title": "The binary Schema",
+          "description": "An explanation about the purpose of this instance.",
+          "default": "",
+          "examples": [
+            "mT3pHvR9+Ua1BT79ipKkaw=="
+          ]
+        },
+        "type": {
+          "id": "/properties/ContactId/properties/type",
+          "type": "string",
+          "title": "The type Schema",
+          "description": "An explanation about the purpose of this instance.",
+          "default": "",
+          "examples": [
+            "03"
+          ]
+        }
+      }
+    },
+    "StartDateTime": {
+      "id": "/properties/StartDateTime",
+      "type": "object",
+      "properties": {
+        "date": {
+          "id": "/properties/StartDateTime/properties/date",
+          "type": "string",
+          "title": "The date Schema",
+          "description": "An explanation about the purpose of this instance.",
+          "default": "",
+          "examples": [
+            "2016-09-24T12:40:01.460Z"
+          ]
+        }
+      }
+    },
+    "EndDateTime": {
+      "id": "/properties/EndDateTime",
+      "type": "object",
+      "properties": {
+        "date": {
+          "id": "/properties/EndDateTime/properties/date",
+          "type": "string",
+          "title": "The date Schema",
+          "description": "An explanation about the purpose of this instance.",
+          "default": "",
+          "examples": [
+            "2016-09-24T12:49:02.882Z"
+          ]
+        }
+      }
+    },
+    "SaveDateTime": {
+      "id": "/properties/SaveDateTime",
+      "type": "object",
+      "properties": {
+        "date": {
+          "id": "/properties/SaveDateTime/properties/date",
+          "type": "string",
+          "title": "The date Schema",
+          "description": "An explanation about the purpose of this instance.",
+          "default": "",
+          "examples": [
+            "2016-12-06T10:42:59.608Z"
+          ]
+        }
+      }
+    },
+    "ChannelId": {
+      "id": "/properties/ChannelId",
+      "type": "object",
+      "properties": {
+        "binary": {
+          "id": "/properties/ChannelId/properties/binary",
+          "type": "string",
+          "title": "The binary Schema",
+          "description": "An explanation about the purpose of this instance.",
+          "default": "",
+          "examples": [
+            "YKaP+wcK6U6p9JMPxdEK7A=="
+          ]
+        },
+        "type": {
+          "id": "/properties/ChannelId/properties/type",
+          "type": "string",
+          "title": "The type Schema",
+          "description": "An explanation about the purpose of this instance.",
+          "default": "",
+          "examples": [
+            "03"
+          ]
+        }
+      }
+    },
+    "Browser": {
+      "id": "/properties/Browser",
+      "type": "object",
+      "properties": {
+        "BrowserVersion": {
+          "id": "/properties/Browser/properties/BrowserVersion",
+          "type": "string",
+          "title": "The Browserversion Schema",
+          "description": "An explanation about the purpose of this instance.",
+          "default": "",
+          "examples": [
+            "35.0"
+          ]
+        },
+        "BrowserMajorName": {
+          "id": "/properties/Browser/properties/BrowserMajorName",
+          "type": "string",
+          "title": "The Browsermajorname Schema",
+          "description": "An explanation about the purpose of this instance.",
+          "default": "",
+          "examples": [
+            "Chrome"
+          ]
+        },
+        "BrowserMinorName": {
+          "id": "/properties/Browser/properties/BrowserMinorName",
+          "type": "string",
+          "title": "The Browserminorname Schema",
+          "description": "An explanation about the purpose of this instance.",
+          "default": "",
+          "examples": [
+            "35.0"
+          ]
+        }
+      }
+    },
+    "Screen": {
+      "id": "/properties/Screen",
+      "type": "object",
+      "properties": {
+        "ScreenHeight": {
+          "id": "/properties/Screen/properties/ScreenHeight",
+          "type": "integer",
+          "title": "The Screenheight Schema",
+          "description": "An explanation about the purpose of this instance.",
+          "default": 0,
+          "examples": [
+            480
+          ]
+        },
+        "ScreenWidth": {
+          "id": "/properties/Screen/properties/ScreenWidth",
+          "type": "integer",
+          "title": "The Screenwidth Schema",
+          "description": "An explanation about the purpose of this instance.",
+          "default": 0,
+          "examples": [
+            640
+          ]
+        }
+      }
+    },
+    "ContactVisitIndex": {
+      "id": "/properties/ContactVisitIndex",
+      "type": "integer",
+      "title": "The Contactvisitindex Schema",
+      "description": "An explanation about the purpose of this instance.",
+      "default": 0,
+      "examples": [
+        5
+      ]
+    },
+    "DeviceId": {
+      "id": "/properties/DeviceId",
+      "type": "object",
+      "properties": {
+        "binary": {
+          "id": "/properties/DeviceId/properties/binary",
+          "type": "string",
+          "title": "The binary Schema",
+          "description": "An explanation about the purpose of this instance.",
+          "default": "",
+          "examples": [
+            "mT3pHvR9+Ua1BT79ipKkaw=="
+          ]
+        },
+        "type": {
+          "id": "/properties/DeviceId/properties/type",
+          "type": "string",
+          "title": "The type Schema",
+          "description": "An explanation about the purpose of this instance.",
+          "default": "",
+          "examples": [
+            "03"
+          ]
+        }
+      }
+    },
+    "GeoData": {
+      "id": "/properties/GeoData",
+      "type": "object",
+      "properties": {
+        "AreaCode": {
+          "id": "/properties/GeoData/properties/AreaCode",
+          "type": "string",
+          "title": "The Areacode Schema",
+          "description": "An explanation about the purpose of this instance.",
+          "default": "",
+          "examples": [
+            "N/A"
+          ]
+        },
+        "BusinessName": {
+          "id": "/properties/GeoData/properties/BusinessName",
+          "type": "string",
+          "title": "The Businessname Schema",
+          "description": "An explanation about the purpose of this instance.",
+          "default": "",
+          "examples": [
+            "N/A"
+          ]
+        },
+        "City": {
+          "id": "/properties/GeoData/properties/City",
+          "type": "string",
+          "title": "The City Schema",
+          "description": "An explanation about the purpose of this instance.",
+          "default": "",
+          "examples": [
+            "zwickau"
+          ]
+        },
+        "Country": {
+          "id": "/properties/GeoData/properties/Country",
+          "type": "string",
+          "title": "The Country Schema",
+          "description": "An explanation about the purpose of this instance.",
+          "default": "",
+          "examples": [
+            "DE"
+          ]
+        },
+        "Dns": {
+          "id": "/properties/GeoData/properties/Dns",
+          "type": "string",
+          "title": "The Dns Schema",
+          "description": "An explanation about the purpose of this instance.",
+          "default": "",
+          "examples": [
+            "N/A"
+          ]
+        },
+        "Isp": {
+          "id": "/properties/GeoData/properties/Isp",
+          "type": "string",
+          "title": "The Isp Schema",
+          "description": "An explanation about the purpose of this instance.",
+          "default": "",
+          "examples": [
+            "N/A"
+          ]
+        },
+        "MetroCode": {
+          "id": "/properties/GeoData/properties/MetroCode",
+          "type": "string",
+          "title": "The Metrocode Schema",
+          "description": "An explanation about the purpose of this instance.",
+          "default": "",
+          "examples": [
+            "N/A"
+          ]
+        },
+        "PostalCode": {
+          "id": "/properties/GeoData/properties/PostalCode",
+          "type": "string",
+          "title": "The Postalcode Schema",
+          "description": "An explanation about the purpose of this instance.",
+          "default": "",
+          "examples": [
+            "N/A"
+          ]
+        },
+        "Region": {
+          "id": "/properties/GeoData/properties/Region",
+          "type": "string",
+          "title": "The Region Schema",
+          "description": "An explanation about the purpose of this instance.",
+          "default": "",
+          "examples": [
+            "13"
+          ]
+        },
+        "Url": {
+          "id": "/properties/GeoData/properties/Url",
+          "type": "string",
+          "title": "The Url Schema",
+          "description": "An explanation about the purpose of this instance.",
+          "default": "",
+          "examples": [
+            "N/A"
+          ]
+        }
+      }
+    },
+    "Ip": {
+      "id": "/properties/Ip",
+      "type": "object",
+      "properties": {
+        "binary": {
+          "id": "/properties/Ip/properties/binary",
+          "type": "string",
+          "title": "The binary Schema",
+          "description": "An explanation about the purpose of this instance.",
+          "default": "",
+          "examples": [
+            "fwAAAQ=="
+          ]
+        },
+        "type": {
+          "id": "/properties/Ip/properties/type",
+          "type": "string",
+          "title": "The type Schema",
+          "description": "An explanation about the purpose of this instance.",
+          "default": "",
+          "examples": [
+            "00"
+          ]
+        }
+      }
+    },
+    "Language": {
+      "id": "/properties/Language",
+      "type": "string",
+      "title": "The Language Schema",
+      "description": "An explanation about the purpose of this instance.",
+      "default": "",
+      "examples": [
+        "en"
+      ]
+    },
+    "LocationId": {
+      "id": "/properties/LocationId",
+      "type": "object",
+      "properties": {
+        "binary": {
+          "id": "/properties/LocationId/properties/binary",
+          "type": "string",
+          "title": "The binary Schema",
+          "description": "An explanation about the purpose of this instance.",
+          "default": "",
+          "examples": [
+            "1B2M2Y8AsgTpgAmY7PhCfg=="
+          ]
+        },
+        "type": {
+          "id": "/properties/LocationId/properties/type",
+          "type": "string",
+          "title": "The type Schema",
+          "description": "An explanation about the purpose of this instance.",
+          "default": "",
+          "examples": [
+            "03"
+          ]
+        }
+      }
+    },
+    "OperatingSystem": {
+      "id": "/properties/OperatingSystem",
+      "type": "object",
+      "properties": {
+        "_id": {
+          "id": "/properties/OperatingSystem/properties/_id",
+          "type": "string",
+          "title": "The _id Schema",
+          "description": "An explanation about the purpose of this instance.",
+          "default": "",
+          "examples": [
+            "Unknown"
+          ]
+        }
+      }
+    },
+    "Pages": {
+      "id": "/properties/Pages",
+      "type": "array",
+      "items": {
+        "id": "/properties/Pages/items",
+        "type": "object",
+        "properties": {
+          "DateTime": {
+            "id": "/properties/Pages/items/properties/DateTime",
+            "type": "object",
+            "properties": {
+              "date": {
+                "id": "/properties/Pages/items/properties/DateTime/properties/date",
+                "type": "string",
+                "title": "The date Schema",
+                "description": "An explanation about the purpose of this instance.",
+                "default": "",
+                "examples": [
+                  "2016-09-24T12:40:01.460Z"
+                ]
+              }
+            }
+          },
+          "Duration": {
+            "id": "/properties/Pages/items/properties/Duration",
+            "type": "integer",
+            "title": "The Duration Schema",
+            "description": "An explanation about the purpose of this instance.",
+            "default": 0,
+            "examples": [
+              39684
+            ]
+          },
+          "Item": {
+            "id": "/properties/Pages/items/properties/Item",
+            "type": "object",
+            "properties": {
+              "_id": {
+                "id": "/properties/Pages/items/properties/Item/properties/_id",
+                "type": "object",
+                "properties": {
+                  "binary": {
+                    "id": "/properties/Pages/items/properties/Item/properties/_id/properties/binary",
+                    "type": "string",
+                    "title": "The binary Schema",
+                    "description": "An explanation about the purpose of this instance.",
+                    "default": "",
+                    "examples": [
+                      "pO8C0zITjE2fXfXZmsWISg=="
+                    ]
+                  },
+                  "type": {
+                    "id": "/properties/Pages/items/properties/Item/properties/_id/properties/type",
+                    "type": "string",
+                    "title": "The type Schema",
+                    "description": "An explanation about the purpose of this instance.",
+                    "default": "",
+                    "examples": [
+                      "03"
+                    ]
+                  }
+                }
+              },
+              "Language": {
+                "id": "/properties/Pages/items/properties/Item/properties/Language",
+                "type": "string",
+                "title": "The Language Schema",
+                "description": "An explanation about the purpose of this instance.",
+                "default": "",
+                "examples": [
+                  "en"
+                ]
+              },
+              "Version": {
+                "id": "/properties/Pages/items/properties/Item/properties/Version",
+                "type": "integer",
+                "title": "The Version Schema",
+                "description": "An explanation about the purpose of this instance.",
+                "default": 0,
+                "examples": [
+                  5
+                ]
+              }
+            }
+          },
+          "PersonalizationData": {
+            "id": "/properties/Pages/items/properties/PersonalizationData",
+            "type": "object",
+            "properties": {
+              "ExposedRules": {
+                "id": "/properties/Pages/items/properties/PersonalizationData/properties/ExposedRules",
+                "type": "array"
+              }
+            }
+          },
+          "SitecoreDevice": {
+            "id": "/properties/Pages/items/properties/SitecoreDevice",
+            "type": "object",
+            "properties": {
+              "_id": {
+                "id": "/properties/Pages/items/properties/SitecoreDevice/properties/_id",
+                "type": "object",
+                "properties": {
+                  "binary": {
+                    "id": "/properties/Pages/items/properties/SitecoreDevice/properties/_id/properties/binary",
+                    "type": "string",
+                    "title": "The binary Schema",
+                    "description": "An explanation about the purpose of this instance.",
+                    "default": "",
+                    "examples": [
+                      "339d/sCJmU2ao7X70AnJ8w=="
+                    ]
+                  },
+                  "type": {
+                    "id": "/properties/Pages/items/properties/SitecoreDevice/properties/_id/properties/type",
+                    "type": "string",
+                    "title": "The type Schema",
+                    "description": "An explanation about the purpose of this instance.",
+                    "default": "",
+                    "examples": [
+                      "03"
+                    ]
+                  }
+                }
+              },
+              "Name": {
+                "id": "/properties/Pages/items/properties/SitecoreDevice/properties/Name",
+                "type": "string",
+                "title": "The Name Schema",
+                "description": "An explanation about the purpose of this instance.",
+                "default": "",
+                "examples": [
+                  "Default"
+                ]
+              }
+            }
+          },
+          "MvTest": {
+            "id": "/properties/Pages/items/properties/MvTest",
+            "type": "object",
+            "properties": {
+              "ValueAtExposure": {
+                "id": "/properties/Pages/items/properties/MvTest/properties/ValueAtExposure",
+                "type": "integer",
+                "title": "The Valueatexposure Schema",
+                "description": "An explanation about the purpose of this instance.",
+                "default": 0,
+                "examples": [
+                  0
+                ]
+              }
+            }
+          },
+          "Url": {
+            "id": "/properties/Pages/items/properties/Url",
+            "type": "object",
+            "properties": {
+              "Path": {
+                "id": "/properties/Pages/items/properties/Url/properties/Path",
+                "type": "string",
+                "title": "The Path Schema",
+                "description": "An explanation about the purpose of this instance.",
+                "default": "",
+                "examples": [
+                  "/en/Practice-Areas/Trusts-Estates-and-Tax-Law"
+                ]
+              }
+            }
+          },
+          "VisitPageIndex": {
+            "id": "/properties/Pages/items/properties/VisitPageIndex",
+            "type": "integer",
+            "title": "The Visitpageindex Schema",
+            "description": "An explanation about the purpose of this instance.",
+            "default": 0,
+            "examples": [
+              1
+            ]
+          }
+        }
+      }
+    },
+    "Profiles": {
+      "id": "/properties/Profiles",
+      "type": "object",
+      "properties": {
+        "Legal Persona": {
+          "id": "/properties/Profiles/properties/Legal Persona",
+          "type": "object",
+          "properties": {
+            "Count": {
+              "id": "/properties/Profiles/properties/Legal Persona/properties/Count",
+              "type": "integer",
+              "title": "The Count Schema",
+              "description": "An explanation about the purpose of this instance.",
+              "default": 0,
+              "examples": [
+                14
+              ]
+            },
+            "Total": {
+              "id": "/properties/Profiles/properties/Legal Persona/properties/Total",
+              "type": "integer",
+              "title": "The Total Schema",
+              "description": "An explanation about the purpose of this instance.",
+              "default": 0,
+              "examples": [
+                138
+              ]
+            },
+            "ProfileName": {
+              "id": "/properties/Profiles/properties/Legal Persona/properties/ProfileName",
+              "type": "string",
+              "title": "The Profilename Schema",
+              "description": "An explanation about the purpose of this instance.",
+              "default": "",
+              "examples": [
+                "Legal Persona"
+              ]
+            },
+            "Values": {
+              "id": "/properties/Profiles/properties/Legal Persona/properties/Values",
+              "type": "object",
+              "properties": {
+                "b2b": {
+                  "id": "/properties/Profiles/properties/Legal Persona/properties/Values/properties/b2b",
+                  "type": "integer",
+                  "title": "The B2b Schema",
+                  "description": "An explanation about the purpose of this instance.",
+                  "default": 0,
+                  "examples": [
+                    27
+                  ]
+                },
+                "self-employed": {
+                  "id": "/properties/Profiles/properties/Legal Persona/properties/Values/properties/self-employed",
+                  "type": "integer",
+                  "title": "The Self-employed Schema",
+                  "description": "An explanation about the purpose of this instance.",
+                  "default": 0,
+                  "examples": [
+                    42
+                  ]
+                },
+                "legal trade": {
+                  "id": "/properties/Profiles/properties/Legal Persona/properties/Values/properties/legal trade",
+                  "type": "integer",
+                  "title": "The Legal trade Schema",
+                  "description": "An explanation about the purpose of this instance.",
+                  "default": 0,
+                  "examples": [
+                    38
+                  ]
+                },
+                "personal-civil": {
+                  "id": "/properties/Profiles/properties/Legal Persona/properties/Values/properties/personal-civil",
+                  "type": "integer",
+                  "title": "The Personal-civil Schema",
+                  "description": "An explanation about the purpose of this instance.",
+                  "default": 0,
+                  "examples": [
+                    31
+                  ]
+                }
+              }
+            },
+            "PatternId": {
+              "id": "/properties/Profiles/properties/Legal Persona/properties/PatternId",
+              "type": "object",
+              "properties": {
+                "binary": {
+                  "id": "/properties/Profiles/properties/Legal Persona/properties/PatternId/properties/binary",
+                  "type": "string",
+                  "title": "The binary Schema",
+                  "description": "An explanation about the purpose of this instance.",
+                  "default": "",
+                  "examples": [
+                    "rSiKg3ap9027NXluV28EXA=="
+                  ]
+                },
+                "type": {
+                  "id": "/properties/Profiles/properties/Legal Persona/properties/PatternId/properties/type",
+                  "type": "string",
+                  "title": "The type Schema",
+                  "description": "An explanation about the purpose of this instance.",
+                  "default": "",
+                  "examples": [
+                    "03"
+                  ]
+                }
+              }
+            },
+            "PatternLabel": {
+              "id": "/properties/Profiles/properties/Legal Persona/properties/PatternLabel",
+              "type": "string",
+              "title": "The Patternlabel Schema",
+              "description": "An explanation about the purpose of this instance.",
+              "default": "",
+              "examples": [
+                "Eric the Entrepreneur"
+              ]
+            }
+          }
+        }
+      }
+    },
+    "Referrer": {
+      "id": "/properties/Referrer",
+      "type": "string",
+      "title": "The Referrer Schema",
+      "description": "An explanation about the purpose of this instance.",
+      "default": "",
+      "examples": [
+        "http://legal.dev.local/en/Practice-Areas/facebook.com"
+      ]
+    },
+    "ReferringSite": {
+      "id": "/properties/ReferringSite",
+      "type": "string",
+      "title": "The Referringsite Schema",
+      "description": "An explanation about the purpose of this instance.",
+      "default": "",
+      "examples": [
+        "legal.dev.local"
+      ]
+    },
+    "SiteName": {
+      "id": "/properties/SiteName",
+      "type": "string",
+      "title": "The Sitename Schema",
+      "description": "An explanation about the purpose of this instance.",
+      "default": "",
+      "examples": [
+        "legal"
+      ]
+    },
+    "TrafficType": {
+      "id": "/properties/TrafficType",
+      "type": "integer",
+      "title": "The Traffictype Schema",
+      "description": "An explanation about the purpose of this instance.",
+      "default": 0,
+      "examples": [
+        30
+      ]
+    },
+    "UserAgent": {
+      "id": "/properties/UserAgent",
+      "type": "string",
+      "title": "The Useragent Schema",
+      "description": "An explanation about the purpose of this instance.",
+      "default": "",
+      "examples": [
+        "Mozilla/5.0 (Linux; Android 4.4; D6653 Build/23.0.A.0.376) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/35.0.1916.141 Mobile Safari/537.36"
+      ]
+    },
+    "Value": {
+      "id": "/properties/Value",
+      "type": "integer",
+      "title": "The Value Schema",
+      "description": "An explanation about the purpose of this instance.",
+      "default": 0,
+      "examples": [
+        45
+      ]
+    },
+    "VisitPageCount": {
+      "id": "/properties/VisitPageCount",
+      "type": "integer",
+      "title": "The Visitpagecount Schema",
+      "description": "An explanation about the purpose of this instance.",
+      "default": 0,
+      "examples": [
+        10
+      ]
+    }
+  }
+}
+{
+  "id": "http://contacts.json",
+  "type": "object",
+  "definitions": {},
+  "schema": "http://json-schema.org/draft-06/schema#",
+  "properties": {
+    "_id": {
+      "id": "/properties/_id",
+      "type": "object",
+      "properties": {
+        "binary": {
+          "id": "/properties/_id/properties/binary",
+          "type": "string",
+          "title": "The binary Schema",
+          "description": "An explanation about the purpose of this instance.",
+          "default": "",
+          "examples": [
+            "AAAKUrQbXEmGBI2vbYbdUw=="
+          ]
+        },
+        "type": {
+          "id": "/properties/_id/properties/type",
+          "type": "string",
+          "title": "The type Schema",
+          "description": "An explanation about the purpose of this instance.",
+          "default": "",
+          "examples": [
+            "03"
+          ]
+        }
+      }
+    },
+    "System": {
+      "id": "/properties/System",
+      "type": "object",
+      "properties": {
+        "Classification": {
+          "id": "/properties/System/properties/Classification",
+          "type": "integer",
+          "title": "The Classification Schema",
+          "description": "An explanation about the purpose of this instance.",
+          "default": 0,
+          "examples": [
+            0
+          ]
+        },
+        "OverrideClassification": {
+          "id": "/properties/System/properties/OverrideClassification",
+          "type": "integer",
+          "title": "The Overrideclassification Schema",
+          "description": "An explanation about the purpose of this instance.",
+          "default": 0,
+          "examples": [
+            0
+          ]
+        },
+        "VisitCount": {
+          "id": "/properties/System/properties/VisitCount",
+          "type": "integer",
+          "title": "The Visitcount Schema",
+          "description": "An explanation about the purpose of this instance.",
+          "default": 0,
+          "examples": [
+            1
+          ]
+        },
+        "Value": {
+          "id": "/properties/System/properties/Value",
+          "type": "integer",
+          "title": "The Value Schema",
+          "description": "An explanation about the purpose of this instance.",
+          "default": 0,
+          "examples": [
+            0
+          ]
+        }
+      }
+    },
+    "Lease": {
+      "id": "/properties/Lease",
+      "type": "string",
+      "title": "The Lease Schema",
+      "description": "An explanation about the purpose of this instance.",
+      "default": null,
+      "examples": [
+        null
+      ]
+    }
+  }
+}

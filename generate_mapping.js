@@ -13,8 +13,9 @@ load("toolkit.js")
 load("collection_ids.js")
 
 //
+var schema_database_name = "villani"
 var conn                = new Mongo();
-var db                  = conn.getDB("uc");
+var db                  = conn.getDB(schema_database_name);
 
 var json_path_separator = "."
 // used to output mapping
@@ -68,6 +69,13 @@ function generate_mapping(schema_definition, current_path, mappings, internal_sc
                     // not supported: array of arrays [][]
                     // "items"
 
+                    // if schema is derived from empty json array e.g. a:[] then items element does not exist
+                    // TODO: is it valid JSONSchema? Regardless, catch it and swallow
+
+                    if (!schema_definition.properties[property].hasOwnProperty("items")){
+                        debug("array is missing items element, carrying on...")
+                        break;
+                    }
                     // complex type in array
                     if(schema_definition.properties[property].items.type == "object"){
                         debug("found schema " + schema_definition.properties[property].items.id)

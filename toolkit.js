@@ -126,6 +126,9 @@ function print_mapping(mappings, source_database, source_collection_name, print_
 // generic function that generate mapping by breaking schema
 // it returns object{  "target_table_name_a" : array, "target_table_name_b" : array .... }
 function get_mapping(schema_name, break_on_oneOf_id, stop_on_oneOf_id, target_table_name, source_collection_name, select_oneOf_ref){
+    debug("schema database name is " + schema_database_name)
+    debug("schema collection name is " + schema_collection_name)
+
     debug("get_mapping(schema_name, break_on_oneOf_id, stop_on_oneOf_id, target_table_name, source_collection_name, select_oneOf_ref) ")
     debug("get_mapping("  + schema_name + "," +  break_on_oneOf_id + "," + stop_on_oneOf_id + "," + target_table_name+ "," +  source_collection_name + "," + select_oneOf_ref +")")
 
@@ -201,7 +204,7 @@ function map_oneOf_to_type(id, target_table_name, get_oneOf_function){
 // find and loads schema
 // title must end with ".json"
 function find_schema_by_title(title){
-    return find_schema_by_id(convert_title_to_id(title))
+    return find_schema_by_id(title)
     var collection_classes  = db.getCollection(schema_collection_name)
     return  collection_classes.findOne({"title":title.substring(0,title.length-5)});
 }
