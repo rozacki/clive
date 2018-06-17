@@ -1,3 +1,13 @@
+#Mongo start
+./mongod  --dbpath ~/Servers/data/mongo/  --fork --logpath ~/var/log/mongo.log
+
+#enable debug mode in js scripts
+toolkit.js
+var debug_on = true
+
+#load schema to schema collection
+mongoimport -d clive -c schema-84 ~/Documents/json-schema-with-pii/schema.json 
+
 #Technical mapping generation
 **Known issues**
 

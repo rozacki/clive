@@ -48,8 +48,8 @@ for(var source_database_index in collection_to_schema_mapping.databases){
         header = false
 }
 
-//print(mapping_str)
-
+print(mapping_str)
+quit()
 
 var mapping_lines = mapping_str.split("\n")
 var template_lines = template.split("\n")

@@ -13,7 +13,7 @@ load("toolkit.js")
 load("collection_ids.js")
 
 //
-var schema_database_name = "villani"
+var schema_database_name = "clive"
 var conn                = new Mongo();
 var db                  = conn.getDB(schema_database_name);
 
@@ -30,7 +30,7 @@ var mapping_separator = ","
 // path - generated jsonpath
 function generate(schema_name, mappings, target_table_name, path, stop_on_oneOf_id, break_on_oneOf_id, select_oneOf_ref){
     debug("generate(stop_on_oneOf_id = " + stop_on_oneOf_id + ", break_on_oneOf_id =" + break_on_oneOf_id + ", select_oneOf_ref =" + select_oneOf_ref + ")")
-    var schema = find_schema_by_title(schema_name)
+    var schema = find_schema_by_id(schema_name)
 
     if(schema === null){
         debug("could not find schema " + schema_name)

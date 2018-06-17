@@ -32,13 +32,13 @@ def main():
     if args.mapping_only:
         mapping_only = True
 
-    generate_model_a(mapping_only)
+    #generate_model_a(mapping_only)
 
     generate_model_b(mapping_only)
-
-    generate_model_c(mapping_only)
-
-    generate_model_d(mapping_only)
+    #
+    # generate_model_c(mapping_only)
+    #
+    # generate_model_d(mapping_only)
 
     # prepend use database name to each sql file
     files = glob.glob(RELEASE_FOLDER + '/*.sql')
